@@ -1,0 +1,104 @@
+.astrax-image-accordion {
+	display: flex;
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+	gap: 10px;
+}
+
+.astrax-image-accordion.astrax-dir-vertical {
+	flex-direction: column;
+}
+
+.astrax-ia-item {
+	position: relative;
+	flex: 1;
+	cursor: pointer;
+	overflow: hidden;
+	transition: flex 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+	border-radius: 8px;
+}
+
+.astrax-ia-item.is-active {
+	flex: 4;
+	cursor: default;
+}
+
+.astrax-ia-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	transition: transform 0.5s ease;
+}
+
+.astrax-ia-item:hover .astrax-ia-bg {
+	transform: scale(1.05);
+}
+
+.astrax-ia-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.4);
+	transition: background 0.3s ease;
+}
+
+.astrax-ia-item.is-active .astrax-ia-overlay {
+	background: rgba(0, 0, 0, 0.1);
+}
+
+.astrax-ia-content {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 30px;
+	width: 100%;
+	color: #fff;
+	opacity: 0;
+	transform: translateY(20px);
+	transition: all 0.4s ease;
+	pointer-events: none;
+}
+
+.astrax-ia-item.is-active .astrax-ia-content {
+	opacity: 1;
+	transform: translateY(0);
+	pointer-events: auto;
+}
+
+.astrax-ia-title {
+	color: #fff;
+	margin: 0 0 10px;
+	font-size: 24px;
+	white-space: nowrap;
+}
+
+.astrax-ia-desc {
+	font-size: 14px;
+	margin-bottom: 15px;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.astrax-ia-item:focus {
+	outline: 3px solid #005fcc;
+	outline-offset: -3px;
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+	.astrax-ia-item,
+	.astrax-ia-bg,
+	.astrax-ia-overlay,
+	.astrax-ia-content {
+		transition: none !important;
+	}
+}

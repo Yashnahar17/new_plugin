@@ -1,0 +1,243 @@
+/**
+ * Astrax Addons — Cyber Variant (Modern Glass & High Contrast)
+ * Deep dark surfaces, glassmorphic backdrop-blur, glowing cyan edges, and monospace badges.
+ */
+
+.astrax-variant-cyber {
+	--variant-surface: rgba(15, 23, 42, 0.85);
+	--variant-border: rgba(6, 182, 212, 0.4);
+	--variant-text: #f8fafc;
+	--variant-accent: #06b6d4;
+	background: var(--variant-surface);
+	border: 1px solid var(--variant-border);
+	backdrop-filter: blur(12px);
+	-webkit-backdrop-filter: blur(12px);
+	border-radius: var(--astrax-radius-lg, 12px);
+	box-shadow: 0 0 20px rgba(6, 182, 212, 0.15);
+	transition: border-color var(--astrax-transition-base, 250ms), box-shadow var(--astrax-transition-base, 250ms);
+}
+
+.astrax-variant-cyber:hover {
+	border-color: rgba(6, 182, 212, 0.8);
+	box-shadow: 0 0 30px rgba(6, 182, 212, 0.35);
+}
+
+/* 1. Advanced Heading — Cyber */
+.astrax-advanced-heading.astrax-variant-cyber .astrax-heading-title {
+	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+	font-weight: 800;
+	letter-spacing: 0.05em;
+	color: #06b6d4;
+	text-shadow: 0 0 12px rgba(6, 182, 212, 0.6);
+	position: relative;
+	display: inline-block;
+}
+
+.astrax-advanced-heading.astrax-variant-cyber .astrax-heading-title::before {
+	content: '[SYS.HDG] ';
+	font-size: 0.6em;
+	color: #a855f7;
+	letter-spacing: 0.1em;
+	vertical-align: middle;
+}
+
+/* 2. Advanced Button — Cyber */
+.astrax-advanced-button.astrax-variant-cyber .astrax-button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 12px 28px;
+	background: rgba(6, 182, 212, 0.1);
+	color: #06b6d4;
+	border: 1px solid #06b6d4;
+	border-radius: 4px;
+	font-family: ui-monospace, monospace;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	text-decoration: none;
+	box-shadow: 0 0 15px rgba(6, 182, 212, 0.3);
+	transition: all 200ms ease;
+}
+
+.astrax-advanced-button.astrax-variant-cyber .astrax-button:hover {
+	background: #06b6d4;
+	color: #0f172a;
+	box-shadow: 0 0 25px rgba(6, 182, 212, 0.7);
+}
+
+/* 3. Icon Box — Cyber */
+.astrax-icon-box-wrapper.astrax-variant-cyber {
+	background: rgba(15, 23, 42, 0.85);
+	border: 1px solid rgba(6, 182, 212, 0.3);
+	backdrop-filter: blur(12px);
+	-webkit-backdrop-filter: blur(12px);
+	border-radius: 8px;
+	padding: 28px;
+	box-shadow: 0 0 20px rgba(6, 182, 212, 0.1);
+	transition: all 250ms ease;
+}
+
+.astrax-icon-box-wrapper.astrax-variant-cyber:hover {
+	border-color: #06b6d4;
+	box-shadow: 0 0 30px rgba(6, 182, 212, 0.3);
+	transform: translateY(-2px);
+}
+
+.astrax-icon-box-wrapper.astrax-variant-cyber .astrax-icon-box-icon {
+	color: #06b6d4;
+	font-size: 26px;
+	margin-bottom: 16px;
+	display: inline-block;
+	filter: drop-shadow(0 0 8px rgba(6, 182, 212, 0.6));
+}
+
+.astrax-icon-box-wrapper.astrax-variant-cyber .astrax-icon-box-title {
+	font-family: ui-monospace, monospace;
+	font-size: 18px;
+	font-weight: 700;
+	color: #f8fafc;
+	margin-bottom: 10px;
+}
+
+.astrax-icon-box-wrapper.astrax-variant-cyber .astrax-icon-box-description {
+	color: #94a3b8;
+	font-size: 14px;
+	line-height: 1.6;
+}
+
+/* 4. Info Box — Cyber */
+.astrax-info-box-wrapper.astrax-variant-cyber {
+	display: block;
+	background: rgba(15, 23, 42, 0.85);
+	border: 1px solid rgba(6, 182, 212, 0.3);
+	backdrop-filter: blur(12px);
+	-webkit-backdrop-filter: blur(12px);
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(6, 182, 212, 0.1);
+	transition: all 250ms ease;
+	text-decoration: none;
+	color: inherit;
+}
+
+.astrax-info-box-wrapper.astrax-variant-cyber:hover {
+	border-color: #06b6d4;
+	box-shadow: 0 0 30px rgba(6, 182, 212, 0.35);
+}
+
+.astrax-info-box-wrapper.astrax-variant-cyber .astrax-info-box-content {
+	padding: 24px;
+}
+
+.astrax-info-box-wrapper.astrax-variant-cyber .astrax-info-box-title {
+	font-family: ui-monospace, monospace;
+	font-size: 18px;
+	font-weight: 700;
+	color: #f8fafc;
+	margin-bottom: 8px;
+}
+
+.astrax-info-box-wrapper.astrax-variant-cyber .astrax-info-box-description {
+	color: #94a3b8;
+	line-height: 1.6;
+	font-size: 14px;
+}
+
+/* 5. Image Accordion — Cyber */
+.astrax-image-accordion.astrax-variant-cyber {
+	border: 1px solid rgba(6, 182, 212, 0.4);
+	border-radius: 8px;
+	box-shadow: 0 0 20px rgba(6, 182, 212, 0.15);
+}
+
+.astrax-image-accordion.astrax-variant-cyber .astrax-ia-item.is-active {
+	border-left: 2px solid #06b6d4;
+	border-right: 2px solid #06b6d4;
+}
+
+.astrax-image-accordion.astrax-variant-cyber .astrax-ia-title {
+	font-family: ui-monospace, monospace;
+	color: #06b6d4;
+	text-shadow: 0 0 8px rgba(6, 182, 212, 0.6);
+}
+
+/* 6. Post Grid — Cyber */
+.astrax-post-grid.astrax-variant-cyber .astrax-post-grid__container {
+	display: grid;
+	gap: 24px;
+}
+
+.astrax-post-grid.astrax-variant-cyber .astrax-post-grid__item {
+	background: rgba(15, 23, 42, 0.85);
+	border: 1px solid rgba(6, 182, 212, 0.3);
+	backdrop-filter: blur(12px);
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 0 15px rgba(6, 182, 212, 0.1);
+	transition: all 250ms ease;
+}
+
+.astrax-post-grid.astrax-variant-cyber .astrax-post-grid__item:hover {
+	border-color: #06b6d4;
+	box-shadow: 0 0 25px rgba(6, 182, 212, 0.3);
+	transform: translateY(-2px);
+}
+
+.astrax-post-grid.astrax-variant-cyber .astrax-post-grid__content {
+	padding: 20px;
+}
+
+.astrax-post-grid.astrax-variant-cyber .astrax-post-grid__title a {
+	font-family: ui-monospace, monospace;
+	color: #f8fafc;
+	text-decoration: none;
+	font-size: 17px;
+	transition: color 150ms ease;
+}
+
+.astrax-post-grid.astrax-variant-cyber .astrax-post-grid__title a:hover {
+	color: #06b6d4;
+	text-shadow: 0 0 8px rgba(6, 182, 212, 0.5);
+}
+
+.astrax-post-grid.astrax-variant-cyber .astrax-post-grid__excerpt {
+	color: #94a3b8;
+	font-size: 14px;
+	line-height: 1.6;
+}
+
+/* 7. Woo Product Grid & 8. Carousel & 9. Category Grid — Cyber */
+.astrax-woo-grid.astrax-variant-cyber ul.products li.product,
+.astrax-woo-carousel.astrax-variant-cyber ul.products li.product,
+.astrax-woo-category-grid.astrax-variant-cyber ul.products li.product-category {
+	background: rgba(15, 23, 42, 0.85);
+	border: 1px solid rgba(6, 182, 212, 0.3);
+	backdrop-filter: blur(12px);
+	border-radius: 8px;
+	padding: 16px;
+	box-shadow: 0 0 15px rgba(6, 182, 212, 0.1);
+	transition: all 250ms ease;
+}
+
+.astrax-woo-grid.astrax-variant-cyber ul.products li.product:hover,
+.astrax-woo-carousel.astrax-variant-cyber ul.products li.product:hover,
+.astrax-woo-category-grid.astrax-variant-cyber ul.products li.product-category:hover {
+	border-color: #06b6d4;
+	box-shadow: 0 0 25px rgba(6, 182, 212, 0.3);
+}
+
+.astrax-woo-grid.astrax-variant-cyber .woocommerce-loop-product__title,
+.astrax-woo-carousel.astrax-variant-cyber .woocommerce-loop-product__title {
+	font-family: ui-monospace, monospace;
+	color: #f8fafc;
+	font-size: 15px;
+}
+
+.astrax-woo-grid.astrax-variant-cyber .price,
+.astrax-woo-carousel.astrax-variant-cyber .price {
+	font-family: ui-monospace, monospace;
+	color: #06b6d4;
+	text-shadow: 0 0 6px rgba(6, 182, 212, 0.5);
+}
+

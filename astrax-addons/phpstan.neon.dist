@@ -1,0 +1,36 @@
+parameters:
+    level: max
+    paths:
+        - includes
+        - astrax-addons.php
+        - uninstall.php
+    excludePaths:
+        - vendor/*
+        - node_modules/*
+        - tests/*
+    scanFiles:
+        - tests/bootstrap.php
+    ignoreErrors:
+        - '#Instantiated class Elementor\\.* not found.#'
+        - '#Call to method .* on an unknown class Elementor\\.*#'
+        - '#Constant ASTRAX_.* not found.#'
+        - '#missingType.iterableValue#'
+        - '#Instantiated class WP_Query not found.#'
+        - '#Call to method .* on an unknown class WP_Query.#'
+        - '#Function wp_.* not found.#'
+        - '#Function get_.* not found.#'
+        - '#Function esc_.* not found.#'
+        - '#Function is_.* not found.#'
+        - '#Function current_.* not found.#'
+        - '#Function sanitize_.* not found.#'
+        - '#Function rest_.* not found.#'
+        - '#Function add_.* not found.#'
+        - '#Function register_.* not found.#'
+        - '#Function apply_.* not found.#'
+        - '#Function absint not found.#'
+        - '#Function wc_.* not found.#'
+        - '#Instantiated class WP_REST_Response not found.#'
+        - '#Instantiated class WP_Error not found.#'
+        - '#Parameter .* of method AstraxAddons\\Widgets\\WidgetManager::register_.* has invalid type Elementor\\.*#'
+        - '#Offset .* does not exist on array{post_type:.*}#'
+        - '#Access to undefined constant Elementor\\Controls_Manager::NUMBER.#'

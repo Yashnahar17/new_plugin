@@ -1,0 +1,987 @@
+/* ============================================================
+   ASTRAX DESIGN SYSTEM — MODULAR ARCHITECTURE
+   ============================================================ */
+@import "core/tokens.css";
+@import "core/base.css";
+@import "core/accessibility.css";
+@import "core/responsive.css";
+@import "variants/core.css";
+@import "variants/editorial.css";
+@import "variants/cyber.css";
+
+/* ── DESIGN TOKENS (BACKWARD COMPATIBILITY) ───────────────────── */
+:root {
+
+	/* ─ Primary — Forest Green ─────────────────────────────── */
+	--ax-pine-950:   #061a12;   /* deepest ink                  */
+	--ax-pine-900:   #0f2219;   /* headings / near-black        */
+	--ax-pine-800:   #163322;   /* dark prose                   */
+	--ax-pine-700:   #1e4a30;   /* rich body text               */
+	--ax-pine-600:   #0b5c4a;   /* ★ primary action             */
+	--ax-pine-500:   #0d7060;   /* lighter interactive          */
+	--ax-pine-400:   #3d9a80;   /* disabled / placeholder       */
+	--ax-pine-300:   #7abfab;   /* decorative stroke            */
+	--ax-pine-200:   #b5ddd3;   /* border, divider              */
+	--ax-pine-100:   #ddf0ea;   /* tinted surface               */
+	--ax-pine-50:    #f0faf6;   /* page wash                    */
+
+	/* Semantic aliases — primary */
+	--ax-ink:        var(--ax-pine-900);
+	--ax-pine:       var(--ax-pine-600);
+	--ax-pine-deep:  var(--ax-pine-700);
+	--ax-pine-light: var(--ax-pine-100);
+	--ax-pine-mid:   var(--ax-pine-200);
+	--ax-mist:       var(--ax-pine-50);
+	--ax-sage:       #4a5e56;            /* secondary body text  */
+	--ax-surface:    #ffffff;
+
+	/* ─ Secondary — Steel Blue ─────────────────────────────── */
+	/* Complements the site's existing #3076a7 eyebrow accent   */
+	--ax-blue-900:   #0d2035;
+	--ax-blue-800:   #143252;
+	--ax-blue-700:   #1c4570;
+	--ax-blue-600:   #255a91;   /* ★ secondary action           */
+	--ax-blue-500:   #3076a7;   /* matches site eyebrow token   */
+	--ax-blue-400:   #5596c4;
+	--ax-blue-300:   #89b9db;
+	--ax-blue-200:   #bbd5eb;
+	--ax-blue-100:   #dceaf5;
+	--ax-blue-50:    #f0f6fb;
+
+	/* Semantic aliases — secondary */
+	--ax-accent:       var(--ax-blue-500);
+	--ax-accent-deep:  var(--ax-blue-600);
+	--ax-accent-light: var(--ax-blue-100);
+	--ax-accent-mid:   var(--ax-blue-200);
+
+	/* ─ Warm Amber — Status / Highlight / Focus ────────────── */
+	--ax-amber-700:  #92580a;
+	--ax-amber-600:  #b87014;
+	--ax-amber-500:  #d4880c;   /* ★ warnings, badges           */
+	--ax-amber-400:  #e8a832;
+	--ax-amber-200:  #f5dcaa;
+	--ax-amber-50:   #fdf6e7;
+
+	/* Semantic aliases — amber */
+	--ax-gold:       var(--ax-amber-500);  /* focus ring         */
+	--ax-warning:    var(--ax-amber-500);
+	--ax-warning-bg: var(--ax-amber-50);
+
+	/* ─ Semantic Status ─────────────────────────────────────── */
+	/* Success */
+	--ax-success:       #1a7a52;
+	--ax-success-light: #e4f5ed;
+	/* Error */
+	--ax-error:         #b83232;
+	--ax-error-light:   #faeaea;
+	/* Info — reuses blue */
+	--ax-info:          var(--ax-blue-500);
+	--ax-info-light:    var(--ax-blue-50);
+
+	/* ─ Neutral Gray Scale ───────────────────────────────────── */
+	--ax-gray-900:   #1a1f1d;
+	--ax-gray-700:   #374240;
+	--ax-gray-500:   #6b7876;
+	--ax-gray-400:   #94a09d;
+	--ax-gray-300:   #bfc9c6;
+	--ax-gray-200:   #dde4e2;
+	--ax-gray-100:   #eef2f1;
+	--ax-gray-50:    #f7f9f8;
+
+	/* ─ Dark Surfaces (code block, CTA) ─────────────────────── */
+	--ax-dark-base:    #0a1a14;
+	--ax-dark-border:  #1b3128;
+	--ax-dark-mid:     #264035;
+	--ax-dark-text:    #c8e8da;
+	--ax-dark-muted:   rgb(200 232 218 / 55%);
+
+	/* ─ Depth / Elevation ────────────────────────────────────── */
+	--ax-shadow-sm:    0 1px 3px  rgb(11 35 25 / 7%),  0 3px 10px  rgb(11 35 25 / 5%);
+	--ax-shadow-md:    0 2px 8px  rgb(11 35 25 / 7%),  0 10px 30px rgb(11 35 25 / 9%);
+	--ax-shadow-lg:    0 4px 16px rgb(11 35 25 / 8%),  0 24px 52px rgb(11 35 25 / 11%);
+	--ax-shadow-blue:  0 4px 18px rgb(37 90 145 / 22%);  /* accent glow  */
+	--ax-shadow-inset: inset 0 1px 3px rgb(0 0 0 / 8%);
+
+	/* ─ Shape ────────────────────────────────────────────────── */
+	--ax-radius-xs:  4px;
+	--ax-radius-sm:  6px;
+	--ax-radius-md:  10px;
+	--ax-radius-lg:  16px;
+	--ax-radius-xl:  24px;
+	--ax-radius-pill:100px;
+
+	/* ─ Motion ───────────────────────────────────────────────── */
+	--ax-ease:       cubic-bezier(0.22, 1, 0.36, 1);
+	--ax-dur-fast:   160ms;
+	--ax-dur-base:   260ms;
+	--ax-dur-slow:   420ms;
+}
+
+
+/* ── BASE BOX-SIZING ────────────────────────────────────────── */
+.astrax-v3-heading,
+.astrax-v3-rich-text,
+.astrax-v3-image-text,
+.astrax-v3-button,
+.astrax-v3-label,
+.astrax-v3-drop-cap,
+.astrax-v3-highlight,
+.astrax-v3-read-more {
+	box-sizing: border-box;
+}
+
+.elementor-widget-container :is(
+	.astrax-advanced-heading,
+	.astrax-icon-box-wrapper,
+	.astrax-info-box-wrapper,
+	.astrax-image-box-wrapper,
+	.astrax-cta-wrapper,
+	.astrax-team-card,
+	.astrax-pricing-table,
+	.astrax-code-block-wrapper,
+	.astrax-dynamic-field,
+	.astrax-v3-image-text,
+	.astrax-v3-gallery,
+	.astrax-v3-image-effect
+) {
+	box-sizing: border-box;
+}
+
+
+/* ── CARD SHELLS ────────────────────────────────────────────── */
+.astrax-icon-box-wrapper,
+.astrax-info-box-wrapper,
+.astrax-image-box-wrapper,
+.astrax-team-card,
+.astrax-pricing-table,
+.astrax-bento-item {
+	border: 1px solid var(--ax-pine-mid);
+	border-radius: var(--ax-radius-md);
+	background: var(--ax-surface);
+	box-shadow: var(--ax-shadow-md);
+	transition:
+		box-shadow var(--ax-dur-base) var(--ax-ease),
+		border-color var(--ax-dur-base) var(--ax-ease),
+		transform var(--ax-dur-base) var(--ax-ease);
+}
+
+.astrax-icon-box-wrapper:hover,
+.astrax-info-box-wrapper:hover,
+.astrax-image-box-wrapper:hover,
+.astrax-team-card:hover,
+.astrax-bento-item:hover {
+	border-color: color-mix(in srgb, var(--ax-pine) 35%, var(--ax-pine-mid));
+	box-shadow: var(--ax-shadow-lg);
+	transform: translateY(-3px);
+}
+
+.astrax-icon-box-wrapper,
+.astrax-info-box-wrapper,
+.astrax-image-box-wrapper,
+.astrax-team-card-content,
+.astrax-pricing-header,
+.astrax-pricing-footer,
+.astrax-bento-content {
+	padding: clamp(1.25rem, 3vw, 2rem);
+}
+
+.astrax-icon-box-wrapper,
+.astrax-info-box-wrapper,
+.astrax-image-box-wrapper,
+.astrax-team-card,
+.astrax-bento-item {
+	overflow: hidden;
+}
+
+
+/* ── ICON / IMAGE ACCENTS ───────────────────────────────────── */
+.astrax-icon-box-icon,
+.astrax-info-box-image,
+.astrax-icon-box-wrapper .elementor-icon {
+	color: var(--ax-pine);
+}
+
+
+/* ── TYPOGRAPHY ─────────────────────────────────────────────── */
+.astrax-icon-box-title,
+.astrax-info-box-title,
+.astrax-image-box-title,
+.astrax-team-card-name,
+.astrax-pricing-title,
+.astrax-cta-title,
+.astrax-heading-title {
+	margin: 0;
+	color: var(--ax-ink);
+	font-weight: 700;
+	line-height: 1.18;
+	letter-spacing: -0.015em;
+}
+
+.astrax-icon-box-description,
+.astrax-info-box-description,
+.astrax-image-box-description,
+.astrax-team-card-bio,
+.astrax-cta-description {
+	margin: .7rem 0 0;
+	color: var(--ax-sage);
+	line-height: 1.7;
+}
+
+
+/* ── IMAGES ─────────────────────────────────────────────────── */
+.astrax-image-box-img,
+.astrax-team-card-image,
+.astrax-info-box-image {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	object-fit: cover;
+}
+
+.astrax-team-card-image,
+.astrax-image-box-img {
+	aspect-ratio: 4 / 3;
+}
+
+
+/* ── CTA BANNER ─────────────────────────────────────────────── */
+.astrax-cta-wrapper {
+	display: grid;
+	gap: 1.25rem;
+	padding: clamp(1.75rem, 5vw, 3.5rem);
+	border-radius: var(--ax-radius-lg);
+	/* Subtle two-stop gradient for depth without gimmick */
+	background: linear-gradient(135deg, var(--ax-pine-950) 0%, var(--ax-pine-800) 100%);
+	color: #fff;
+	box-shadow: var(--ax-shadow-lg);
+}
+
+.astrax-cta-wrapper :is(.astrax-cta-title, .astrax-cta-description) {
+	color: inherit;
+}
+
+.astrax-cta-wrapper .astrax-cta-title {
+	font-size: clamp(1.5rem, 3.5vw, 2.25rem);
+	letter-spacing: -0.02em;
+}
+
+.astrax-cta-wrapper .astrax-cta-description {
+	color: var(--ax-dark-muted);
+}
+
+
+/* ── BUTTONS ────────────────────────────────────────────────── */
+.astrax-advanced-button,
+.astrax-cta-button,
+.astrax-dual-btn,
+.astrax-pricing-button,
+.astrax-code-copy-btn,
+.astrax-v3-button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: .45em;
+	min-height: 2.875rem;
+	padding: .7rem 1.4rem;
+	border: 1px solid var(--ax-pine);
+	border-radius: var(--ax-radius-sm);
+	background: var(--ax-pine);
+	color: #fff;
+	font-weight: 600;
+	font-size: .9375rem;
+	letter-spacing: .01em;
+	line-height: 1.2;
+	text-decoration: none;
+	transition:
+		background-color var(--ax-dur-fast) var(--ax-ease),
+		border-color     var(--ax-dur-fast) var(--ax-ease),
+		box-shadow       var(--ax-dur-fast) var(--ax-ease),
+		transform        var(--ax-dur-fast) var(--ax-ease);
+}
+
+.astrax-advanced-button:hover,
+.astrax-cta-button:hover,
+.astrax-dual-btn:hover,
+.astrax-pricing-button:hover,
+.astrax-code-copy-btn:hover,
+.astrax-v3-button:hover {
+	border-color: var(--ax-pine-deep);
+	background: var(--ax-pine-deep);
+	color: #fff;
+	box-shadow: 0 4px 14px rgb(11 92 74 / 30%);
+	transform: translateY(-2px);
+}
+
+.astrax-advanced-button:active,
+.astrax-cta-button:active,
+.astrax-pricing-button:active,
+.astrax-v3-button:active {
+	transform: translateY(0);
+	box-shadow: none;
+}
+
+/* Ghost / secondary variant */
+.astrax-dual-btn--secondary,
+.astrax-v3-button:not(a) {
+	background: transparent;
+	color: var(--ax-pine);
+}
+
+.astrax-dual-btn--secondary:hover,
+.astrax-v3-button:not(a):hover {
+	background: var(--ax-pine-light);
+	border-color: var(--ax-pine);
+	color: var(--ax-pine-deep);
+	box-shadow: none;
+}
+
+
+/* ── PRICING TABLE ──────────────────────────────────────────── */
+.astrax-pricing-table {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.astrax-pricing-amount {
+	color: var(--ax-pine);
+	font-size: clamp(2.25rem, 5vw, 3.75rem);
+	font-weight: 800;
+	line-height: 1;
+	letter-spacing: -0.03em;
+}
+
+.astrax-pricing-features {
+	margin: 0;
+	padding: 0 clamp(1.25rem, 3vw, 2rem);
+	color: var(--ax-sage);
+	line-height: 1.85;
+	list-style-position: inside;
+}
+
+.astrax-pricing-footer {
+	margin-top: auto;
+}
+
+
+/* ── BLOCKQUOTE ─────────────────────────────────────────────── */
+.astrax-blockquote {
+	margin: 0;
+	padding: 1.5rem 1.75rem;
+	border-left: 3px solid var(--ax-pine);
+	background: var(--ax-pine-50);
+	border-radius: 0 var(--ax-radius-sm) var(--ax-radius-sm) 0;
+	color: var(--ax-ink);
+}
+
+.astrax-blockquote-text {
+	font-size: 1.075em;
+	line-height: 1.75;
+}
+
+
+/* ── CODE BLOCK ─────────────────────────────────────────────── */
+.astrax-code-block-wrapper {
+	overflow: hidden;
+	border: 1px solid var(--ax-dark-border);
+	border-radius: var(--ax-radius-md);
+	background: var(--ax-dark-base);
+	box-shadow: var(--ax-shadow-lg);
+}
+
+.astrax-code-block-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
+	padding: .65rem 1rem;
+	border-bottom: 1px solid var(--ax-dark-mid);
+	color: var(--ax-dark-text);
+	font-size: .8125rem;
+	letter-spacing: .04em;
+}
+
+.astrax-code-block-wrapper pre {
+	overflow: auto;
+	margin: 0;
+	padding: 1.5rem;
+	color: #e2f2eb;
+	background: transparent;
+	font-size: .875rem;
+	line-height: 1.7;
+}
+
+
+/* ── COUNTERS & DYNAMIC FIELDS ──────────────────────────────── */
+.astrax-counter-wrapper,
+.astrax-dynamic-field {
+	padding: 1.5rem;
+	border-radius: var(--ax-radius-md);
+	background: var(--ax-pine-light);
+	border: 1px solid var(--ax-pine-mid);
+	color: var(--ax-ink);
+}
+
+.astrax-counter-number,
+.astrax-dynamic-field-value {
+	font-size: clamp(2.25rem, 5vw, 3.5rem);
+	font-weight: 800;
+	line-height: 1;
+	letter-spacing: -0.03em;
+	color: var(--ax-pine);
+}
+
+.astrax-counter-title {
+	margin-top: .5rem;
+	color: var(--ax-sage);
+	font-size: .9375rem;
+}
+
+
+/* ── TABS ───────────────────────────────────────────────────── */
+.astrax-tabs-nav {
+	display: flex;
+	gap: 0;
+	border-bottom: 1px solid var(--ax-pine-mid);
+	overflow-x: auto;
+	scrollbar-width: none;
+}
+
+.astrax-tabs-nav::-webkit-scrollbar { display: none; }
+
+.astrax-tab-title {
+	padding: .85rem 1.15rem;
+	border: 0;
+	border-bottom: 2px solid transparent;
+	background: transparent;
+	color: var(--ax-sage);
+	font-weight: 600;
+	font-size: .9375rem;
+	letter-spacing: .005em;
+	white-space: nowrap;
+	transition:
+		color            var(--ax-dur-fast) var(--ax-ease),
+		border-bottom-color var(--ax-dur-fast) var(--ax-ease);
+	cursor: pointer;
+}
+
+.astrax-tab-title[aria-selected="true"],
+.astrax-tab-title.elementor-active {
+	border-bottom-color: var(--ax-pine);
+	color: var(--ax-pine);
+}
+
+.astrax-tabs-content-wrapper,
+.astrax-tab-content {
+	padding: 1.5rem 0;
+}
+
+
+/* ── BREADCRUMBS ────────────────────────────────────────────── */
+.astrax-breadcrumbs {
+	display: flex;
+	flex-wrap: wrap;
+	gap: .35rem;
+	color: var(--ax-sage);
+	font-size: .875rem;
+}
+
+.astrax-breadcrumbs a {
+	color: var(--ax-pine);
+	text-decoration: none;
+	transition: color var(--ax-dur-fast) var(--ax-ease);
+}
+
+.astrax-breadcrumbs a:hover {
+	color: var(--ax-pine-deep);
+}
+
+
+/* ── MAPS & HOTSPOT WRAPPERS ────────────────────────────────── */
+.astrax-hotspots-wrapper,
+.astrax-google-map {
+	overflow: hidden;
+	border-radius: var(--ax-radius-md);
+	box-shadow: var(--ax-shadow-md);
+}
+
+
+/* ── FOCUS RINGS (WCAG AA) ──────────────────────────────────── */
+.astrax-advanced-button:focus-visible,
+.astrax-cta-button:focus-visible,
+.astrax-dual-btn:focus-visible,
+.astrax-pricing-button:focus-visible,
+.astrax-code-copy-btn:focus-visible,
+.astrax-v3-button:focus-visible,
+.astrax-tab-title:focus-visible,
+.astrax-v3-read-more summary:focus-visible,
+.astrax-v3-hotspot:focus-visible {
+	outline: 2.5px solid var(--ax-gold);
+	outline-offset: 3px;
+}
+
+
+/* ── V3 IMAGE-TEXT GRID ─────────────────────────────────────── */
+.astrax-v3-image-text {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	align-items: center;
+	gap: clamp(1.5rem, 4vw, 3rem);
+}
+
+.astrax-v3-image-text img,
+.astrax-v3-gallery img,
+.astrax-v3-image-effect > img {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	object-fit: cover;
+}
+
+
+/* ── V3 BUTTON ──────────────────────────────────────────────── */
+.astrax-v3-button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: .45em;
+	padding: .7em 1.35em;
+	border: 1px solid currentColor;
+	text-decoration: none;
+}
+
+
+/* ── V3 LABEL ───────────────────────────────────────────────── */
+.astrax-v3-label {
+	display: inline-block;
+	padding: .28em .7em;
+	border-radius: 100px;          /* pill — more premium than square */
+	background: var(--ax-pine-light);
+	border: 1px solid var(--ax-pine-mid);
+	color: var(--ax-pine);
+	font-size: .8125em;
+	font-weight: 600;
+	letter-spacing: .02em;
+}
+
+
+/* ── V3 DIVIDER ─────────────────────────────────────────────── */
+.astrax-v3-divider {
+	width: 100%;
+	margin: 1em auto;
+	border: 0;
+	border-top: 1px solid var(--ax-pine-mid);
+}
+
+
+/* ── V3 SPACER ──────────────────────────────────────────────── */
+.astrax-v3-spacer {
+	min-height: 0;
+}
+
+
+/* ── V3 DROP CAP ────────────────────────────────────────────── */
+.astrax-v3-drop-cap::first-letter {
+	float: left;
+	margin: .04em .14em 0 0;
+	font-size: 3.4em;
+	font-weight: 800;
+	line-height: .8;
+	color: var(--ax-pine);
+}
+
+
+/* ── V3 HIGHLIGHT ───────────────────────────────────────────── */
+.astrax-v3-highlight {
+	padding: .1em .2em;
+	border-radius: 3px;
+	background: color-mix(in srgb, var(--ax-pine) 12%, transparent);
+	color: inherit;
+}
+
+
+/* ── V3 READ MORE ───────────────────────────────────────────── */
+.astrax-v3-read-more summary {
+	cursor: pointer;
+	color: var(--ax-pine);
+	font-weight: 600;
+	list-style: none;
+	transition: color var(--ax-dur-fast) var(--ax-ease);
+}
+
+.astrax-v3-read-more summary::-webkit-details-marker { display: none; }
+
+.astrax-v3-read-more summary:hover {
+	color: var(--ax-pine-deep);
+}
+
+.astrax-v3-read-more[open] .astrax-v3-more,
+.astrax-v3-read-more:not([open]) .astrax-v3-less {
+	display: none;
+}
+
+.astrax-v3-read-more-content {
+	padding-top: .65em;
+}
+
+
+/* ── V3 GALLERY ─────────────────────────────────────────────── */
+.astrax-v3-gallery-items {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 10px;
+}
+
+.astrax-v3-gallery-item {
+	min-width: 0;
+	margin: 0;
+	overflow: hidden;
+	border-radius: var(--ax-radius-sm);
+}
+
+.astrax-v3-gallery-item img {
+	height: 220px;
+	object-fit: cover;
+	transition: transform var(--ax-dur-slow) var(--ax-ease);
+}
+
+.astrax-v3-gallery-item:hover img {
+	transform: scale(1.04);
+}
+
+/* Masonry */
+.astrax-v3-gallery--masonry .astrax-v3-gallery-items {
+	display: block;
+	columns: 3;
+	column-gap: 10px;
+}
+
+.astrax-v3-gallery--masonry .astrax-v3-gallery-item {
+	break-inside: avoid;
+	margin-bottom: 10px;
+}
+
+.astrax-v3-gallery--masonry .astrax-v3-gallery-item img {
+	height: auto;
+}
+
+/* Justified */
+.astrax-v3-gallery--justified .astrax-v3-gallery-items {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 10px;
+}
+
+.astrax-v3-gallery--justified .astrax-v3-gallery-item {
+	flex: 1 1 180px;
+}
+
+.astrax-v3-gallery--justified .astrax-v3-gallery-item img {
+	height: 180px;
+}
+
+/* Carousel / Slider */
+.astrax-v3-gallery--carousel .astrax-v3-gallery-items,
+.astrax-v3-gallery--slider .astrax-v3-gallery-items {
+	display: flex;
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	scroll-behavior: smooth;
+	overscroll-behavior-inline: contain;
+	gap: 10px;
+	scrollbar-width: none;
+}
+
+.astrax-v3-gallery--carousel .astrax-v3-gallery-items::-webkit-scrollbar,
+.astrax-v3-gallery--slider .astrax-v3-gallery-items::-webkit-scrollbar {
+	display: none;
+}
+
+.astrax-v3-gallery--carousel .astrax-v3-gallery-item {
+	flex: 0 0 min(78%, 520px);
+	scroll-snap-align: start;
+}
+
+.astrax-v3-gallery--slider .astrax-v3-gallery-item {
+	flex: 0 0 100%;
+	scroll-snap-align: center;
+}
+
+/* Gallery controls */
+.astrax-v3-gallery-controls {
+	display: flex;
+	justify-content: flex-end;
+	gap: .5rem;
+	margin-bottom: .625rem;
+}
+
+.astrax-v3-gallery-controls button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 2.5rem;
+	min-height: 2.5rem;
+	border: 1px solid var(--ax-pine-mid);
+	border-radius: var(--ax-radius-sm);
+	background: transparent;
+	color: var(--ax-pine);
+	cursor: pointer;
+	transition:
+		background var(--ax-dur-fast) var(--ax-ease),
+		border-color var(--ax-dur-fast) var(--ax-ease);
+}
+
+.astrax-v3-gallery-controls button:hover {
+	background: var(--ax-pine-light);
+	border-color: var(--ax-pine);
+}
+
+/* Stack */
+.astrax-v3-gallery--stack .astrax-v3-gallery-items {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr);
+	place-items: center;
+}
+
+.astrax-v3-gallery--stack .astrax-v3-gallery-item {
+	grid-area: 1 / 1;
+	width: min(78%, 540px);
+}
+
+.astrax-v3-gallery--stack .astrax-v3-gallery-item:nth-child(1) { transform: rotate(-4deg) translateY(-8px); }
+.astrax-v3-gallery--stack .astrax-v3-gallery-item:nth-child(2) { transform: rotate(0) translateY(0); }
+.astrax-v3-gallery--stack .astrax-v3-gallery-item:nth-child(3) { transform: rotate(4deg) translateY(8px); }
+
+
+/* ── V3 IMAGE EFFECTS ───────────────────────────────────────── */
+.astrax-v3-image-effect {
+	position: relative;
+	overflow: hidden;
+	border-radius: var(--ax-radius-md);
+}
+
+.astrax-v3-image-effect--mask img {
+	aspect-ratio: 1;
+}
+
+.astrax-v3-mask--circle  img { clip-path: circle(48%); }
+.astrax-v3-mask--arch    img { clip-path: ellipse(50% 65% at 50% 65%); }
+.astrax-v3-mask--diamond img { clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); }
+
+/* Hover effects */
+.astrax-v3-hover--zoom img,
+.astrax-v3-hover--grayscale img,
+.astrax-v3-hover--lift img {
+	transition:
+		transform var(--ax-dur-slow) var(--ax-ease),
+		filter    var(--ax-dur-slow) var(--ax-ease);
+}
+
+.astrax-v3-hover--zoom:hover       img { transform: scale(1.07); }
+.astrax-v3-hover--grayscale        img { filter: grayscale(1); }
+.astrax-v3-hover--grayscale:hover  img { filter: grayscale(0); }
+.astrax-v3-hover--lift:hover       img { transform: translateY(-7px); }
+
+/* Animations */
+.astrax-v3-image-effect--floating img {
+	animation: astrax-float var(--ax-dur-slow, 4s) ease-in-out infinite alternate;
+	animation-duration: 4s;
+}
+
+.astrax-v3-image-effect--scrolling img {
+	width: 120%;
+	max-width: none;
+	animation: astrax-scroll-image 12s ease-in-out infinite alternate;
+}
+
+.astrax-v3-scroll--right img { animation-direction: alternate-reverse; }
+
+/* Magnifier */
+.astrax-v3-image-effect--magnifier { cursor: zoom-in; }
+.astrax-v3-image-effect--magnifier img { transition: transform var(--ax-dur-base) var(--ax-ease); }
+.astrax-v3-image-effect--magnifier:hover img { transform: scale(var(--astrax-v3-zoom, 1.8)); }
+
+/* Reveal */
+.astrax-v3-image-effect--reveal.astrax-v3-reveal-pending img {
+	clip-path: inset(0 100% 0 0);
+	transition: clip-path var(--ax-dur-slow) var(--ax-ease);
+}
+
+.astrax-v3-image-effect--reveal.astrax-v3-reveal-pending.is-visible img {
+	clip-path: inset(0 0 0 0);
+}
+
+
+/* ── V3 HOTSPOT ─────────────────────────────────────────────── */
+.astrax-v3-hotspot {
+	position: absolute;
+	z-index: 1;
+	display: grid;
+	width: 2.125rem;
+	height: 2.125rem;
+	place-items: center;
+	border: 0;
+	border-radius: 50%;
+	background: var(--ax-surface);
+	color: var(--ax-ink);
+	box-shadow: 0 2px 10px rgb(0 0 0 / 16%);
+	transform: translate(-50%, -50%);
+	cursor: pointer;
+	transition: box-shadow var(--ax-dur-fast) var(--ax-ease);
+}
+
+.astrax-v3-hotspot:hover {
+	box-shadow: 0 4px 16px rgb(0 0 0 / 22%);
+}
+
+.astrax-v3-hotspot-content:not([hidden]) {
+	position: absolute;
+	left: calc(100% + .625rem);
+	width: max-content;
+	max-width: min(16rem, 70vw);
+	padding: .75rem .9rem;
+	border-radius: var(--ax-radius-sm);
+	background: var(--ax-surface);
+	color: var(--ax-ink);
+	box-shadow: var(--ax-shadow-md);
+	text-align: left;
+	font-size: .875rem;
+	line-height: 1.5;
+}
+
+
+/* ── KEYFRAMES ──────────────────────────────────────────────── */
+@keyframes astrax-float {
+	from { transform: translateY(-6px); }
+	to   { transform: translateY(9px); }
+}
+
+@keyframes astrax-scroll-image {
+	from { transform: translateX(0); }
+	to   { transform: translateX(-16%); }
+}
+
+
+/* ── RESPONSIVE ─────────────────────────────────────────────── */
+@media (max-width: 767px) {
+	.astrax-v3-image-text {
+		grid-template-columns: minmax(0, 1fr);
+	}
+
+	.astrax-v3-gallery--masonry .astrax-v3-gallery-items {
+		columns: 2;
+	}
+
+	.astrax-v3-gallery-items {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+}
+
+
+/* ── ACCENT (BLUE) VARIANTS ─────────────────────────────────── */
+/* Apply .astrax-accent on any card/button to switch to blue    */
+
+.astrax-icon-box-wrapper.astrax-accent,
+.astrax-info-box-wrapper.astrax-accent,
+.astrax-image-box-wrapper.astrax-accent {
+	border-color: var(--ax-accent-mid);
+}
+
+.astrax-icon-box-wrapper.astrax-accent:hover,
+.astrax-info-box-wrapper.astrax-accent:hover {
+	border-color: var(--ax-accent);
+	box-shadow: var(--ax-shadow-blue);
+}
+
+.astrax-icon-box-icon.astrax-accent,
+.astrax-icon-box-wrapper.astrax-accent .astrax-icon-box-icon,
+.astrax-icon-box-wrapper.astrax-accent .elementor-icon {
+	color: var(--ax-accent);
+}
+
+.astrax-advanced-button.astrax-accent,
+.astrax-v3-button.astrax-accent {
+	border-color: var(--ax-accent);
+	background:   var(--ax-accent);
+}
+
+.astrax-advanced-button.astrax-accent:hover,
+.astrax-v3-button.astrax-accent:hover {
+	border-color: var(--ax-accent-deep);
+	background:   var(--ax-accent-deep);
+	box-shadow:   var(--ax-shadow-blue);
+}
+
+/* ── STATUS BADGES ───────────────────────────────────────────── */
+/* Usage: <span class="astrax-badge astrax-badge--success">     */
+
+.astrax-badge {
+	display: inline-flex;
+	align-items: center;
+	gap: .35em;
+	padding: .25em .7em;
+	border-radius: var(--ax-radius-pill);
+	font-size: .8125em;
+	font-weight: 600;
+	letter-spacing: .02em;
+	line-height: 1.4;
+}
+
+.astrax-badge--success {
+	background: var(--ax-success-light);
+	color:      var(--ax-success);
+}
+
+.astrax-badge--error {
+	background: var(--ax-error-light);
+	color:      var(--ax-error);
+}
+
+.astrax-badge--warning {
+	background: var(--ax-warning-bg);
+	color:      var(--ax-amber-700);
+}
+
+.astrax-badge--info {
+	background: var(--ax-info-light);
+	color:      var(--ax-accent-deep);
+}
+
+.astrax-badge--neutral {
+	background: var(--ax-gray-100);
+	color:      var(--ax-gray-700);
+}
+
+/* ── TINTED SURFACE VARIANTS ─────────────────────────────────── */
+/* Apply to section wrappers for alternating bg rhythm           */
+
+.astrax-surface--mist     { background: var(--ax-mist); }
+.astrax-surface--pine     { background: var(--ax-pine-light); }
+.astrax-surface--blue     { background: var(--ax-blue-50); }
+.astrax-surface--amber    { background: var(--ax-amber-50); }
+.astrax-surface--dark     { background: var(--ax-dark-base); color: var(--ax-dark-text); }
+.astrax-surface--gray     { background: var(--ax-gray-50); }
+
+/* ── REDUCED MOTION ─────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+	.astrax-v3-image-effect img,
+	.astrax-v3-gallery-items {
+		scroll-behavior: auto;
+		animation-duration: .01ms !important;
+		transition-duration: .01ms !important;
+	}
+
+	/* Disable card lift on reduced-motion preference */
+	.astrax-icon-box-wrapper:hover,
+	.astrax-info-box-wrapper:hover,
+	.astrax-image-box-wrapper:hover,
+	.astrax-team-card:hover,
+	.astrax-bento-item:hover,
+	.astrax-advanced-button:hover,
+	.astrax-cta-button:hover,
+	.astrax-pricing-button:hover,
+	.astrax-v3-button:hover {
+		transform: none;
+	}
+}

@@ -1,0 +1,409 @@
+widget_slug,class_name,php_file,category,group,registered,title,controls_count,css_status,accessibility_status,security_status,quality_score,status,pipeline_step
+astrax-acf-flexible,AcfFlexible,includes/Widgets/ACF/AcfFlexible.php,ACF,"Group 16: ACF / CPT",true,"ACF Flexible Content",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-acf-gallery,AcfGallery,includes/Widgets/ACF/AcfGallery.php,ACF,"Group 16: ACF / CPT",true,"ACF Gallery",12,PASS,PASS,PASS,96,PRODUCTION_READY,15
+astrax-acf-group,AcfGroup,includes/Widgets/ACF/AcfGroup.php,ACF,"Group 16: ACF / CPT",true,"ACF Group",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-acf-image,AcfImage,includes/Widgets/ACF/AcfImage.php,ACF,"Group 16: ACF / CPT",true,"ACF Image",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-acf-link,AcfLink,includes/Widgets/ACF/AcfLink.php,ACF,"Group 16: ACF / CPT",true,"ACF Link",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-acf-relationship,AcfRelationship,includes/Widgets/ACF/AcfRelationship.php,ACF,"Group 16: ACF / CPT",true,"ACF Relationship",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-acf-repeater,AcfRepeater,includes/Widgets/ACF/AcfRepeater.php,ACF,"Group 16: ACF / CPT",true,"ACF Repeater",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-acf-text,AcfText,includes/Widgets/ACF/AcfText.php,ACF,"Group 16: ACF / CPT",true,"ACF Text",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-acf-url,AcfUrl,includes/Widgets/ACF/AcfUrl.php,ACF,"Group 16: ACF / CPT",true,"ACF URL",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-ai-blog-generator,BlogGenerator,includes/Widgets/AI/BlogGenerator.php,AI,"Group 23: AI",true,"AI Blog Generator",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-ai-chatbot,Chatbot,includes/Widgets/AI/Chatbot.php,AI,"Group 23: AI",true,"AI Chatbot",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-ai-content-improver,ContentImprover,includes/Widgets/AI/ContentImprover.php,AI,"Group 23: AI",true,"AI Content Improver",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-ai-content-writer,ContentWriter,includes/Widgets/AI/ContentWriter.php,AI,"Group 23: AI",true,"AI Content Writer",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-ai-faq-generator,FaqGenerator,includes/Widgets/AI/FaqGenerator.php,AI,"Group 23: AI",true,"AI FAQ Generator",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-ai-form-assistant,FormAssistant,includes/Widgets/AI/FormAssistant.php,AI,"Group 23: AI",true,"AI Form Assistant",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-ai-image-generator,ImageGenerator,includes/Widgets/AI/ImageGenerator.php,AI,"Group 23: AI",true,"AI Image Generator",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-ai-product-description,ProductDescription,includes/Widgets/AI/ProductDescription.php,AI,"Group 23: AI",true,"AI Product Description",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-ai-recommendations,Recommendations,includes/Widgets/AI/Recommendations.php,AI,"Group 23: AI",true,"AI Recommendations",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-ai-search,Search,includes/Widgets/AI/Search.php,AI,"Group 23: AI",true,"AI Search",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-ai-summarizer,Summarizer,includes/Widgets/AI/Summarizer.php,AI,"Group 23: AI",true,"AI Summarizer",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-ai-text-generator,TextGenerator,includes/Widgets/AI/TextGenerator.php,AI,"Group 23: AI",true,"AI Text Generator",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-ai-translation,Translation,includes/Widgets/AI/Translation.php,AI,"Group 23: AI",true,"AI Translation",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-advanced-button,AdvancedButton,includes/Widgets/AdvancedButton.php,Root,"Group 1: Foundation / Flagship",true,"Advanced Button",12,PASS,PASS,PASS,100,PRODUCTION_READY,15
+astrax-advanced-heading,AdvancedHeading,includes/Widgets/AdvancedHeading.php,Root,"Group 1: Foundation / Flagship",true,"Advanced Heading",12,PASS,PASS,PASS,100,PRODUCTION_READY,15
+astrax-cursor-effects,CursorEffects,includes/Widgets/Animation/CursorEffects.php,Animation,"Group 22: Animation",true,"Cursor Effects",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-custom-cursor,CustomCursor,includes/Widgets/Animation/CustomCursor.php,Animation,"Group 22: Animation",true,"Custom Cursor",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-floating-elements,FloatingElements,includes/Widgets/Animation/FloatingElements.php,Animation,"Group 22: Animation",true,"Floating Elements",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-hover-animation,HoverAnimation,includes/Widgets/Animation/HoverAnimation.php,Animation,"Group 22: Animation",true,"Hover Animation",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-anim-image-reveal,ImageReveal,includes/Widgets/Animation/ImageReveal.php,Animation,"Group 22: Animation",true,"Image Reveal",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-infinite-slider,InfiniteSlider,includes/Widgets/Animation/InfiniteSlider.php,Animation,"Group 22: Animation",true,"Infinite Slider",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-lottie,Lottie,includes/Widgets/Animation/Lottie.php,Animation,"Group 22: Animation",true,"Lottie Animation",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-magnetic-button,MagneticButton,includes/Widgets/Animation/MagneticButton.php,Animation,"Group 22: Animation",true,"Magnetic Button",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-anim-marquee,Marquee,includes/Widgets/Animation/Marquee.php,Animation,"Group 22: Animation",true,"Marquee",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-mouse-parallax,MouseParallax,includes/Widgets/Animation/MouseParallax.php,Animation,"Group 22: Animation",true,"Mouse Parallax",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-page-progress,PageProgress,includes/Widgets/Animation/PageProgress.php,Animation,"Group 22: Animation",true,"Page Progress",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-parallax,Parallax,includes/Widgets/Animation/Parallax.php,Animation,"Group 22: Animation",true,"Parallax",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-particle-bg,ParticleBackground,includes/Widgets/Animation/ParticleBackground.php,Animation,"Group 22: Animation",true,"Particle Background",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-scroll-animation,ScrollAnimation,includes/Widgets/Animation/ScrollAnimation.php,Animation,"Group 22: Animation",true,"Scroll Animation",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-scroll-progress,ScrollProgress,includes/Widgets/Animation/ScrollProgress.php,Animation,"Group 22: Animation",true,"Scroll Progress",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-shape-animation,ShapeAnimation,includes/Widgets/Animation/ShapeAnimation.php,Animation,"Group 22: Animation",true,"Shape Animation",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-anim-text-reveal,TextReveal,includes/Widgets/Animation/TextReveal.php,Animation,"Group 22: Animation",true,"Text Reveal",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-tilt-3d,Tilt3D,includes/Widgets/Animation/Tilt3D.php,Animation,"Group 22: Animation",true,"3D Tilt",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-ajax-posts,AjaxPosts,includes/Widgets/Blog/AjaxPosts.php,Blog,"Group 6: Blog",true,"AJAX Posts",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-archive-posts,ArchivePosts,includes/Widgets/Blog/ArchivePosts.php,Blog,"Group 6: Blog",true,"Archive Posts",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-author-box,AuthorBox,includes/Widgets/Blog/AuthorBox.php,Blog,"Group 6: Blog",true,"Author Box",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-category-posts,CategoryPosts,includes/Widgets/Blog/CategoryPosts.php,Blog,"Group 6: Blog",true,"Category Posts",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-comment-form,CommentForm,includes/Widgets/Blog/CommentForm.php,Blog,"Group 6: Blog",true,"Comment Form",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-comments,Comments,includes/Widgets/Blog/Comments.php,Blog,"Group 6: Blog",true,"Comments",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-featured-posts,FeaturedPosts,includes/Widgets/Blog/FeaturedPosts.php,Blog,"Group 6: Blog",true,"Featured Posts",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-infinite-scroll,InfiniteScroll,includes/Widgets/Blog/InfiniteScroll.php,Blog,"Group 6: Blog",true,"Infinite Scroll",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-load-more-posts,LoadMorePosts,includes/Widgets/Blog/LoadMorePosts.php,Blog,"Group 6: Blog",true,"Load More Posts",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-popular-posts,PopularPosts,includes/Widgets/Blog/PopularPosts.php,Blog,"Group 6: Blog",true,"Popular Posts",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-post-carousel,PostCarousel,includes/Widgets/Blog/PostCarousel.php,Blog,"Group 6: Blog",true,"Post Carousel",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-post-content,PostContent,includes/Widgets/Blog/PostContent.php,Blog,"Group 6: Blog",true,"Post Content",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-post-excerpt,PostExcerpt,includes/Widgets/Blog/PostExcerpt.php,Blog,"Group 6: Blog",true,"Post Excerpt",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-post-featured-image,PostFeaturedImage,includes/Widgets/Blog/PostFeaturedImage.php,Blog,"Group 6: Blog",true,"Post Featured Image",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-post-list,PostList,includes/Widgets/Blog/PostList.php,Blog,"Group 6: Blog",true,"Post List",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-post-masonry,PostMasonry,includes/Widgets/Blog/PostMasonry.php,Blog,"Group 6: Blog",true,"Post Masonry",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-post-meta,PostMeta,includes/Widgets/Blog/PostMeta.php,Blog,"Group 6: Blog",true,"Post Meta",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-post-navigation,PostNavigation,includes/Widgets/Blog/PostNavigation.php,Blog,"Group 6: Blog",true,"Post Navigation",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-post-slider,PostSlider,includes/Widgets/Blog/PostSlider.php,Blog,"Group 6: Blog",true,"Post Slider",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-post-timeline,PostTimeline,includes/Widgets/Blog/PostTimeline.php,Blog,"Group 6: Blog",true,"Post Timeline",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-post-title,PostTitle,includes/Widgets/Blog/PostTitle.php,Blog,"Group 6: Blog",true,"Post Title",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-recent-posts,RecentPosts,includes/Widgets/Blog/RecentPosts.php,Blog,"Group 6: Blog",true,"Recent Posts",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-related-posts,RelatedPosts,includes/Widgets/Blog/RelatedPosts.php,Blog,"Group 6: Blog",true,"Related Posts",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-search-results,SearchResults,includes/Widgets/Blog/SearchResults.php,Blog,"Group 6: Blog",true,"Search Results",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-tag-posts,TagPosts,includes/Widgets/Blog/TagPosts.php,Blog,"Group 6: Blog",true,"Tag Posts",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-address,Address,includes/Widgets/Business/Address.php,Business,"Group 7: Business",true,"Address",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-business-hours,BusinessHours,includes/Widgets/Business/BusinessHours.php,Business,"Group 7: Business",true,"Business Hours",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-business-timeline,BusinessTimeline,includes/Widgets/Business/BusinessTimeline.php,Business,"Group 7: Business",true,"Business Timeline",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-contact-info,ContactInfo,includes/Widgets/Business/ContactInfo.php,Business,"Group 7: Business",true,"Contact Information",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-business-counter,Counter,includes/Widgets/Business/Counter.php,Business,"Group 7: Business",true,"Counter",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-email-widget,Email,includes/Widgets/Business/Email.php,Business,"Group 7: Business",true,"Email",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-feature-comparison,FeatureComparison,includes/Widgets/Business/FeatureComparison.php,Business,"Group 7: Business",true,"Feature Comparison",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-features,Features,includes/Widgets/Business/Features.php,Business,"Group 7: Business",true,"Features",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-openstreet-map,OpenStreetMap,includes/Widgets/Business/OpenStreetMap.php,Business,"Group 7: Business",true,"OpenStreetMap",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-opening-hours,OpeningHours,includes/Widgets/Business/OpeningHours.php,Business,"Group 7: Business",true,"Opening Hours",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-phone,Phone,includes/Widgets/Business/Phone.php,Business,"Group 7: Business",true,"Phone",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-pricing-table,PricingTable,includes/Widgets/Business/PricingTable.php,Business,"Group 7: Business",true,"Pricing Table",12,PASS,PASS,PASS,96,PRODUCTION_READY,15
+astrax-pricing-toggle,PricingToggle,includes/Widgets/Business/PricingToggle.php,Business,"Group 7: Business",true,"Pricing Toggle",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-process-steps,ProcessSteps,includes/Widgets/Business/ProcessSteps.php,Business,"Group 7: Business",true,"Process Steps",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-progress-bar,ProgressBar,includes/Widgets/Business/ProgressBar.php,Business,"Group 7: Business",true,"Progress Bar",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-service-carousel,ServiceCarousel,includes/Widgets/Business/ServiceCarousel.php,Business,"Group 7: Business",true,"Service Carousel",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-service-grid,ServiceGrid,includes/Widgets/Business/ServiceGrid.php,Business,"Group 7: Business",true,"Service Grid",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-services,Services,includes/Widgets/Business/Services.php,Business,"Group 7: Business",true,"Services",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-statistics,Statistics,includes/Widgets/Business/Statistics.php,Business,"Group 7: Business",true,"Statistics",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-store-locator,StoreLocator,includes/Widgets/Business/StoreLocator.php,Business,"Group 7: Business",true,"Store Locator",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-badge,Badge,includes/Widgets/Content/Badge.php,Content,"Group 2: Content",true,"Badge",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-blockquote,Blockquote,includes/Widgets/Content/Blockquote.php,Content,"Group 2: Content",true,"Blockquote",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-button,Button,includes/Widgets/Content/Button.php,Content,"Group 2: Content",true,"Button",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-cta,CallToAction,includes/Widgets/Content/CallToAction.php,Content,"Group 2: Content",true,"Call To Action",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-content-toggle,ContentToggle,includes/Widgets/Content/ContentToggle.php,Content,"Group 2: Content",true,"Content Toggle",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-divider,Divider,includes/Widgets/Content/Divider.php,Content,"Group 2: Content",true,"Divider",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-drop-cap,DropCap,includes/Widgets/Content/DropCap.php,Content,"Group 2: Content",true,"Drop Cap",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-dual-button,DualButton,includes/Widgets/Content/DualButton.php,Content,"Group 2: Content",true,"Dual Button",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-heading,Heading,includes/Widgets/Content/Heading.php,Content,"Group 2: Content",true,"Heading",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-highlight-text,HighlightText,includes/Widgets/Content/HighlightText.php,Content,"Group 2: Content",true,"Highlight Text",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-icon,Icon,includes/Widgets/Content/Icon.php,Content,"Group 2: Content",true,"Icon",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-image,Image,includes/Widgets/Content/Image.php,Content,"Group 2: Content",true,"Image",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-image-box,ImageBox,includes/Widgets/Content/ImageBox.php,Content,"Group 2: Content",true,"Image Box",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-image-text,ImageText,includes/Widgets/Content/ImageText.php,Content,"Group 2: Content",true,"Image + Text",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-label,Label,includes/Widgets/Content/Label.php,Content,"Group 2: Content",true,"Label",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-notice,Notice,includes/Widgets/Content/Notice.php,Content,"Group 2: Content",true,"Notice",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+plannedcontentwidget,PlannedContentWidget,includes/Widgets/Content/PlannedContentWidget.php,Content,"Group 2: Content",true,"PlannedContentWidget",21,PASS,PASS,PASS,96,PRODUCTION_READY,15
+astrax-read-more,ReadMore,includes/Widgets/Content/ReadMore.php,Content,"Group 2: Content",true,"Read More / Read Less",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-rich-text,RichText,includes/Widgets/Content/RichText.php,Content,"Group 2: Content",true,"Rich Text",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-spacer,Spacer,includes/Widgets/Content/Spacer.php,Content,"Group 2: Content",true,"Spacer",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-text-editor,TextEditor,includes/Widgets/Content/TextEditor.php,Content,"Group 2: Content",true,"Text Editor",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-adv-image-accordion,AdvImageAccordion,includes/Widgets/Creative/AdvImageAccordion.php,Creative,"Group 5: Creative",true,"Advanced Image Accordion",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-adv-grid,AdvancedGrid,includes/Widgets/Creative/AdvancedGrid.php,Creative,"Group 5: Creative",true,"Advanced Grid",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-animated-gradient,AnimatedGradient,includes/Widgets/Creative/AnimatedGradient.php,Creative,"Group 5: Creative",true,"Animated Gradient",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-bento-grid,BentoGrid,includes/Widgets/Creative/BentoGrid.php,Creative,"Group 5: Creative",true,"Bento Grid",12,PASS,PASS,PASS,96,PRODUCTION_READY,15
+astrax-bottom-nav,BottomNav,includes/Widgets/Creative/BottomNav.php,Creative,"Group 5: Creative",true,"Bottom Navigation",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-command-palette,CommandPalette,includes/Widgets/Creative/CommandPalette.php,Creative,"Group 5: Creative",true,"Command Palette",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-cursor-spotlight,CursorSpotlight,includes/Widgets/Creative/CursorSpotlight.php,Creative,"Group 5: Creative",true,"Cursor Spotlight",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-dashboard-cards,DashboardCards,includes/Widgets/Creative/DashboardCards.php,Creative,"Group 5: Creative",true,"Dashboard Cards",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-floating-dock,FloatingDock,includes/Widgets/Creative/FloatingDock.php,Creative,"Group 5: Creative",true,"Floating Dock",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-glass-cards,GlassCards,includes/Widgets/Creative/GlassCards.php,Creative,"Group 5: Creative",true,"Glassmorphism Cards",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-horizontal-scroll,HorizontalScroll,includes/Widgets/Creative/HorizontalScroll.php,Creative,"Group 5: Creative",true,"Horizontal Scroll",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-horizontal-timeline,HorizontalTimeline,includes/Widgets/Creative/HorizontalTimeline.php,Creative,"Group 5: Creative",true,"Horizontal Timeline",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-3d-image-cards,ImageCards3D,includes/Widgets/Creative/ImageCards3D.php,Creative,"Group 5: Creative",true,"3D Image Cards",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-interactive-dashboard,InteractiveDashboard,includes/Widgets/Creative/InteractiveDashboard.php,Creative,"Group 5: Creative",true,"Interactive Dashboard",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-interactive-gradient,InteractiveGradient,includes/Widgets/Creative/InteractiveGradient.php,Creative,"Group 5: Creative",true,"Interactive Gradient",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-layered-cards,LayeredCards,includes/Widgets/Creative/LayeredCards.php,Creative,"Group 5: Creative",true,"Layered Cards",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-liquid-buttons,LiquidButtons,includes/Widgets/Creative/LiquidButtons.php,Creative,"Group 5: Creative",true,"Liquid Buttons",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-magnetic-buttons,MagneticButtons,includes/Widgets/Creative/MagneticButtons.php,Creative,"Group 5: Creative",true,"Magnetic Buttons",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-mesh-gradient,MeshGradient,includes/Widgets/Creative/MeshGradient.php,Creative,"Group 5: Creative",true,"Mesh Gradient",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-noise-bg,NoiseBackground,includes/Widgets/Creative/NoiseBackground.php,Creative,"Group 5: Creative",true,"Noise Background",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-notification-center,NotificationCenter,includes/Widgets/Creative/NotificationCenter.php,Creative,"Group 5: Creative",true,"Notification Center",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-overlapping-sections,OverlappingSections,includes/Widgets/Creative/OverlappingSections.php,Creative,"Group 5: Creative",true,"Overlapping Sections",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-3d-product-cards,ProductCards3D,includes/Widgets/Creative/ProductCards3D.php,Creative,"Group 5: Creative",true,"3D Product Cards",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-progress-nav,ProgressNav,includes/Widgets/Creative/ProgressNav.php,Creative,"Group 5: Creative",true,"Progress Navigation",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-scroll-image-seq,ScrollImageSequence,includes/Widgets/Creative/ScrollImageSequence.php,Creative,"Group 5: Creative",true,"Scroll-Based Image Sequence",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-scroll-snap,ScrollSnap,includes/Widgets/Creative/ScrollSnap.php,Creative,"Group 5: Creative",true,"Scroll Snap",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-spotlight-cards,SpotlightCards,includes/Widgets/Creative/SpotlightCards.php,Creative,"Group 5: Creative",true,"Spotlight Cards",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-stacked-cards,StackedCards,includes/Widgets/Creative/StackedCards.php,Creative,"Group 5: Creative",true,"Stacked Cards",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-sticky-sections,StickySections,includes/Widgets/Creative/StickySections.php,Creative,"Group 5: Creative",true,"Sticky Sections",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-svg-draw,SvgDraw,includes/Widgets/Creative/SvgDraw.php,Creative,"Group 5: Creative",true,"SVG Draw Animation",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-svg-morph,SvgMorph,includes/Widgets/Creative/SvgMorph.php,Creative,"Group 5: Creative",true,"SVG Morph",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-vertical-timeline,VerticalTimeline,includes/Widgets/Creative/VerticalTimeline.php,Creative,"Group 5: Creative",true,"Vertical Timeline",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-contact-map,ContactMap,includes/Widgets/Data/ContactMap.php,Data,"Group 17: Data",true,"Contact Map",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-google-map,GoogleMap,includes/Widgets/Data/GoogleMap.php,Data,"Group 17: Data",true,"Google Map",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-interactive-map,InteractiveMap,includes/Widgets/Data/InteractiveMap.php,Data,"Group 17: Data",true,"Interactive Map",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-leaflet-map,LeafletMap,includes/Widgets/Data/LeafletMap.php,Data,"Group 17: Data",true,"Leaflet Map",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-location-finder,LocationFinder,includes/Widgets/Data/LocationFinder.php,Data,"Group 17: Data",true,"Location Finder",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-map-marker,MapMarker,includes/Widgets/Data/MapMarker.php,Data,"Group 17: Data",true,"Map Marker",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-mapbox,Mapbox,includes/Widgets/Data/Mapbox.php,Data,"Group 17: Data",true,"Mapbox",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-multi-location-map,MultiLocationMap,includes/Widgets/Data/MultiLocationMap.php,Data,"Group 17: Data",true,"Multiple Locations",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-openstreet-map-widget,OpenStreetMap,includes/Widgets/Data/OpenStreetMap.php,Data,"Group 17: Data",true,"OpenStreetMap",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-route-map,RouteMap,includes/Widgets/Data/RouteMap.php,Data,"Group 17: Data",true,"Route Map",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-map-store-locator,StoreLocator,includes/Widgets/Data/StoreLocator.php,Data,"Group 17: Data",true,"Store Locator",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-area-chart,AreaChart,includes/Widgets/DataViz/AreaChart.php,DataViz,"Group 18: DataViz",true,"Area Chart",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-bar-chart,BarChart,includes/Widgets/DataViz/BarChart.php,DataViz,"Group 18: DataViz",true,"Bar Chart",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-circular-progress,CircularProgress,includes/Widgets/DataViz/CircularProgress.php,DataViz,"Group 18: DataViz",true,"Circular Progress",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-dataviz-comparison,ComparisonTable,includes/Widgets/DataViz/ComparisonTable.php,DataViz,"Group 18: DataViz",true,"Comparison Table",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-dataviz-counter,Counter,includes/Widgets/DataViz/Counter.php,DataViz,"Group 18: DataViz",true,"Counter",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-data-table,DataTable,includes/Widgets/DataViz/DataTable.php,DataViz,"Group 18: DataViz",true,"Data Table",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-donut-chart,DonutChart,includes/Widgets/DataViz/DonutChart.php,DataViz,"Group 18: DataViz",true,"Donut Chart",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-dynamic-table,DynamicTable,includes/Widgets/DataViz/DynamicTable.php,DataViz,"Group 18: DataViz",true,"Dynamic Table",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-kpi-cards,KpiCards,includes/Widgets/DataViz/KpiCards.php,DataViz,"Group 18: DataViz",true,"KPI Cards",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-line-chart,LineChart,includes/Widgets/DataViz/LineChart.php,DataViz,"Group 18: DataViz",true,"Line Chart",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-pie-chart,PieChart,includes/Widgets/DataViz/PieChart.php,DataViz,"Group 18: DataViz",true,"Pie Chart",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-pricing-comparison,PricingComparison,includes/Widgets/DataViz/PricingComparison.php,DataViz,"Group 18: DataViz",true,"Pricing Comparison",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-dataviz-progress-bar,ProgressBar,includes/Widgets/DataViz/ProgressBar.php,DataViz,"Group 18: DataViz",true,"Progress Bar",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-radar-chart,RadarChart,includes/Widgets/DataViz/RadarChart.php,DataViz,"Group 18: DataViz",true,"Radar Chart",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-dataviz-statistics,Statistics,includes/Widgets/DataViz/Statistics.php,DataViz,"Group 18: DataViz",true,"Statistics",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-api-viewer,ApiViewer,includes/Widgets/Developer/ApiViewer.php,Developer,"Group 21: Developer",true,"API Response Viewer",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-code-block,CodeBlock,includes/Widgets/Developer/CodeBlock.php,Developer,"Group 21: Developer",true,"Code Block",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-code-copy,CodeCopy,includes/Widgets/Developer/CodeCopy.php,Developer,"Group 21: Developer",true,"Code Copy Button",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-css-preview,CssPreview,includes/Widgets/Developer/CssPreview.php,Developer,"Group 21: Developer",true,"CSS Preview",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-dynamic-json,DynamicJson,includes/Widgets/Developer/DynamicJson.php,Developer,"Group 21: Developer",true,"Dynamic JSON",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-html-preview,HtmlPreview,includes/Widgets/Developer/HtmlPreview.php,Developer,"Group 21: Developer",true,"HTML Preview",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-js-preview,JsPreview,includes/Widgets/Developer/JsPreview.php,Developer,"Group 21: Developer",true,"JavaScript Preview",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-json-viewer,JsonViewer,includes/Widgets/Developer/JsonViewer.php,Developer,"Group 21: Developer",true,"JSON Viewer",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-rest-viewer,RestViewer,includes/Widgets/Developer/RestViewer.php,Developer,"Group 21: Developer",true,"REST API Viewer",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-syntax-highlighter,SyntaxHighlighter,includes/Widgets/Developer/SyntaxHighlighter.php,Developer,"Group 21: Developer",true,"Syntax Highlighter",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-terminal,Terminal,includes/Widgets/Developer/Terminal.php,Developer,"Group 21: Developer",true,"Terminal",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-ajax-query,AjaxQuery,includes/Widgets/Dynamic/AjaxQuery.php,Dynamic,"Group 15: Dynamic",true,"AJAX Query",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-custom-fields,CustomFields,includes/Widgets/Dynamic/CustomFields.php,Dynamic,"Group 15: Dynamic",true,"Custom Fields",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-custom-query,CustomQuery,includes/Widgets/Dynamic/CustomQuery.php,Dynamic,"Group 15: Dynamic",true,"Custom Query",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-dynamic-author,DynamicAuthor,includes/Widgets/Dynamic/DynamicAuthor.php,Dynamic,"Group 15: Dynamic",true,"Dynamic Author",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-dynamic-categories,DynamicCategories,includes/Widgets/Dynamic/DynamicCategories.php,Dynamic,"Group 15: Dynamic",true,"Dynamic Categories",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-dynamic-cpt,DynamicCpt,includes/Widgets/Dynamic/DynamicCpt.php,Dynamic,"Group 15: Dynamic",true,"Dynamic CPT",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-dynamic-date,DynamicDate,includes/Widgets/Dynamic/DynamicDate.php,Dynamic,"Group 15: Dynamic",true,"Dynamic Date",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-dynamic-excerpts,DynamicExcerpts,includes/Widgets/Dynamic/DynamicExcerpts.php,Dynamic,"Group 15: Dynamic",true,"Dynamic Excerpts",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-dynamic-field,DynamicField,includes/Widgets/Dynamic/DynamicField.php,Dynamic,"Group 15: Dynamic",true,"Dynamic Field",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-dynamic-images,DynamicImages,includes/Widgets/Dynamic/DynamicImages.php,Dynamic,"Group 15: Dynamic",true,"Dynamic Images",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-dynamic-pages,DynamicPages,includes/Widgets/Dynamic/DynamicPages.php,Dynamic,"Group 15: Dynamic",true,"Dynamic Pages",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-dynamic-posts,DynamicPosts,includes/Widgets/Dynamic/DynamicPosts.php,Dynamic,"Group 15: Dynamic",true,"Dynamic Posts",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-dynamic-relationships,DynamicRelationships,includes/Widgets/Dynamic/DynamicRelationships.php,Dynamic,"Group 15: Dynamic",true,"Dynamic Relationships",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-dynamic-tags,DynamicTags,includes/Widgets/Dynamic/DynamicTags.php,Dynamic,"Group 15: Dynamic",true,"Dynamic Tags",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-dynamic-taxonomies,DynamicTaxonomies,includes/Widgets/Dynamic/DynamicTaxonomies.php,Dynamic,"Group 15: Dynamic",true,"Dynamic Taxonomies",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-dynamic-terms,DynamicTerms,includes/Widgets/Dynamic/DynamicTerms.php,Dynamic,"Group 15: Dynamic",true,"Dynamic Terms",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-dynamic-titles,DynamicTitles,includes/Widgets/Dynamic/DynamicTitles.php,Dynamic,"Group 15: Dynamic",true,"Dynamic Titles",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-dynamic-urls,DynamicUrls,includes/Widgets/Dynamic/DynamicUrls.php,Dynamic,"Group 15: Dynamic",true,"Dynamic URLs",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-query-builder,QueryBuilder,includes/Widgets/Dynamic/QueryBuilder.php,Dynamic,"Group 15: Dynamic",true,"Query Builder",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-rest-api-data,RestApiData,includes/Widgets/Dynamic/RestApiData.php,Dynamic,"Group 15: Dynamic",true,"REST API Data",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-changelog,Changelog,includes/Widgets/FAQ/Changelog.php,FAQ,"Group 12: Interactive",true,"Changelog",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-docs-cards,DocsCards,includes/Widgets/FAQ/DocsCards.php,FAQ,"Group 12: Interactive",true,"Documentation Cards",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-docs-nav,DocsNav,includes/Widgets/FAQ/DocsNav.php,FAQ,"Group 12: Interactive",true,"Documentation Navigation",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-docs-toc,DocsToc,includes/Widgets/FAQ/DocsToc.php,FAQ,"Group 12: Interactive",true,"Documentation TOC",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-faq-widget,Faq,includes/Widgets/FAQ/Faq.php,FAQ,"Group 12: Interactive",true,"FAQ",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-faq-accordion,FaqAccordion,includes/Widgets/FAQ/FaqAccordion.php,FAQ,"Group 12: Interactive",true,"FAQ Accordion",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-faq-search-widget,FaqSearch,includes/Widgets/FAQ/FaqSearch.php,FAQ,"Group 12: Interactive",true,"FAQ Search",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-glossary,Glossary,includes/Widgets/FAQ/Glossary.php,FAQ,"Group 12: Interactive",true,"Glossary",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-knowledge-base,KnowledgeBase,includes/Widgets/FAQ/KnowledgeBase.php,FAQ,"Group 12: Interactive",true,"Knowledge Base",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-term-tooltip,TermTooltip,includes/Widgets/FAQ/TermTooltip.php,FAQ,"Group 12: Interactive",true,"Term Tooltip",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-ajax-form,AjaxForm,includes/Widgets/Forms/AjaxForm.php,Forms,"Group 14: Forms",true,"AJAX Form",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-application-form,ApplicationForm,includes/Widgets/Forms/ApplicationForm.php,Forms,"Group 14: Forms",true,"Application Form",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-booking-form,BookingForm,includes/Widgets/Forms/BookingForm.php,Forms,"Group 14: Forms",true,"Booking Form",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-conditional-form,ConditionalForm,includes/Widgets/Forms/ConditionalForm.php,Forms,"Group 14: Forms",true,"Conditional Form",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-contact-form,ContactForm,includes/Widgets/Forms/ContactForm.php,Forms,"Group 14: Forms",true,"Contact Form",12,PASS,PASS,PASS,96,PRODUCTION_READY,15
+astrax-feedback-form,FeedbackForm,includes/Widgets/Forms/FeedbackForm.php,Forms,"Group 14: Forms",true,"Feedback Form",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-file-upload-form,FileUploadForm,includes/Widgets/Forms/FileUploadForm.php,Forms,"Group 14: Forms",true,"File Upload Form",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-login-form,LoginForm,includes/Widgets/Forms/LoginForm.php,Forms,"Group 14: Forms",true,"Login Form",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-multi-step-form,MultiStepForm,includes/Widgets/Forms/MultiStepForm.php,Forms,"Group 14: Forms",true,"Multi-Step Form",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-newsletter-form,NewsletterForm,includes/Widgets/Forms/NewsletterForm.php,Forms,"Group 14: Forms",true,"Newsletter Form",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-otp-form,OtpForm,includes/Widgets/Forms/OtpForm.php,Forms,"Group 14: Forms",true,"OTP Form",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-password-reset-form,PasswordResetForm,includes/Widgets/Forms/PasswordResetForm.php,Forms,"Group 14: Forms",true,"Password Reset Form",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-popup-form,PopupForm,includes/Widgets/Forms/PopupForm.php,Forms,"Group 14: Forms",true,"Popup Form",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-quote-form,QuoteForm,includes/Widgets/Forms/QuoteForm.php,Forms,"Group 14: Forms",true,"Quote Form",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-registration-form,RegistrationForm,includes/Widgets/Forms/RegistrationForm.php,Forms,"Group 14: Forms",true,"Registration Form",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-search-form,SearchForm,includes/Widgets/Forms/SearchForm.php,Forms,"Group 14: Forms",true,"Search Form",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-survey-form,SurveyForm,includes/Widgets/Forms/SurveyForm.php,Forms,"Group 14: Forms",true,"Survey Form",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-icon-box,IconBox,includes/Widgets/IconBox.php,Root,"Group 1: Foundation / Flagship",true,"Icon Box",12,PASS,PASS,PASS,100,PRODUCTION_READY,15
+astrax-image-accordion,ImageAccordion,includes/Widgets/ImageAccordion.php,Root,"Group 1: Foundation / Flagship",true,"Image Accordion",12,PASS,PASS,PASS,100,PRODUCTION_READY,15
+astrax-before-after,BeforeAfter,includes/Widgets/Images/BeforeAfter.php,Images,"Group 4: Images",true,"Before / After",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-floating-image,FloatingImage,includes/Widgets/Images/FloatingImage.php,Images,"Group 4: Images",true,"Floating Image",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-gallery,Gallery,includes/Widgets/Images/Gallery.php,Images,"Group 4: Images",true,"Gallery",12,PASS,PASS,PASS,96,PRODUCTION_READY,15
+astrax-hotspots,Hotspots,includes/Widgets/Images/Hotspots.php,Images,"Group 4: Images",true,"Image Hotspots",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-image-carousel,ImageCarousel,includes/Widgets/Images/ImageCarousel.php,Images,"Group 4: Images",true,"Image Carousel",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-image-hover-effects,ImageHoverEffects,includes/Widgets/Images/ImageHoverEffects.php,Images,"Group 4: Images",true,"Image Hover Effects",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-image-magnifier,ImageMagnifier,includes/Widgets/Images/ImageMagnifier.php,Images,"Group 4: Images",true,"Image Magnifier",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-image-mask,ImageMask,includes/Widgets/Images/ImageMask.php,Images,"Group 4: Images",true,"Image Mask",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-image-reveal,ImageReveal,includes/Widgets/Images/ImageReveal.php,Images,"Group 4: Images",true,"Image Reveal",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-image-slider,ImageSlider,includes/Widgets/Images/ImageSlider.php,Images,"Group 4: Images",true,"Image Slider",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-image-stack,ImageStack,includes/Widgets/Images/ImageStack.php,Images,"Group 4: Images",true,"Image Stack",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-interactive-image,InteractiveImage,includes/Widgets/Images/InteractiveImage.php,Images,"Group 4: Images",true,"Interactive Image",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-justified-gallery,JustifiedGallery,includes/Widgets/Images/JustifiedGallery.php,Images,"Group 4: Images",true,"Justified Gallery",12,PASS,PASS,PASS,96,PRODUCTION_READY,15
+astrax-lightbox-gallery,LightboxGallery,includes/Widgets/Images/LightboxGallery.php,Images,"Group 4: Images",true,"Lightbox Gallery",12,PASS,PASS,PASS,96,PRODUCTION_READY,15
+astrax-masonry-gallery,MasonryGallery,includes/Widgets/Images/MasonryGallery.php,Images,"Group 4: Images",true,"Masonry Gallery",12,PASS,PASS,PASS,96,PRODUCTION_READY,15
+plannedgallerywidget,PlannedGalleryWidget,includes/Widgets/Images/PlannedGalleryWidget.php,Images,"Group 4: Images",true,"PlannedGalleryWidget",12,PASS,PASS,PASS,96,PRODUCTION_READY,15
+plannedimageeffectwidget,PlannedImageEffectWidget,includes/Widgets/Images/PlannedImageEffectWidget.php,Images,"Group 4: Images",true,"PlannedImageEffectWidget",13,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-scrolling-image,ScrollingImage,includes/Widgets/Images/ScrollingImage.php,Images,"Group 4: Images",true,"Scrolling Image",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-info-box,InfoBox,includes/Widgets/InfoBox.php,Root,"Group 1: Foundation / Flagship",true,"Info Box",12,PASS,PASS,PASS,100,PRODUCTION_READY,15
+astrax-accordion,Accordion,includes/Widgets/Interactive/Accordion.php,Interactive,"Group 12: Interactive",true,"Accordion",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-interactive-before-after,BeforeAfter,includes/Widgets/Interactive/BeforeAfter.php,Interactive,"Group 12: Interactive",true,"Before/After",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-comparison-slider,ComparisonSlider,includes/Widgets/Interactive/ComparisonSlider.php,Interactive,"Group 12: Interactive",true,"Comparison Slider",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-content-switcher,ContentSwitcher,includes/Widgets/Interactive/ContentSwitcher.php,Interactive,"Group 12: Interactive",true,"Content Switcher",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-faq,Faq,includes/Widgets/Interactive/Faq.php,Interactive,"Group 12: Interactive",true,"FAQ",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-faq-search,FaqSearch,includes/Widgets/Interactive/FaqSearch.php,Interactive,"Group 12: Interactive",true,"FAQ Search",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-flip-box,FlipBox,includes/Widgets/Interactive/FlipBox.php,Interactive,"Group 12: Interactive",true,"Flip Box",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-hotspot,Hotspot,includes/Widgets/Interactive/Hotspot.php,Interactive,"Group 12: Interactive",true,"Hotspot",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-interactive-image-accordion,ImageAccordion,includes/Widgets/Interactive/ImageAccordion.php,Interactive,"Group 12: Interactive",true,"Image Accordion",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-interactive-cards,InteractiveCards,includes/Widgets/Interactive/InteractiveCards.php,Interactive,"Group 12: Interactive",true,"Interactive Cards",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-interactive-timeline,InteractiveTimeline,includes/Widgets/Interactive/InteractiveTimeline.php,Interactive,"Group 12: Interactive",true,"Interactive Timeline",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-modal,Modal,includes/Widgets/Interactive/Modal.php,Interactive,"Group 12: Interactive",true,"Modal",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-nested-accordion,NestedAccordion,includes/Widgets/Interactive/NestedAccordion.php,Interactive,"Group 12: Interactive",true,"Nested Accordion",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-nested-tabs,NestedTabs,includes/Widgets/Interactive/NestedTabs.php,Interactive,"Group 12: Interactive",true,"Nested Tabs",12,PASS,PASS,PASS,96,PRODUCTION_READY,15
+astrax-off-canvas,OffCanvas,includes/Widgets/Interactive/OffCanvas.php,Interactive,"Group 12: Interactive",true,"Off-Canvas",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-popup,Popup,includes/Widgets/Interactive/Popup.php,Interactive,"Group 12: Interactive",true,"Popup",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-stepper,Stepper,includes/Widgets/Interactive/Stepper.php,Interactive,"Group 12: Interactive",true,"Stepper",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-tabs,Tabs,includes/Widgets/Interactive/Tabs.php,Interactive,"Group 12: Interactive",true,"Tabs",12,PASS,PASS,PASS,96,PRODUCTION_READY,15
+astrax-toggle,Toggle,includes/Widgets/Interactive/Toggle.php,Interactive,"Group 12: Interactive",true,"Toggle",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-tooltip,Tooltip,includes/Widgets/Interactive/Tooltip.php,Interactive,"Group 12: Interactive",true,"Tooltip",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-announcement-bar,AnnouncementBar,includes/Widgets/Marketing/AnnouncementBar.php,Marketing,"Group 10: Marketing",true,"Announcement Bar",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-client-logos,ClientLogos,includes/Widgets/Marketing/ClientLogos.php,Marketing,"Group 10: Marketing",true,"Client Logos",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-comparison-table,ComparisonTable,includes/Widgets/Marketing/ComparisonTable.php,Marketing,"Group 10: Marketing",true,"Comparison Table",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-countdown,Countdown,includes/Widgets/Marketing/Countdown.php,Marketing,"Group 10: Marketing",true,"Countdown",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-coupon,Coupon,includes/Widgets/Marketing/Coupon.php,Marketing,"Group 10: Marketing",true,"Coupon",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-coupon-reveal,CouponReveal,includes/Widgets/Marketing/CouponReveal.php,Marketing,"Group 10: Marketing",true,"Coupon Reveal",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-marketing-cta,Cta,includes/Widgets/Marketing/Cta.php,Marketing,"Group 10: Marketing",true,"CTA",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-feature-list,FeatureList,includes/Widgets/Marketing/FeatureList.php,Marketing,"Group 10: Marketing",true,"Feature List",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-floating-cta,FloatingCta,includes/Widgets/Marketing/FloatingCta.php,Marketing,"Group 10: Marketing",true,"Floating CTA",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-lead-capture,LeadCapture,includes/Widgets/Marketing/LeadCapture.php,Marketing,"Group 10: Marketing",true,"Lead Capture",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-logo-carousel,LogoCarousel,includes/Widgets/Marketing/LogoCarousel.php,Marketing,"Group 10: Marketing",true,"Logo Carousel",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-newsletter,Newsletter,includes/Widgets/Marketing/Newsletter.php,Marketing,"Group 10: Marketing",true,"Newsletter",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-partner-logos,PartnerLogos,includes/Widgets/Marketing/PartnerLogos.php,Marketing,"Group 10: Marketing",true,"Partner Logos",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-marketing-pricing-table,PricingTable,includes/Widgets/Marketing/PricingTable.php,Marketing,"Group 10: Marketing",true,"Pricing Table",12,PASS,PASS,PASS,96,PRODUCTION_READY,15
+astrax-marketing-pricing-toggle,PricingToggle,includes/Widgets/Marketing/PricingToggle.php,Marketing,"Group 10: Marketing",true,"Pricing Toggle",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-promo-banner,PromoBanner,includes/Widgets/Marketing/PromoBanner.php,Marketing,"Group 10: Marketing",true,"Promo Banner",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-sales-countdown,SalesCountdown,includes/Widgets/Marketing/SalesCountdown.php,Marketing,"Group 10: Marketing",true,"Sales Countdown",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-sticky-cta,StickyCta,includes/Widgets/Marketing/StickyCta.php,Marketing,"Group 10: Marketing",true,"Sticky CTA",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-trust-badges,TrustBadges,includes/Widgets/Marketing/TrustBadges.php,Marketing,"Group 10: Marketing",true,"Trust Badges",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-audio-player,AudioPlayer,includes/Widgets/Media/AudioPlayer.php,Media,"Group 13: Media",true,"Audio Player",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-podcast-player,PodcastPlayer,includes/Widgets/Media/PodcastPlayer.php,Media,"Group 13: Media",true,"Podcast Player",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-soundcloud-embed,SoundCloudEmbed,includes/Widgets/Media/SoundCloudEmbed.php,Media,"Group 13: Media",true,"SoundCloud Embed",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-spotify-embed,SpotifyEmbed,includes/Widgets/Media/SpotifyEmbed.php,Media,"Group 13: Media",true,"Spotify Embed",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-video,Video,includes/Widgets/Media/Video.php,Media,"Group 13: Media",true,"Video",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-video-background,VideoBackground,includes/Widgets/Media/VideoBackground.php,Media,"Group 13: Media",true,"Video Background",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-video-carousel,VideoCarousel,includes/Widgets/Media/VideoCarousel.php,Media,"Group 13: Media",true,"Video Carousel",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-video-gallery,VideoGallery,includes/Widgets/Media/VideoGallery.php,Media,"Group 13: Media",true,"Video Gallery",12,PASS,PASS,PASS,96,PRODUCTION_READY,15
+astrax-video-lightbox,VideoLightbox,includes/Widgets/Media/VideoLightbox.php,Media,"Group 13: Media",true,"Video Lightbox",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-video-playlist,VideoPlaylist,includes/Widgets/Media/VideoPlaylist.php,Media,"Group 13: Media",true,"Video Playlist",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-video-popup,VideoPopup,includes/Widgets/Media/VideoPopup.php,Media,"Group 13: Media",true,"Video Popup",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-vimeo-video,VimeoVideo,includes/Widgets/Media/VimeoVideo.php,Media,"Group 13: Media",true,"Vimeo Video",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-youtube-playlist,YouTubePlaylist,includes/Widgets/Media/YouTubePlaylist.php,Media,"Group 13: Media",true,"YouTube Playlist",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-youtube-video,YouTubeVideo,includes/Widgets/Media/YouTubeVideo.php,Media,"Group 13: Media",true,"YouTube Video",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-advanced-menu,AdvancedMenu,includes/Widgets/Navigation/AdvancedMenu.php,Navigation,"Group 11: Navigation",true,"Advanced Menu",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-breadcrumbs,Breadcrumbs,includes/Widgets/Navigation/Breadcrumbs.php,Navigation,"Group 11: Navigation",true,"Breadcrumbs",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-category-menu,CategoryMenu,includes/Widgets/Navigation/CategoryMenu.php,Navigation,"Group 11: Navigation",true,"Category Menu",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-filter-nav,FilterNav,includes/Widgets/Navigation/FilterNav.php,Navigation,"Group 11: Navigation",true,"Filter Navigation",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-hamburger-menu,HamburgerMenu,includes/Widgets/Navigation/HamburgerMenu.php,Navigation,"Group 11: Navigation",true,"Hamburger Menu",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-mega-menu,MegaMenu,includes/Widgets/Navigation/MegaMenu.php,Navigation,"Group 11: Navigation",true,"Mega Menu",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-mobile-menu,MobileMenu,includes/Widgets/Navigation/MobileMenu.php,Navigation,"Group 11: Navigation",true,"Mobile Menu",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-off-canvas-menu,OffCanvasMenu,includes/Widgets/Navigation/OffCanvasMenu.php,Navigation,"Group 11: Navigation",true,"Off-Canvas Menu",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-one-page-nav,OnePageNav,includes/Widgets/Navigation/OnePageNav.php,Navigation,"Group 11: Navigation",true,"One Page Navigation",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-page-navigation,PageNavigation,includes/Widgets/Navigation/PageNavigation.php,Navigation,"Group 11: Navigation",true,"Page Navigation",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-pagination,Pagination,includes/Widgets/Navigation/Pagination.php,Navigation,"Group 11: Navigation",true,"Pagination",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-sticky-nav,StickyNav,includes/Widgets/Navigation/StickyNav.php,Navigation,"Group 11: Navigation",true,"Sticky Navigation",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-toc,TableOfContents,includes/Widgets/Navigation/TableOfContents.php,Navigation,"Group 11: Navigation",true,"Table of Contents",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-vertical-nav,VerticalNav,includes/Widgets/Navigation/VerticalNav.php,Navigation,"Group 11: Navigation",true,"Vertical Navigation",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-post-grid,PostGrid,includes/Widgets/PostGrid.php,Root,"Group 1: Foundation / Flagship",true,"Post Grid",12,PASS,PASS,PASS,100,PRODUCTION_READY,15
+astrax-social-facebook,Facebook,includes/Widgets/Social/Facebook.php,Social,"Group 19: Social",true,"Facebook",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-social-instagram,Instagram,includes/Widgets/Social/Instagram.php,Social,"Group 19: Social",true,"Instagram",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-social-linkedin,LinkedIn,includes/Widgets/Social/LinkedIn.php,Social,"Group 19: Social",true,"LinkedIn",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-social-pinterest,Pinterest,includes/Widgets/Social/Pinterest.php,Social,"Group 19: Social",true,"Pinterest",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-social-counter,SocialCounter,includes/Widgets/Social/SocialCounter.php,Social,"Group 19: Social",true,"Social Counter",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-social-follow,SocialFollow,includes/Widgets/Social/SocialFollow.php,Social,"Group 19: Social",true,"Social Follow",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-social-icons,SocialIcons,includes/Widgets/Social/SocialIcons.php,Social,"Group 19: Social",true,"Social Icons",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-social-posts,SocialPosts,includes/Widgets/Social/SocialPosts.php,Social,"Group 19: Social",true,"Social Posts",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-social-profile,SocialProfile,includes/Widgets/Social/SocialProfile.php,Social,"Group 19: Social",true,"Social Profile",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-social-share,SocialShare,includes/Widgets/Social/SocialShare.php,Social,"Group 19: Social",true,"Social Share",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-social-tiktok,TikTok,includes/Widgets/Social/TikTok.php,Social,"Group 19: Social",true,"TikTok",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-social-twitter,Twitter,includes/Widgets/Social/Twitter.php,Social,"Group 19: Social",true,"X / Twitter",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-social-youtube,YouTube,includes/Widgets/Social/YouTube.php,Social,"Group 19: Social",true,"YouTube",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-employee-profile,EmployeeProfile,includes/Widgets/Team/EmployeeProfile.php,Team,"Group 9: Team",true,"Employee Profile",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-staff-directory,StaffDirectory,includes/Widgets/Team/StaffDirectory.php,Team,"Group 9: Team",true,"Staff Directory",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-team-card,TeamCard,includes/Widgets/Team/TeamCard.php,Team,"Group 9: Team",true,"Team Card",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-team-carousel,TeamCarousel,includes/Widgets/Team/TeamCarousel.php,Team,"Group 9: Team",true,"Team Carousel",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-team-filter,TeamFilter,includes/Widgets/Team/TeamFilter.php,Team,"Group 9: Team",true,"Team Filter",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-team-grid,TeamGrid,includes/Widgets/Team/TeamGrid.php,Team,"Group 9: Team",true,"Team Grid",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-team-masonry,TeamMasonry,includes/Widgets/Team/TeamMasonry.php,Team,"Group 9: Team",true,"Team Masonry",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-team-member,TeamMember,includes/Widgets/Team/TeamMember.php,Team,"Group 9: Team",true,"Team Member",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-team-slider,TeamSlider,includes/Widgets/Team/TeamSlider.php,Team,"Group 9: Team",true,"Team Slider",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-team-social-links,TeamSocialLinks,includes/Widgets/Team/TeamSocialLinks.php,Team,"Group 9: Team",true,"Team Social Links",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-team-timeline,TeamTimeline,includes/Widgets/Team/TeamTimeline.php,Team,"Group 9: Team",true,"Team Timeline",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-customer-reviews,CustomerReviews,includes/Widgets/Testimonials/CustomerReviews.php,Testimonials,"Group 8: Testimonials",true,"Customer Reviews",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-rating,Rating,includes/Widgets/Testimonials/Rating.php,Testimonials,"Group 8: Testimonials",true,"Rating",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-review-carousel,ReviewCarousel,includes/Widgets/Testimonials/ReviewCarousel.php,Testimonials,"Group 8: Testimonials",true,"Review Carousel",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-review-slider,ReviewSlider,includes/Widgets/Testimonials/ReviewSlider.php,Testimonials,"Group 8: Testimonials",true,"Review Slider",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-star-rating,StarRating,includes/Widgets/Testimonials/StarRating.php,Testimonials,"Group 8: Testimonials",true,"Star Rating",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-testimonial,Testimonial,includes/Widgets/Testimonials/Testimonial.php,Testimonials,"Group 8: Testimonials",true,"Testimonial",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-testimonial-cards,TestimonialCards,includes/Widgets/Testimonials/TestimonialCards.php,Testimonials,"Group 8: Testimonials",true,"Testimonial Cards",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-testimonial-carousel,TestimonialCarousel,includes/Widgets/Testimonials/TestimonialCarousel.php,Testimonials,"Group 8: Testimonials",true,"Testimonial Carousel",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-testimonial-grid,TestimonialGrid,includes/Widgets/Testimonials/TestimonialGrid.php,Testimonials,"Group 8: Testimonials",true,"Testimonial Grid",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-testimonial-masonry,TestimonialMasonry,includes/Widgets/Testimonials/TestimonialMasonry.php,Testimonials,"Group 8: Testimonials",true,"Testimonial Masonry",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-testimonial-slider,TestimonialSlider,includes/Widgets/Testimonials/TestimonialSlider.php,Testimonials,"Group 8: Testimonials",true,"Testimonial Slider",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-video-testimonials,VideoTestimonials,includes/Widgets/Testimonials/VideoTestimonials.php,Testimonials,"Group 8: Testimonials",true,"Video Testimonials",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-animated-heading,AnimatedHeading,includes/Widgets/Typography/AnimatedHeading.php,Typography,"Group 3: Typography",true,"Animated Heading",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-character-animation,CharacterAnimation,includes/Widgets/Typography/CharacterAnimation.php,Typography,"Group 3: Typography",true,"Character Animation",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-counter,Counter,includes/Widgets/Typography/Counter.php,Typography,"Group 3: Typography",true,"Counter",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-dynamic-text,DynamicText,includes/Widgets/Typography/DynamicText.php,Typography,"Group 3: Typography",true,"Dynamic Text",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-glitch-text,GlitchText,includes/Widgets/Typography/GlitchText.php,Typography,"Group 3: Typography",true,"Glitch Text",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-gradient-text,GradientText,includes/Widgets/Typography/GradientText.php,Typography,"Group 3: Typography",true,"Gradient Text",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-highlight-animation,HighlightAnimation,includes/Widgets/Typography/HighlightAnimation.php,Typography,"Group 3: Typography",true,"Highlight Animation",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-stroke-text,StrokeText,includes/Widgets/Typography/StrokeText.php,Typography,"Group 3: Typography",true,"Stroke Text",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-text-marquee,TextMarquee,includes/Widgets/Typography/TextMarquee.php,Typography,"Group 3: Typography",true,"Text Marquee",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-text-reveal,TextReveal,includes/Widgets/Typography/TextReveal.php,Typography,"Group 3: Typography",true,"Text Reveal",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-text-rotator,TextRotator,includes/Widgets/Typography/TextRotator.php,Typography,"Group 3: Typography",true,"Text Rotator",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-text-split-animation,TextSplitAnimation,includes/Widgets/Typography/TextSplitAnimation.php,Typography,"Group 3: Typography",true,"Text Split Animation",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-typing-text,TypingText,includes/Widgets/Typography/TypingText.php,Typography,"Group 3: Typography",true,"Typing Text",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-word-animation,WordAnimation,includes/Widgets/Typography/WordAnimation.php,Typography,"Group 3: Typography",true,"Word Animation",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-user-account-menu,AccountMenu,includes/Widgets/User/AccountMenu.php,User,"Group 20: User",true,"Account Menu",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-user-login,Login,includes/Widgets/User/Login.php,User,"Group 20: User",true,"Login",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-login-popup,LoginPopup,includes/Widgets/User/LoginPopup.php,User,"Group 20: User",true,"Login Popup",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-user-logout,Logout,includes/Widgets/User/Logout.php,User,"Group 20: User",true,"Logout",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-user-password-reset,PasswordReset,includes/Widgets/User/PasswordReset.php,User,"Group 20: User",true,"Password Reset",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-user-register,Register,includes/Widgets/User/Register.php,User,"Group 20: User",true,"Register",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-social-login,SocialLogin,includes/Widgets/User/SocialLogin.php,User,"Group 20: User",true,"Social Login",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-user-avatar,UserAvatar,includes/Widgets/User/UserAvatar.php,User,"Group 20: User",true,"User Avatar",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-user-dashboard,UserDashboard,includes/Widgets/User/UserDashboard.php,User,"Group 20: User",true,"User Dashboard",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-user-greeting,UserGreeting,includes/Widgets/User/UserGreeting.php,User,"Group 20: User",true,"User Greeting",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-user-profile,UserProfile,includes/Widgets/User/UserProfile.php,User,"Group 20: User",true,"User Profile",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-woo-add-to-cart,AddToCart,includes/Widgets/Woo/AddToCart.php,WooCommerce,"Group 24: WooCommerce",true,"Add to Cart",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-woo-ajax-filters,AjaxFilters,includes/Widgets/Woo/AjaxFilters.php,WooCommerce,"Group 24: WooCommerce",true,"AJAX Product Filters",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-woo-best-selling,BestSelling,includes/Widgets/Woo/BestSelling.php,WooCommerce,"Group 24: WooCommerce",true,"Best Selling Products",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-woo-buy-now,BuyNow,includes/Widgets/Woo/BuyNow.php,WooCommerce,"Group 24: WooCommerce",true,"Buy Now",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-woo-cart,Cart,includes/Widgets/Woo/Cart.php,WooCommerce,"Group 24: WooCommerce",true,"Cart",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-woo-checkout,Checkout,includes/Widgets/Woo/Checkout.php,WooCommerce,"Group 24: WooCommerce",true,"Checkout",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-woo-cross-sells,CrossSells,includes/Widgets/Woo/CrossSells.php,WooCommerce,"Group 24: WooCommerce",true,"Cross-sells",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-woo-featured-products,FeaturedProducts,includes/Widgets/Woo/FeaturedProducts.php,WooCommerce,"Group 24: WooCommerce",true,"Featured Products",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-woo-flash-sale,FlashSale,includes/Widgets/Woo/FlashSale.php,WooCommerce,"Group 24: WooCommerce",true,"Flash Sale",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-woo-mini-cart,MiniCart,includes/Widgets/Woo/MiniCart.php,WooCommerce,"Group 24: WooCommerce",true,"Mini Cart",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-woo-my-account,MyAccount,includes/Widgets/Woo/MyAccount.php,WooCommerce,"Group 24: WooCommerce",true,"My Account",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-woo-order-tracking,OrderTracking,includes/Widgets/Woo/OrderTracking.php,WooCommerce,"Group 24: WooCommerce",true,"Order Tracking",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-woo-product-accordion,ProductAccordion,includes/Widgets/Woo/ProductAccordion.php,WooCommerce,"Group 24: WooCommerce",true,"Product Accordion",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-woo-product-badge,ProductBadge,includes/Widgets/Woo/ProductBadge.php,WooCommerce,"Group 24: WooCommerce",true,"Product Badge",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-woo-product-comparison,ProductComparison,includes/Widgets/Woo/ProductComparison.php,WooCommerce,"Group 24: WooCommerce",true,"Product Comparison",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-woo-product-filters,ProductFilters,includes/Widgets/Woo/ProductFilters.php,WooCommerce,"Group 24: WooCommerce",true,"Product Filters",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-woo-product-gallery,ProductGallery,includes/Widgets/Woo/ProductGallery.php,WooCommerce,"Group 24: WooCommerce",true,"Product Gallery",12,PASS,PASS,PASS,96,PRODUCTION_READY,15
+astrax-woo-product-image,ProductImage,includes/Widgets/Woo/ProductImage.php,WooCommerce,"Group 24: WooCommerce",true,"Product Image",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-woo-product-list,ProductList,includes/Widgets/Woo/ProductList.php,WooCommerce,"Group 24: WooCommerce",true,"Product List",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-woo-product-meta,ProductMeta,includes/Widgets/Woo/ProductMeta.php,WooCommerce,"Group 24: WooCommerce",true,"Product Meta",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-woo-product-price,ProductPrice,includes/Widgets/Woo/ProductPrice.php,WooCommerce,"Group 24: WooCommerce",true,"Product Price",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-woo-product-rating,ProductRating,includes/Widgets/Woo/ProductRating.php,WooCommerce,"Group 24: WooCommerce",true,"Product Rating",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-woo-product-search,ProductSearch,includes/Widgets/Woo/ProductSearch.php,WooCommerce,"Group 24: WooCommerce",true,"Product Search",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-woo-product-slider,ProductSlider,includes/Widgets/Woo/ProductSlider.php,WooCommerce,"Group 24: WooCommerce",true,"Product Slider",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-woo-product-tabs,ProductTabs,includes/Widgets/Woo/ProductTabs.php,WooCommerce,"Group 24: WooCommerce",true,"Product Tabs",12,PASS,PASS,PASS,96,PRODUCTION_READY,15
+astrax-woo-product-variations,ProductVariations,includes/Widgets/Woo/ProductVariations.php,WooCommerce,"Group 24: WooCommerce",true,"Product Variations",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-woo-recently-viewed,RecentlyViewed,includes/Widgets/Woo/RecentlyViewed.php,WooCommerce,"Group 24: WooCommerce",true,"Recently Viewed",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-woo-related-products,RelatedProducts,includes/Widgets/Woo/RelatedProducts.php,WooCommerce,"Group 24: WooCommerce",true,"Related Products",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-woo-sale-products,SaleProducts,includes/Widgets/Woo/SaleProducts.php,WooCommerce,"Group 24: WooCommerce",true,"Sale Products",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-woo-upsells,Upsells,includes/Widgets/Woo/Upsells.php,WooCommerce,"Group 24: WooCommerce",true,"Upsells",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-woo-wishlist,Wishlist,includes/Widgets/Woo/Wishlist.php,WooCommerce,"Group 24: WooCommerce",true,"Wishlist",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-woo-category-grid,WooCategoryGrid,includes/Widgets/WooCategoryGrid.php,Root,"Group 24: WooCommerce",true,"Woo Category Grid",12,PASS,PASS,PASS,91,READY_FOR_REVIEW,14
+astrax-woo-product-carousel,WooProductCarousel,includes/Widgets/WooProductCarousel.php,Root,"Group 1: Foundation / Flagship",true,"Woo Product Carousel",12,PASS,PASS,PASS,100,PRODUCTION_READY,15
+astrax-woo-product-grid,WooProductGrid,includes/Widgets/WooProductGrid.php,Root,"Group 1: Foundation / Flagship",true,"Woo Product Grid",12,PASS,PASS,PASS,100,PRODUCTION_READY,15

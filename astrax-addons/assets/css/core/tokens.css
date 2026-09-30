@@ -1,0 +1,79 @@
+/**
+ * Astrax Addons — Core Design Tokens
+ * Reusable CSS Custom Properties for typography, colors, spacing, radii, and shadows.
+ * Namespaced under :root with --astrax-* and backwards-compatible with --ax-*.
+ */
+:root {
+	/* Brand & Color Palettes */
+	--astrax-primary-950: #061a12;
+	--astrax-primary-900: #0f2219;
+	--astrax-primary-800: #163322;
+	--astrax-primary-700: #1e4a30;
+	--astrax-primary-600: #0b5c4a;
+	--astrax-primary-500: #0d7060;
+	--astrax-primary-400: #3d9a80;
+	--astrax-primary-300: #7abfab;
+	--astrax-primary-200: #b5ddd3;
+	--astrax-primary-100: #ddf0ea;
+	--astrax-primary-50:  #f0faf6;
+
+	/* Secondary / Accent */
+	--astrax-accent-900:  #0d2035;
+	--astrax-accent-800:  #143252;
+	--astrax-accent-700:  #1c4570;
+	--astrax-accent-600:  #255a91;
+	--astrax-accent-500:  #3076a7;
+	--astrax-accent-400:  #5596c4;
+	--astrax-accent-100:  #dceaf5;
+	--astrax-accent-50:   #f0f6fb;
+
+	/* Warning / Amber */
+	--astrax-amber-600:   #b87014;
+	--astrax-amber-500:   #d4880c;
+	--astrax-amber-400:   #e8a832;
+	--astrax-amber-50:    #fdf6e7;
+
+	/* Cyber / Neon Accents */
+	--astrax-cyber-cyan:   #06b6d4;
+	--astrax-cyber-neon:   #10b981;
+	--astrax-cyber-glow:   rgba(6, 182, 212, 0.35);
+
+	/* Neutral / Dark Surface Grays */
+	--astrax-surface-light: #ffffff;
+	--astrax-surface-subtle: #f8fafc;
+	--astrax-surface-dark: #0f172a;
+	--astrax-surface-card: #1e293b;
+	--astrax-text-main: #0f2219;
+	--astrax-text-muted: #64748b;
+	--astrax-border-subtle: #e2e8f0;
+	--astrax-border-dark: #334155;
+
+	/* Spacing Scale (8pt Grid) */
+	--astrax-space-1: 0.25rem;  /* 4px */
+	--astrax-space-2: 0.5rem;   /* 8px */
+	--astrax-space-3: 0.75rem;  /* 12px */
+	--astrax-space-4: 1rem;     /* 16px */
+	--astrax-space-5: 1.25rem;  /* 20px */
+	--astrax-space-6: 1.5rem;   /* 24px */
+	--astrax-space-8: 2rem;     /* 32px */
+	--astrax-space-10: 2.5rem;  /* 40px */
+	--astrax-space-12: 3rem;    /* 48px */
+
+	/* Radii Tokens */
+	--astrax-radius-sm: 0.25rem; /* 4px */
+	--astrax-radius-md: 0.5rem;  /* 8px */
+	--astrax-radius-lg: 0.75rem; /* 12px */
+	--astrax-radius-xl: 1rem;    /* 16px */
+	--astrax-radius-full: 9999px;
+
+	/* Shadow Tokens */
+	--astrax-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+	--astrax-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+	--astrax-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+	--astrax-shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+
+	/* Transitions */
+	--astrax-transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+	--astrax-transition-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	--astrax-transition-smooth: 350ms cubic-bezier(0.16, 1, 0.3, 1);
+}

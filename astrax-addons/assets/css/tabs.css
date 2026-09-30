@@ -1,0 +1,70 @@
+/**
+ * Astrax Addons — Tabs Component Styles
+ * Scoped, accessible, responsive tab navigation and panel transitions.
+ */
+
+.astrax-tabs {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.astrax-tabs-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--astrax-space-2, 0.5rem);
+	border-bottom: 2px solid var(--astrax-border-subtle, #e2e8f0);
+	margin-bottom: var(--astrax-space-4, 1rem);
+	padding: 0;
+}
+
+.astrax-tab-title {
+	background: transparent;
+	border: none;
+	border-bottom: 2px solid transparent;
+	margin-bottom: -2px;
+	padding: var(--astrax-space-2, 0.5rem) var(--astrax-space-4, 1rem);
+	font-size: 0.9375rem;
+	font-weight: 600;
+	color: var(--astrax-text-muted, #64748b);
+	cursor: pointer;
+	transition: color var(--astrax-transition-fast, 150ms), border-color var(--astrax-transition-fast, 150ms);
+	text-decoration: none;
+}
+
+.astrax-tab-title:hover {
+	color: var(--astrax-primary-600, #0b5c4a);
+}
+
+.astrax-tab-title.active,
+.astrax-tab-title[aria-selected="true"] {
+	color: var(--astrax-primary-600, #0b5c4a);
+	border-bottom-color: var(--astrax-primary-600, #0b5c4a);
+}
+
+.astrax-tabs-content-wrapper {
+	position: relative;
+	width: 100%;
+}
+
+.astrax-tab-content {
+	display: none;
+	padding: var(--astrax-space-4, 1rem) 0;
+	animation: astraxTabFadeIn var(--astrax-transition-base, 250ms) ease-in-out;
+}
+
+.astrax-tab-content.active,
+.astrax-tab-content:not([hidden]) {
+	display: block;
+}
+
+@keyframes astraxTabFadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(4px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}

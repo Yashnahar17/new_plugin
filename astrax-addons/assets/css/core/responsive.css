@@ -1,0 +1,86 @@
+/**
+ * Astrax Addons — Responsive Engine & Viewport Hardening (Phase 14)
+ * Validated across target viewports: 1920, 1440, 1024, 768, 480, 390, 375.
+ * Enforces zero horizontal overflow, touch target sizing, and mobile grid collapse.
+ */
+
+/* 1. Global Box-Sizing and Overflow Protection */
+.astrax-widget {
+	max-width: 100%;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+}
+
+.astrax-widget img,
+.astrax-widget svg,
+.astrax-widget video,
+.astrax-widget canvas {
+	max-width: 100%;
+	height: auto;
+}
+
+/* 2. Tablet Viewports (<= 1024px) */
+@media (max-width: 1024px) {
+	.astrax-post-grid__container[style*="grid-template-columns: repeat(4"],
+	.astrax-woo-grid ul.products[class*="columns-4"] {
+		grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+	}
+}
+
+/* 3. Mobile Viewports (<= 768px) */
+@media (max-width: 768px) {
+	.astrax-post-grid__container,
+	.astrax-woo-grid ul.products,
+	.astrax-woo-category-grid ul.products {
+		grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+		gap: var(--astrax-space-4, 1rem) !important;
+	}
+
+	.astrax-image-accordion.astrax-dir-horizontal {
+		flex-direction: column !important;
+		height: auto !important;
+		min-height: 480px;
+	}
+
+	.astrax-pricing-table {
+		padding: var(--astrax-space-6, 1.5rem) !important;
+	}
+
+	/* Touch Target Sizing (WCAG 2.2 Target Size Minimum 24x24 / Preferred 44x44) */
+	.astrax-button,
+	.astrax-form-submit,
+	.astrax-accordion__trigger,
+	.astrax-code-copy-btn {
+		min-height: 44px;
+		touch-action: manipulation;
+	}
+}
+
+/* 4. Small Mobile Viewports (<= 480px, 390px, 375px) */
+@media (max-width: 480px) {
+	.astrax-advanced-heading .astrax-heading-title {
+		font-size: clamp(1.5rem, 6vw, 2.25rem) !important;
+	}
+
+	.astrax-icon-box-wrapper,
+	.astrax-info-box-wrapper,
+	.astrax-testimonial {
+		padding: var(--astrax-space-4, 1rem) !important;
+	}
+
+	.astrax-form-fields .astrax-form-group {
+		margin-bottom: var(--astrax-space-3, 0.75rem);
+	}
+}
+
+/* 5. Bi-Directional Logical Direction (RTL) */
+[dir="rtl"] .astrax-post-grid__item,
+[dir="rtl"] .astrax-pricing-table,
+[dir="rtl"] .astrax-icon-box-wrapper {
+	text-align: right;
+}
+
+[dir="rtl"] .astrax-variant-editorial {
+	border-left: none;
+	border-right: 3px solid var(--variant-accent, #8c4a27);
+}

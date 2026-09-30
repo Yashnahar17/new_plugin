@@ -1,0 +1,63 @@
+/**
+ * Astrax Addons — WooCommerce Product Carousel Styles
+ * Scoped layout for product card sliders, navigation arrows, pagination, and badge styling.
+ */
+
+.astrax-woo-carousel {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+.astrax-woo-carousel .products {
+	display: flex;
+	margin: 0 !important;
+	padding: 0 !important;
+	list-style: none !important;
+	transition: transform var(--astrax-transition-smooth, 350ms);
+}
+
+.astrax-woo-carousel .product {
+	flex: 0 0 100%;
+	padding: var(--astrax-space-3, 0.75rem);
+	box-sizing: border-box;
+}
+
+@media (min-width: 640px) {
+	.astrax-woo-carousel[data-slides-to-show="2"] .product,
+	.astrax-woo-carousel[data-slides-to-show="3"] .product,
+	.astrax-woo-carousel[data-slides-to-show="4"] .product {
+		flex: 0 0 50%;
+	}
+}
+
+@media (min-width: 1024px) {
+	.astrax-woo-carousel[data-slides-to-show="3"] .product {
+		flex: 0 0 33.333%;
+	}
+	.astrax-woo-carousel[data-slides-to-show="4"] .product {
+		flex: 0 0 25%;
+	}
+}
+
+.astrax-woo-carousel .woocommerce-LoopProduct-link {
+	display: block;
+	text-decoration: none;
+	background: var(--astrax-surface-light, #ffffff);
+	border: 1px solid var(--astrax-border-subtle, #e2e8f0);
+	border-radius: var(--astrax-radius-md, 8px);
+	padding: var(--astrax-space-4, 1rem);
+	transition: transform var(--astrax-transition-base, 250ms), box-shadow var(--astrax-transition-base, 250ms);
+}
+
+.astrax-woo-carousel .woocommerce-LoopProduct-link:hover {
+	transform: translateY(-3px);
+	box-shadow: var(--astrax-shadow-md);
+}
+
+.astrax-woo-carousel img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	border-radius: var(--astrax-radius-sm, 4px);
+}

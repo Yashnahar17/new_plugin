@@ -1,0 +1,213 @@
+/**
+ * Astrax Addons — Editorial Variant (Asymmetric & Bold)
+ * Serif typography, generous whitespace, asymmetrical framing, and distinct numbering.
+ */
+
+.astrax-variant-editorial {
+	--variant-surface: #fdfbf7;
+	--variant-border: #e8e3d9;
+	--variant-text: #1a1612;
+	--variant-accent: #8c4a27;
+	border-radius: 0px;
+	border-left: 3px solid var(--variant-accent);
+	font-family: Georgia, Cambria, 'Times New Roman', Times, serif;
+	transition: background-color var(--astrax-transition-base, 250ms);
+}
+
+.astrax-variant-editorial:hover {
+	background-color: #faf5ed;
+}
+
+/* 1. Advanced Heading — Editorial */
+.astrax-advanced-heading.astrax-variant-editorial .astrax-heading-title {
+	font-family: Georgia, Cambria, 'Times New Roman', Times, serif;
+	font-weight: 400;
+	letter-spacing: -0.01em;
+	color: #1a1612;
+	line-height: 1.25;
+	font-style: italic;
+	border-bottom: 2px solid #8c4a27;
+	padding-bottom: 8px;
+	display: inline-block;
+}
+
+/* 2. Advanced Button — Editorial */
+.astrax-advanced-button.astrax-variant-editorial .astrax-button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 12px 28px;
+	background-color: transparent;
+	color: #1a1612;
+	border: 1px solid #1a1612;
+	border-radius: 0px;
+	font-family: Georgia, serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	text-decoration: none;
+	position: relative;
+	transition: all 250ms ease;
+}
+
+.astrax-advanced-button.astrax-variant-editorial .astrax-button:hover {
+	background-color: #1a1612;
+	color: #fdfbf7;
+}
+
+/* 3. Icon Box — Editorial */
+.astrax-icon-box-wrapper.astrax-variant-editorial {
+	background: #fdfbf7;
+	border: 1px solid #e8e3d9;
+	border-left: 4px solid var(--variant-accent);
+	border-radius: 0px;
+	padding: 32px;
+	transition: all 250ms ease;
+}
+
+.astrax-icon-box-wrapper.astrax-variant-editorial:hover {
+	background: #faf4e8;
+}
+
+.astrax-icon-box-wrapper.astrax-variant-editorial .astrax-icon-box-icon {
+	color: var(--variant-accent);
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+
+.astrax-icon-box-wrapper.astrax-variant-editorial .astrax-icon-box-title {
+	font-family: Georgia, serif;
+	font-size: 22px;
+	font-weight: 700;
+	color: #1a1612;
+	margin-bottom: 12px;
+}
+
+.astrax-icon-box-wrapper.astrax-variant-editorial .astrax-icon-box-description {
+	font-family: Georgia, serif;
+	font-size: 15px;
+	color: #4a3e35;
+	line-height: 1.7;
+}
+
+/* 4. Info Box — Editorial */
+.astrax-info-box-wrapper.astrax-variant-editorial {
+	display: block;
+	background: #fdfbf7;
+	border: 1px solid #e8e3d9;
+	border-radius: 0px;
+	padding: 0;
+	overflow: hidden;
+	text-decoration: none;
+	color: inherit;
+}
+
+.astrax-info-box-wrapper.astrax-variant-editorial .astrax-info-box-image img {
+	width: 100%;
+	height: auto;
+	display: block;
+	filter: sepia(15%);
+	transition: filter 300ms ease;
+}
+
+.astrax-info-box-wrapper.astrax-variant-editorial:hover .astrax-info-box-image img {
+	filter: sepia(0%);
+}
+
+.astrax-info-box-wrapper.astrax-variant-editorial .astrax-info-box-content {
+	padding: 28px;
+	border-top: 2px solid #8c4a27;
+}
+
+.astrax-info-box-wrapper.astrax-variant-editorial .astrax-info-box-title {
+	font-family: Georgia, serif;
+	font-size: 20px;
+	color: #1a1612;
+	margin-bottom: 10px;
+}
+
+.astrax-info-box-wrapper.astrax-variant-editorial .astrax-info-box-description {
+	font-family: Georgia, serif;
+	color: #4a3e35;
+	line-height: 1.7;
+	font-size: 14px;
+}
+
+/* 5. Image Accordion — Editorial */
+.astrax-image-accordion.astrax-variant-editorial {
+	border-radius: 0px;
+	border: 1px solid #e8e3d9;
+}
+
+.astrax-image-accordion.astrax-variant-editorial .astrax-ia-title {
+	font-family: Georgia, serif;
+	font-style: italic;
+	letter-spacing: 0.05em;
+}
+
+.astrax-image-accordion.astrax-variant-editorial .astrax-ia-item:not(.is-active) .astrax-ia-bg {
+	filter: grayscale(80%) sepia(20%);
+	transition: filter 400ms ease;
+}
+
+/* 6. Post Grid — Editorial */
+.astrax-post-grid.astrax-variant-editorial .astrax-post-grid__container {
+	display: grid;
+	gap: 32px;
+}
+
+.astrax-post-grid.astrax-variant-editorial .astrax-post-grid__item {
+	background: #fdfbf7;
+	border: 1px solid #e8e3d9;
+	border-radius: 0px;
+	padding: 24px;
+	transition: all 250ms ease;
+}
+
+.astrax-post-grid.astrax-variant-editorial .astrax-post-grid__item:hover {
+	background: #faf4e8;
+}
+
+.astrax-post-grid.astrax-variant-editorial .astrax-post-grid__title a {
+	font-family: Georgia, serif;
+	color: #1a1612;
+	font-size: 21px;
+	text-decoration: none;
+}
+
+.astrax-post-grid.astrax-variant-editorial .astrax-post-grid__title a:hover {
+	color: var(--variant-accent);
+}
+
+.astrax-post-grid.astrax-variant-editorial .astrax-post-grid__excerpt {
+	font-family: Georgia, serif;
+	color: #4a3e35;
+	line-height: 1.75;
+}
+
+/* 7. Woo Product Grid & 8. Carousel & 9. Category Grid — Editorial */
+.astrax-woo-grid.astrax-variant-editorial ul.products li.product,
+.astrax-woo-carousel.astrax-variant-editorial ul.products li.product,
+.astrax-woo-category-grid.astrax-variant-editorial ul.products li.product-category {
+	background: #fdfbf7;
+	border: 1px solid #e8e3d9;
+	border-radius: 0px;
+	padding: 20px;
+	text-align: center;
+}
+
+.astrax-woo-grid.astrax-variant-editorial .woocommerce-loop-product__title,
+.astrax-woo-carousel.astrax-variant-editorial .woocommerce-loop-product__title {
+	font-family: Georgia, serif;
+	font-size: 17px;
+	color: #1a1612;
+	font-weight: 500;
+}
+
+.astrax-woo-grid.astrax-variant-editorial .price,
+.astrax-woo-carousel.astrax-variant-editorial .price {
+	font-family: Georgia, serif;
+	font-style: italic;
+	color: var(--variant-accent);
+}
+

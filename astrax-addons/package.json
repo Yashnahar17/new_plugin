@@ -1,0 +1,21 @@
+{
+  "name": "astrax-addons",
+  "version": "1.0.0",
+  "description": "Astrax Addons build and testing scripts",
+  "scripts": {
+    "lint:js": "eslint assets/js/**/*.js",
+    "lint:css": "stylelint assets/css/**/*.css",
+    "format": "prettier --write \"assets/**/*.{js,css}\"",
+    "test:e2e": "playwright test",
+    "scan:secrets": "trufflehog filesystem . --exclude-paths=.trufflehog-exclude"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@axe-core/playwright": "^4.8.0",
+    "eslint": "^8.50.0",
+    "eslint-config-wordpress": "^2.0.0",
+    "prettier": "^3.0.0",
+    "stylelint": "^15.10.0",
+    "stylelint-config-wordpress": "^21.0.0"
+  }
+}

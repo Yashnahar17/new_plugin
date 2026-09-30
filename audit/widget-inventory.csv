@@ -1,0 +1,409 @@
+Slug,Class,Category,Extends,File,Title,Controls Count,Rendered Classes,CSS Status,Variants,Elem Selectors,Matched Selectors,Unmatched Selectors,Style Depends,Script Depends,Uses Query,Security Risk
+astrax-acf-flexible,AcfFlexible,ACF,BaseWidget,includes/Widgets/ACF/AcfFlexible.php,ACF Flexible Content,3,astrax-acf-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-acf-gallery,AcfGallery,ACF,BaseWidget,includes/Widgets/ACF/AcfGallery.php,ACF Gallery,3,astrax-acf-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-acf-group,AcfGroup,ACF,BaseWidget,includes/Widgets/ACF/AcfGroup.php,ACF Group,3,astrax-acf-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-acf-image,AcfImage,ACF,BaseWidget,includes/Widgets/ACF/AcfImage.php,ACF Image,3,astrax-acf-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-acf-link,AcfLink,ACF,BaseWidget,includes/Widgets/ACF/AcfLink.php,ACF Link,3,astrax-acf-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-acf-relationship,AcfRelationship,ACF,BaseWidget,includes/Widgets/ACF/AcfRelationship.php,ACF Relationship,3,astrax-acf-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-acf-repeater,AcfRepeater,ACF,BaseWidget,includes/Widgets/ACF/AcfRepeater.php,ACF Repeater,3,astrax-acf-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-acf-text,AcfText,ACF,BaseWidget,includes/Widgets/ACF/AcfText.php,ACF Text,3,astrax-acf-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-acf-url,AcfUrl,ACF,BaseWidget,includes/Widgets/ACF/AcfUrl.php,ACF URL,3,astrax-acf-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-ai-blog-generator,BlogGenerator,AI,BaseWidget,includes/Widgets/AI/BlogGenerator.php,AI Blog Generator,3,astrax-ai-blog-generator;astrax-ai-blog-generator__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-ai-chatbot,Chatbot,AI,BaseWidget,includes/Widgets/AI/Chatbot.php,AI Chatbot,3,astrax-ai-chatbot__title;astrax-ai-chatbot,MISSING_CSS,,2,2,0,,,False,False
+astrax-ai-content-improver,ContentImprover,AI,BaseWidget,includes/Widgets/AI/ContentImprover.php,AI Content Improver,3,astrax-ai-content-improver;astrax-ai-content-improver__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-ai-content-writer,ContentWriter,AI,BaseWidget,includes/Widgets/AI/ContentWriter.php,AI Content Writer,3,astrax-ai-content-writer__title;astrax-ai-content-writer,MISSING_CSS,,2,2,0,,,False,False
+astrax-ai-faq-generator,FaqGenerator,AI,BaseWidget,includes/Widgets/AI/FaqGenerator.php,AI FAQ Generator,3,astrax-ai-faq-generator__title;astrax-ai-faq-generator,MISSING_CSS,,2,2,0,,,False,False
+astrax-ai-form-assistant,FormAssistant,AI,BaseWidget,includes/Widgets/AI/FormAssistant.php,AI Form Assistant,3,astrax-ai-form-assistant;astrax-ai-form-assistant__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-ai-image-generator,ImageGenerator,AI,BaseWidget,includes/Widgets/AI/ImageGenerator.php,AI Image Generator,3,astrax-ai-image-generator;astrax-ai-image-generator__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-ai-product-description,ProductDescription,AI,BaseWidget,includes/Widgets/AI/ProductDescription.php,AI Product Description,3,astrax-ai-product-description;astrax-ai-product-description__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-ai-recommendations,Recommendations,AI,BaseWidget,includes/Widgets/AI/Recommendations.php,AI Recommendations,3,astrax-ai-recommendations;astrax-ai-recommendations__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-ai-search,Search,AI,BaseWidget,includes/Widgets/AI/Search.php,AI Search,3,astrax-ai-search__title;astrax-ai-search,MISSING_CSS,,2,2,0,,,False,False
+astrax-ai-summarizer,Summarizer,AI,BaseWidget,includes/Widgets/AI/Summarizer.php,AI Summarizer,3,astrax-ai-summarizer;astrax-ai-summarizer__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-ai-text-generator,TextGenerator,AI,BaseWidget,includes/Widgets/AI/TextGenerator.php,AI Text Generator,3,astrax-ai-text-generator;astrax-ai-text-generator__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-ai-translation,Translation,AI,BaseWidget,includes/Widgets/AI/Translation.php,AI Translation,3,astrax-ai-translation__title;astrax-ai-translation,MISSING_CSS,,2,2,0,,,False,False
+astrax-advanced-button,AdvancedButton,Root,BaseWidget,includes/Widgets/AdvancedButton.php,Advanced Button,1,,MISSING_CSS,,0,0,0,,,False,False
+astrax-advanced-heading,AdvancedHeading,Root,BaseWidget,includes/Widgets/AdvancedHeading.php,Advanced Heading,1,astrax-heading-title,COMPLETE,,0,0,0,,,False,False
+astrax-cursor-effects,CursorEffects,Animation,BaseWidget,includes/Widgets/Animation/CursorEffects.php,Cursor Effects,3,astrax-cursor-effects__title;astrax-cursor-effects,MISSING_CSS,,2,2,0,,,False,False
+astrax-custom-cursor,CustomCursor,Animation,BaseWidget,includes/Widgets/Animation/CustomCursor.php,Custom Cursor,3,astrax-custom-cursor;astrax-custom-cursor__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-floating-elements,FloatingElements,Animation,BaseWidget,includes/Widgets/Animation/FloatingElements.php,Floating Elements,3,astrax-floating-elements;astrax-floating-elements__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-hover-animation,HoverAnimation,Animation,BaseWidget,includes/Widgets/Animation/HoverAnimation.php,Hover Animation,3,astrax-hover-animation;astrax-hover-animation__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-anim-image-reveal,ImageReveal,Animation,BaseWidget,includes/Widgets/Animation/ImageReveal.php,Image Reveal,3,astrax-anim-image-reveal;astrax-anim-image-reveal__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-infinite-slider,InfiniteSlider,Animation,BaseWidget,includes/Widgets/Animation/InfiniteSlider.php,Infinite Slider,3,astrax-infinite-slider__title;astrax-infinite-slider,MISSING_CSS,,2,2,0,,,False,False
+astrax-lottie,Lottie,Animation,BaseWidget,includes/Widgets/Animation/Lottie.php,Lottie Animation,3,astrax-lottie;astrax-lottie__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-magnetic-button,MagneticButton,Animation,BaseWidget,includes/Widgets/Animation/MagneticButton.php,Magnetic Button,3,astrax-magnetic-button__title;astrax-magnetic-button,MISSING_CSS,,2,2,0,,,False,False
+astrax-anim-marquee,Marquee,Animation,BaseWidget,includes/Widgets/Animation/Marquee.php,Marquee,3,astrax-anim-marquee;astrax-anim-marquee__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-mouse-parallax,MouseParallax,Animation,BaseWidget,includes/Widgets/Animation/MouseParallax.php,Mouse Parallax,3,astrax-mouse-parallax;astrax-mouse-parallax__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-page-progress,PageProgress,Animation,BaseWidget,includes/Widgets/Animation/PageProgress.php,Page Progress,3,astrax-page-progress;astrax-page-progress__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-parallax,Parallax,Animation,BaseWidget,includes/Widgets/Animation/Parallax.php,Parallax,3,astrax-parallax;astrax-parallax__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-particle-bg,ParticleBackground,Animation,BaseWidget,includes/Widgets/Animation/ParticleBackground.php,Particle Background,3,astrax-particle-bg;astrax-particle-bg__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-scroll-animation,ScrollAnimation,Animation,BaseWidget,includes/Widgets/Animation/ScrollAnimation.php,Scroll Animation,3,astrax-scroll-animation;astrax-scroll-animation__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-scroll-progress,ScrollProgress,Animation,BaseWidget,includes/Widgets/Animation/ScrollProgress.php,Scroll Progress,3,astrax-scroll-progress__title;astrax-scroll-progress,MISSING_CSS,,2,2,0,,,False,False
+astrax-shape-animation,ShapeAnimation,Animation,BaseWidget,includes/Widgets/Animation/ShapeAnimation.php,Shape Animation,3,astrax-shape-animation;astrax-shape-animation__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-anim-text-reveal,TextReveal,Animation,BaseWidget,includes/Widgets/Animation/TextReveal.php,Text Reveal,3,astrax-anim-text-reveal__title;astrax-anim-text-reveal,MISSING_CSS,,2,2,0,,,False,False
+astrax-tilt-3d,Tilt3D,Animation,BaseWidget,includes/Widgets/Animation/Tilt3D.php,3D Tilt,3,astrax-tilt-3d__title;astrax-tilt-3d,MISSING_CSS,,2,2,0,,,False,False
+astrax-ajax-posts,AjaxPosts,Blog,BaseWidget,includes/Widgets/Blog/AjaxPosts.php,AJAX Posts,6,astrax-blog-widget;astrax-blog-item,MISSING_CSS,,2,0,2,,,True,False
+astrax-archive-posts,ArchivePosts,Blog,BaseWidget,includes/Widgets/Blog/ArchivePosts.php,Archive Posts,6,astrax-blog-widget;astrax-blog-item,MISSING_CSS,,2,0,2,,,True,False
+astrax-author-box,AuthorBox,Blog,BaseWidget,includes/Widgets/Blog/AuthorBox.php,Author Box,3,astrax-author-box__title;astrax-author-box,MISSING_CSS,,2,2,0,,,False,False
+astrax-category-posts,CategoryPosts,Blog,BaseWidget,includes/Widgets/Blog/CategoryPosts.php,Category Posts,6,astrax-blog-widget;astrax-blog-item,MISSING_CSS,,2,0,2,,,True,False
+astrax-comment-form,CommentForm,Blog,BaseWidget,includes/Widgets/Blog/CommentForm.php,Comment Form,3,astrax-comment-form;astrax-comment-form__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-comments,Comments,Blog,BaseWidget,includes/Widgets/Blog/Comments.php,Comments,3,astrax-comments;astrax-comments__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-featured-posts,FeaturedPosts,Blog,BaseWidget,includes/Widgets/Blog/FeaturedPosts.php,Featured Posts,6,astrax-blog-widget;astrax-blog-item,MISSING_CSS,,2,0,2,,,True,False
+astrax-infinite-scroll,InfiniteScroll,Blog,BaseWidget,includes/Widgets/Blog/InfiniteScroll.php,Infinite Scroll,6,astrax-blog-widget;astrax-blog-item,MISSING_CSS,,2,0,2,,,True,False
+astrax-load-more-posts,LoadMorePosts,Blog,BaseWidget,includes/Widgets/Blog/LoadMorePosts.php,Load More Posts,6,astrax-blog-widget;astrax-blog-item,MISSING_CSS,,2,0,2,,,True,False
+astrax-popular-posts,PopularPosts,Blog,BaseWidget,includes/Widgets/Blog/PopularPosts.php,Popular Posts,6,astrax-blog-widget;astrax-blog-item,MISSING_CSS,,2,0,2,,,True,False
+astrax-post-carousel,PostCarousel,Blog,BaseWidget,includes/Widgets/Blog/PostCarousel.php,Post Carousel,6,astrax-blog-widget;astrax-blog-item,MISSING_CSS,,2,0,2,,,True,False
+astrax-post-content,PostContent,Blog,BaseWidget,includes/Widgets/Blog/PostContent.php,Post Content,3,astrax-post-content;astrax-post-content__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-post-excerpt,PostExcerpt,Blog,BaseWidget,includes/Widgets/Blog/PostExcerpt.php,Post Excerpt,3,astrax-post-excerpt__title;astrax-post-excerpt,MISSING_CSS,,2,2,0,,,False,False
+astrax-post-featured-image,PostFeaturedImage,Blog,BaseWidget,includes/Widgets/Blog/PostFeaturedImage.php,Post Featured Image,3,astrax-post-featured-image__title;astrax-post-featured-image,MISSING_CSS,,2,2,0,,,False,False
+astrax-post-list,PostList,Blog,BaseWidget,includes/Widgets/Blog/PostList.php,Post List,6,astrax-post-list__title;astrax-blog-widget;astrax-blog-item,MISSING_CSS,,3,3,0,,,True,False
+astrax-post-masonry,PostMasonry,Blog,BaseWidget,includes/Widgets/Blog/PostMasonry.php,Post Masonry,6,astrax-blog-widget;astrax-blog-item,MISSING_CSS,,2,0,2,,,True,False
+astrax-post-meta,PostMeta,Blog,BaseWidget,includes/Widgets/Blog/PostMeta.php,Post Meta,3,astrax-post-meta__title;astrax-post-meta,MISSING_CSS,,2,2,0,,,False,False
+astrax-post-navigation,PostNavigation,Blog,BaseWidget,includes/Widgets/Blog/PostNavigation.php,Post Navigation,3,astrax-post-navigation__title;astrax-post-navigation,MISSING_CSS,,2,2,0,,,False,False
+astrax-post-slider,PostSlider,Blog,BaseWidget,includes/Widgets/Blog/PostSlider.php,Post Slider,6,astrax-blog-widget;astrax-blog-item,MISSING_CSS,,2,0,2,,,True,False
+astrax-post-timeline,PostTimeline,Blog,BaseWidget,includes/Widgets/Blog/PostTimeline.php,Post Timeline,6,astrax-blog-widget;astrax-blog-item,MISSING_CSS,,2,0,2,,,True,False
+astrax-post-title,PostTitle,Blog,BaseWidget,includes/Widgets/Blog/PostTitle.php,Post Title,3,astrax-post-title__title;astrax-post-title,MISSING_CSS,,2,2,0,,,False,False
+astrax-recent-posts,RecentPosts,Blog,BaseWidget,includes/Widgets/Blog/RecentPosts.php,Recent Posts,6,astrax-blog-widget;astrax-blog-item,MISSING_CSS,,2,0,2,,,True,False
+astrax-related-posts,RelatedPosts,Blog,BaseWidget,includes/Widgets/Blog/RelatedPosts.php,Related Posts,6,astrax-blog-widget;astrax-blog-item,MISSING_CSS,,2,0,2,,,True,False
+astrax-search-results,SearchResults,Blog,BaseWidget,includes/Widgets/Blog/SearchResults.php,Search Results,3,astrax-search-results;astrax-search-results__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-tag-posts,TagPosts,Blog,BaseWidget,includes/Widgets/Blog/TagPosts.php,Tag Posts,6,astrax-blog-widget;astrax-blog-item,MISSING_CSS,,2,0,2,,,True,False
+astrax-address,Address,Business,BaseWidget,includes/Widgets/Business/Address.php,Address,3,astrax-address;astrax-address__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-business-hours,BusinessHours,Business,BaseWidget,includes/Widgets/Business/BusinessHours.php,Business Hours,3,astrax-business-hours;astrax-business-hours__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-business-timeline,BusinessTimeline,Business,BaseWidget,includes/Widgets/Business/BusinessTimeline.php,Business Timeline,3,astrax-business-timeline;astrax-business-timeline__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-contact-info,ContactInfo,Business,BaseWidget,includes/Widgets/Business/ContactInfo.php,Contact Information,3,astrax-contact-info;astrax-contact-info__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-business-counter,Counter,Business,BaseWidget,includes/Widgets/Business/Counter.php,Counter,3,astrax-business-counter__title;astrax-business-counter,MISSING_CSS,,2,2,0,,,False,False
+astrax-email-widget,Email,Business,BaseWidget,includes/Widgets/Business/Email.php,Email,3,astrax-email-widget__title;astrax-email-widget,MISSING_CSS,,2,2,0,,,False,False
+astrax-feature-comparison,FeatureComparison,Business,BaseWidget,includes/Widgets/Business/FeatureComparison.php,Feature Comparison,3,astrax-feature-comparison;astrax-feature-comparison__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-features,Features,Business,BaseWidget,includes/Widgets/Business/Features.php,Features,3,astrax-features__title;astrax-features,MISSING_CSS,,2,2,0,,,False,False
+astrax-openstreet-map,OpenStreetMap,Business,BaseWidget,includes/Widgets/Business/OpenStreetMap.php,OpenStreetMap,3,astrax-openstreet-map__title;astrax-openstreet-map,MISSING_CSS,,2,2,0,,,False,False
+astrax-opening-hours,OpeningHours,Business,BaseWidget,includes/Widgets/Business/OpeningHours.php,Opening Hours,3,astrax-opening-hours__title;astrax-opening-hours,MISSING_CSS,,2,2,0,,,False,False
+astrax-phone,Phone,Business,BaseWidget,includes/Widgets/Business/Phone.php,Phone,3,astrax-phone;astrax-phone__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-pricing-table,PricingTable,Business,BaseWidget,includes/Widgets/Business/PricingTable.php,Pricing Table,5,astrax-pricing-button;astrax-pricing-price-wrap;astrax-pricing-footer;astrax-pricing-features;astrax-pricing-header;astrax-pricing-title;astrax-pricing-period;astrax-pricing-table;astrax-pricing-amount,PARTIAL,,0,0,0,,,False,False
+astrax-pricing-toggle,PricingToggle,Business,BaseWidget,includes/Widgets/Business/PricingToggle.php,Pricing Toggle,3,astrax-pricing-toggle__title;astrax-pricing-toggle,MISSING_CSS,,2,2,0,,,False,False
+astrax-process-steps,ProcessSteps,Business,BaseWidget,includes/Widgets/Business/ProcessSteps.php,Process Steps,3,astrax-process-steps__title;astrax-process-steps,MISSING_CSS,,2,2,0,,,False,False
+astrax-progress-bar,ProgressBar,Business,BaseWidget,includes/Widgets/Business/ProgressBar.php,Progress Bar,3,astrax-progress-bar__title;astrax-progress-bar,MISSING_CSS,,2,2,0,,,False,False
+astrax-service-carousel,ServiceCarousel,Business,BaseWidget,includes/Widgets/Business/ServiceCarousel.php,Service Carousel,3,astrax-service-carousel;astrax-service-carousel__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-service-grid,ServiceGrid,Business,BaseWidget,includes/Widgets/Business/ServiceGrid.php,Service Grid,3,astrax-service-grid__title;astrax-service-grid,MISSING_CSS,,2,2,0,,,False,False
+astrax-services,Services,Business,BaseWidget,includes/Widgets/Business/Services.php,Services,3,astrax-services;astrax-services__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-statistics,Statistics,Business,BaseWidget,includes/Widgets/Business/Statistics.php,Statistics,3,astrax-statistics;astrax-statistics__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-store-locator,StoreLocator,Business,BaseWidget,includes/Widgets/Business/StoreLocator.php,Store Locator,3,astrax-store-locator__title;astrax-store-locator,MISSING_CSS,,2,2,0,,,False,False
+astrax-badge,Badge,Content,BaseWidget,includes/Widgets/Content/Badge.php,Badge,4,,MISSING_CSS,,2,0,2,,,False,False
+astrax-blockquote,Blockquote,Content,BaseWidget,includes/Widgets/Content/Blockquote.php,Blockquote,5,astrax-blockquote-icon;astrax-blockquote-text;astrax-blockquote-author,PARTIAL,,2,2,0,,,False,False
+astrax-button,Button,Content,PlannedContentWidget,includes/Widgets/Content/Button.php,Button,0,,PLANNED_BASE,,0,0,0,,,False,False
+astrax-cta,CallToAction,Content,BaseWidget,includes/Widgets/Content/CallToAction.php,Call To Action,4,astrax-cta-button;astrax-cta-btn-wrapper;astrax-cta-content;astrax-cta-description,PARTIAL,,0,0,0,,,False,False
+astrax-content-toggle,ContentToggle,Content,BaseWidget,includes/Widgets/Content/ContentToggle.php,Content Toggle,5,astrax-toggle-switch;astrax-toggle-content;astrax-toggle-btn,MISSING_CSS,,0,0,0,,astrax-content-toggle,False,False
+astrax-divider,Divider,Content,PlannedContentWidget,includes/Widgets/Content/Divider.php,Divider,0,,PLANNED_BASE,,0,0,0,,,False,False
+astrax-drop-cap,DropCap,Content,PlannedContentWidget,includes/Widgets/Content/DropCap.php,Drop Cap,0,,PLANNED_BASE,,0,0,0,,,False,False
+astrax-dual-button,DualButton,Content,BaseWidget,includes/Widgets/Content/DualButton.php,Dual Button,4,astrax-dual-btn-icon;astrax-dual-btn--secondary;astrax-dual-btn-text;astrax-dual-btn--primary;astrax-dual-btn-divider;astrax-dual-btn;astrax-dual-button-wrapper,PARTIAL,,0,0,0,,,False,False
+astrax-heading,Heading,Content,PlannedContentWidget,includes/Widgets/Content/Heading.php,Heading,0,,PLANNED_BASE,,0,0,0,,,False,False
+astrax-highlight-text,HighlightText,Content,PlannedContentWidget,includes/Widgets/Content/HighlightText.php,Highlight Text,0,,PLANNED_BASE,,0,0,0,,,False,False
+astrax-icon,Icon,Content,PlannedContentWidget,includes/Widgets/Content/Icon.php,Icon,0,,PLANNED_BASE,,0,0,0,,,False,False
+astrax-image,Image,Content,PlannedContentWidget,includes/Widgets/Content/Image.php,Image,0,,PLANNED_BASE,,0,0,0,,,False,False
+astrax-image-box,ImageBox,Content,BaseWidget,includes/Widgets/Content/ImageBox.php,Image Box,4,astrax-image-box-img;astrax-image-box-content;astrax-image-box-wrapper;astrax-image-box-description,PARTIAL,,0,0,0,,,False,False
+astrax-image-text,ImageText,Content,PlannedContentWidget,includes/Widgets/Content/ImageText.php,Image + Text,0,,PLANNED_BASE,,0,0,0,,,False,False
+astrax-label,Label,Content,PlannedContentWidget,includes/Widgets/Content/Label.php,Label,0,,PLANNED_BASE,,0,0,0,,,False,False
+astrax-notice,Notice,Content,BaseWidget,includes/Widgets/Content/Notice.php,Notice,4,astrax-notice-icon;astrax-notice-dismiss;astrax-notice-title;astrax-notice-text;astrax-notice-content,MISSING_CSS,partial_variants,0,0,0,,,False,False
+plannedcontentwidget,PlannedContentWidget,Content,BaseWidget,includes/Widgets/Content/PlannedContentWidget.php,PlannedContentWidget,21,astrax-v3-icon;astrax-v3-button;astrax-v3-drop-cap;astrax-v3-highlight;astrax-v3-divider;astrax-v3-read-more-content;astrax-v3-label;astrax-v3-read-more;astrax-v3-spacer;astrax-v3-less;astrax-v3-more;astrax-v3-rich-text;astrax-v3-image-text,PARTIAL,,4,4,0,astrax-v3-widgets,,False,False
+astrax-read-more,ReadMore,Content,PlannedContentWidget,includes/Widgets/Content/ReadMore.php,Read More / Read Less,0,,PLANNED_BASE,,0,0,0,,,False,False
+astrax-rich-text,RichText,Content,PlannedContentWidget,includes/Widgets/Content/RichText.php,Rich Text,0,,PLANNED_BASE,,0,0,0,,,False,False
+astrax-spacer,Spacer,Content,PlannedContentWidget,includes/Widgets/Content/Spacer.php,Spacer,0,,PLANNED_BASE,,0,0,0,,,False,False
+astrax-text-editor,TextEditor,Content,BaseWidget,includes/Widgets/Content/TextEditor.php,Text Editor,4,astrax-text-editor,MISSING_CSS,,3,3,0,,,False,False
+astrax-adv-image-accordion,AdvImageAccordion,Creative,BaseWidget,includes/Widgets/Creative/AdvImageAccordion.php,Advanced Image Accordion,3,astrax-adv-image-accordion__title;astrax-adv-image-accordion,MISSING_CSS,,2,2,0,,,False,False
+astrax-adv-grid,AdvancedGrid,Creative,BaseWidget,includes/Widgets/Creative/AdvancedGrid.php,Advanced Grid,3,astrax-adv-grid__title;astrax-adv-grid,MISSING_CSS,,2,2,0,,,False,False
+astrax-animated-gradient,AnimatedGradient,Creative,BaseWidget,includes/Widgets/Creative/AnimatedGradient.php,Animated Gradient,3,astrax-animated-gradient;astrax-animated-gradient__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-bento-grid,BentoGrid,Creative,BaseWidget,includes/Widgets/Creative/BentoGrid.php,Bento Grid,5,astrax-bento-grid;astrax-bento-item;astrax-bento-content;astrax-bento-title,PARTIAL,,2,0,2,,,False,False
+astrax-bottom-nav,BottomNav,Creative,BaseWidget,includes/Widgets/Creative/BottomNav.php,Bottom Navigation,3,astrax-bottom-nav__title;astrax-bottom-nav,MISSING_CSS,,2,2,0,,,False,False
+astrax-command-palette,CommandPalette,Creative,BaseWidget,includes/Widgets/Creative/CommandPalette.php,Command Palette,3,astrax-command-palette;astrax-command-palette__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-cursor-spotlight,CursorSpotlight,Creative,BaseWidget,includes/Widgets/Creative/CursorSpotlight.php,Cursor Spotlight,3,astrax-cursor-spotlight;astrax-cursor-spotlight__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-dashboard-cards,DashboardCards,Creative,BaseWidget,includes/Widgets/Creative/DashboardCards.php,Dashboard Cards,3,astrax-dashboard-cards__title;astrax-dashboard-cards,MISSING_CSS,,2,2,0,,,False,False
+astrax-floating-dock,FloatingDock,Creative,BaseWidget,includes/Widgets/Creative/FloatingDock.php,Floating Dock,3,astrax-floating-dock;astrax-floating-dock__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-glass-cards,GlassCards,Creative,BaseWidget,includes/Widgets/Creative/GlassCards.php,Glassmorphism Cards,3,astrax-glass-cards;astrax-glass-cards__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-horizontal-scroll,HorizontalScroll,Creative,BaseWidget,includes/Widgets/Creative/HorizontalScroll.php,Horizontal Scroll,3,astrax-horizontal-scroll;astrax-horizontal-scroll__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-horizontal-timeline,HorizontalTimeline,Creative,BaseWidget,includes/Widgets/Creative/HorizontalTimeline.php,Horizontal Timeline,3,astrax-horizontal-timeline;astrax-horizontal-timeline__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-3d-image-cards,ImageCards3D,Creative,BaseWidget,includes/Widgets/Creative/ImageCards3D.php,3D Image Cards,3,astrax-3d-image-cards__title;astrax-3d-image-cards,MISSING_CSS,,2,2,0,,,False,False
+astrax-interactive-dashboard,InteractiveDashboard,Creative,BaseWidget,includes/Widgets/Creative/InteractiveDashboard.php,Interactive Dashboard,3,astrax-interactive-dashboard__title;astrax-interactive-dashboard,MISSING_CSS,,2,2,0,,,False,False
+astrax-interactive-gradient,InteractiveGradient,Creative,BaseWidget,includes/Widgets/Creative/InteractiveGradient.php,Interactive Gradient,3,astrax-interactive-gradient;astrax-interactive-gradient__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-layered-cards,LayeredCards,Creative,BaseWidget,includes/Widgets/Creative/LayeredCards.php,Layered Cards,3,astrax-layered-cards__title;astrax-layered-cards,MISSING_CSS,,2,2,0,,,False,False
+astrax-liquid-buttons,LiquidButtons,Creative,BaseWidget,includes/Widgets/Creative/LiquidButtons.php,Liquid Buttons,3,astrax-liquid-buttons;astrax-liquid-buttons__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-magnetic-buttons,MagneticButtons,Creative,BaseWidget,includes/Widgets/Creative/MagneticButtons.php,Magnetic Buttons,3,astrax-magnetic-buttons__title;astrax-magnetic-buttons,MISSING_CSS,,2,2,0,,,False,False
+astrax-mesh-gradient,MeshGradient,Creative,BaseWidget,includes/Widgets/Creative/MeshGradient.php,Mesh Gradient,3,astrax-mesh-gradient;astrax-mesh-gradient__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-noise-bg,NoiseBackground,Creative,BaseWidget,includes/Widgets/Creative/NoiseBackground.php,Noise Background,3,astrax-noise-bg;astrax-noise-bg__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-notification-center,NotificationCenter,Creative,BaseWidget,includes/Widgets/Creative/NotificationCenter.php,Notification Center,3,astrax-notification-center;astrax-notification-center__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-overlapping-sections,OverlappingSections,Creative,BaseWidget,includes/Widgets/Creative/OverlappingSections.php,Overlapping Sections,3,astrax-overlapping-sections__title;astrax-overlapping-sections,MISSING_CSS,,2,2,0,,,False,False
+astrax-3d-product-cards,ProductCards3D,Creative,BaseWidget,includes/Widgets/Creative/ProductCards3D.php,3D Product Cards,3,astrax-3d-product-cards__title;astrax-3d-product-cards,MISSING_CSS,,2,2,0,,,False,False
+astrax-progress-nav,ProgressNav,Creative,BaseWidget,includes/Widgets/Creative/ProgressNav.php,Progress Navigation,3,astrax-progress-nav;astrax-progress-nav__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-scroll-image-seq,ScrollImageSequence,Creative,BaseWidget,includes/Widgets/Creative/ScrollImageSequence.php,Scroll-Based Image Sequence,3,astrax-scroll-image-seq;astrax-scroll-image-seq__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-scroll-snap,ScrollSnap,Creative,BaseWidget,includes/Widgets/Creative/ScrollSnap.php,Scroll Snap,3,astrax-scroll-snap__title;astrax-scroll-snap,MISSING_CSS,,2,2,0,,,False,False
+astrax-spotlight-cards,SpotlightCards,Creative,BaseWidget,includes/Widgets/Creative/SpotlightCards.php,Spotlight Cards,3,astrax-spotlight-cards__title;astrax-spotlight-cards,MISSING_CSS,,2,2,0,,,False,False
+astrax-stacked-cards,StackedCards,Creative,BaseWidget,includes/Widgets/Creative/StackedCards.php,Stacked Cards,3,astrax-stacked-cards__title;astrax-stacked-cards,MISSING_CSS,,2,2,0,,,False,False
+astrax-sticky-sections,StickySections,Creative,BaseWidget,includes/Widgets/Creative/StickySections.php,Sticky Sections,3,astrax-sticky-sections__title;astrax-sticky-sections,MISSING_CSS,,2,2,0,,,False,False
+astrax-svg-draw,SvgDraw,Creative,BaseWidget,includes/Widgets/Creative/SvgDraw.php,SVG Draw Animation,3,astrax-svg-draw__title;astrax-svg-draw,MISSING_CSS,,2,2,0,,,False,False
+astrax-svg-morph,SvgMorph,Creative,BaseWidget,includes/Widgets/Creative/SvgMorph.php,SVG Morph,3,astrax-svg-morph__title;astrax-svg-morph,MISSING_CSS,,2,2,0,,,False,False
+astrax-vertical-timeline,VerticalTimeline,Creative,BaseWidget,includes/Widgets/Creative/VerticalTimeline.php,Vertical Timeline,3,astrax-vertical-timeline;astrax-vertical-timeline__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-contact-map,ContactMap,Data,BaseWidget,includes/Widgets/Data/ContactMap.php,Contact Map,3,astrax-contact-map__title;astrax-contact-map,MISSING_CSS,,2,2,0,,,False,False
+astrax-google-map,GoogleMap,Data,BaseWidget,includes/Widgets/Data/GoogleMap.php,Google Map,3,astrax-google-map,COMPLETE,,1,1,0,,,False,False
+astrax-interactive-map,InteractiveMap,Data,BaseWidget,includes/Widgets/Data/InteractiveMap.php,Interactive Map,3,astrax-interactive-map__title;astrax-interactive-map,MISSING_CSS,,2,2,0,,,False,False
+astrax-leaflet-map,LeafletMap,Data,BaseWidget,includes/Widgets/Data/LeafletMap.php,Leaflet Map,3,astrax-leaflet-map;astrax-leaflet-map__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-location-finder,LocationFinder,Data,BaseWidget,includes/Widgets/Data/LocationFinder.php,Location Finder,3,astrax-location-finder;astrax-location-finder__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-map-marker,MapMarker,Data,BaseWidget,includes/Widgets/Data/MapMarker.php,Map Marker,3,astrax-map-marker__title;astrax-map-marker,MISSING_CSS,,2,2,0,,,False,False
+astrax-mapbox,Mapbox,Data,BaseWidget,includes/Widgets/Data/Mapbox.php,Mapbox,3,astrax-mapbox;astrax-mapbox__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-multi-location-map,MultiLocationMap,Data,BaseWidget,includes/Widgets/Data/MultiLocationMap.php,Multiple Locations,3,astrax-multi-location-map__title;astrax-multi-location-map,MISSING_CSS,,2,2,0,,,False,False
+astrax-openstreet-map-widget,OpenStreetMap,Data,BaseWidget,includes/Widgets/Data/OpenStreetMap.php,OpenStreetMap,3,astrax-openstreet-map-widget;astrax-openstreet-map-widget__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-route-map,RouteMap,Data,BaseWidget,includes/Widgets/Data/RouteMap.php,Route Map,3,astrax-route-map__title;astrax-route-map,MISSING_CSS,,2,2,0,,,False,False
+astrax-map-store-locator,StoreLocator,Data,BaseWidget,includes/Widgets/Data/StoreLocator.php,Store Locator,3,astrax-map-store-locator;astrax-map-store-locator__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-area-chart,AreaChart,DataViz,BaseWidget,includes/Widgets/DataViz/AreaChart.php,Area Chart,3,astrax-area-chart__title;astrax-area-chart,MISSING_CSS,,2,2,0,,,False,False
+astrax-bar-chart,BarChart,DataViz,BaseWidget,includes/Widgets/DataViz/BarChart.php,Bar Chart,3,astrax-bar-chart;astrax-bar-chart__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-circular-progress,CircularProgress,DataViz,BaseWidget,includes/Widgets/DataViz/CircularProgress.php,Circular Progress,3,astrax-circular-progress;astrax-circular-progress__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-dataviz-comparison,ComparisonTable,DataViz,BaseWidget,includes/Widgets/DataViz/ComparisonTable.php,Comparison Table,3,astrax-dataviz-comparison;astrax-dataviz-comparison__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-dataviz-counter,Counter,DataViz,BaseWidget,includes/Widgets/DataViz/Counter.php,Counter,3,astrax-dataviz-counter;astrax-dataviz-counter__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-data-table,DataTable,DataViz,BaseWidget,includes/Widgets/DataViz/DataTable.php,Data Table,3,astrax-data-table__title;astrax-data-table,MISSING_CSS,,2,2,0,,,False,False
+astrax-donut-chart,DonutChart,DataViz,BaseWidget,includes/Widgets/DataViz/DonutChart.php,Donut Chart,3,astrax-donut-chart;astrax-donut-chart__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-dynamic-table,DynamicTable,DataViz,BaseWidget,includes/Widgets/DataViz/DynamicTable.php,Dynamic Table,3,astrax-dynamic-table;astrax-dynamic-table__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-kpi-cards,KpiCards,DataViz,BaseWidget,includes/Widgets/DataViz/KpiCards.php,KPI Cards,3,astrax-kpi-cards;astrax-kpi-cards__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-line-chart,LineChart,DataViz,BaseWidget,includes/Widgets/DataViz/LineChart.php,Line Chart,3,astrax-line-chart__title;astrax-line-chart,MISSING_CSS,,2,2,0,,,False,False
+astrax-pie-chart,PieChart,DataViz,BaseWidget,includes/Widgets/DataViz/PieChart.php,Pie Chart,3,astrax-pie-chart__title;astrax-pie-chart,MISSING_CSS,,2,2,0,,,False,False
+astrax-pricing-comparison,PricingComparison,DataViz,BaseWidget,includes/Widgets/DataViz/PricingComparison.php,Pricing Comparison,3,astrax-pricing-comparison__title;astrax-pricing-comparison,MISSING_CSS,,2,2,0,,,False,False
+astrax-dataviz-progress-bar,ProgressBar,DataViz,BaseWidget,includes/Widgets/DataViz/ProgressBar.php,Progress Bar,3,astrax-dataviz-progress-bar__title;astrax-dataviz-progress-bar,MISSING_CSS,,2,2,0,,,False,False
+astrax-radar-chart,RadarChart,DataViz,BaseWidget,includes/Widgets/DataViz/RadarChart.php,Radar Chart,3,astrax-radar-chart;astrax-radar-chart__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-dataviz-statistics,Statistics,DataViz,BaseWidget,includes/Widgets/DataViz/Statistics.php,Statistics,3,astrax-dataviz-statistics;astrax-dataviz-statistics__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-api-viewer,ApiViewer,Developer,BaseWidget,includes/Widgets/Developer/ApiViewer.php,API Response Viewer,3,astrax-api-viewer__title;astrax-api-viewer,MISSING_CSS,,2,2,0,,,False,False
+astrax-code-block,CodeBlock,Developer,BaseWidget,includes/Widgets/Developer/CodeBlock.php,Code Block,3,astrax-code-block-wrapper;astrax-code-language;astrax-code-copy-btn;astrax-code-block-header,PARTIAL,,0,0,0,,,False,False
+astrax-code-copy,CodeCopy,Developer,BaseWidget,includes/Widgets/Developer/CodeCopy.php,Code Copy Button,3,astrax-code-copy__title;astrax-code-copy,PARTIAL,,2,2,0,,,False,False
+astrax-css-preview,CssPreview,Developer,BaseWidget,includes/Widgets/Developer/CssPreview.php,CSS Preview,3,astrax-css-preview;astrax-css-preview__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-dynamic-json,DynamicJson,Developer,BaseWidget,includes/Widgets/Developer/DynamicJson.php,Dynamic JSON,3,astrax-dynamic-json__title;astrax-dynamic-json,MISSING_CSS,,2,2,0,,,False,False
+astrax-html-preview,HtmlPreview,Developer,BaseWidget,includes/Widgets/Developer/HtmlPreview.php,HTML Preview,3,astrax-html-preview;astrax-html-preview__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-js-preview,JsPreview,Developer,BaseWidget,includes/Widgets/Developer/JsPreview.php,JavaScript Preview,3,astrax-js-preview;astrax-js-preview__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-json-viewer,JsonViewer,Developer,BaseWidget,includes/Widgets/Developer/JsonViewer.php,JSON Viewer,3,astrax-json-viewer;astrax-json-viewer__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-rest-viewer,RestViewer,Developer,BaseWidget,includes/Widgets/Developer/RestViewer.php,REST API Viewer,3,astrax-rest-viewer__title;astrax-rest-viewer,MISSING_CSS,,2,2,0,,,False,False
+astrax-syntax-highlighter,SyntaxHighlighter,Developer,BaseWidget,includes/Widgets/Developer/SyntaxHighlighter.php,Syntax Highlighter,3,astrax-syntax-highlighter;astrax-syntax-highlighter__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-terminal,Terminal,Developer,BaseWidget,includes/Widgets/Developer/Terminal.php,Terminal,3,astrax-terminal__title;astrax-terminal,MISSING_CSS,,2,2,0,,,False,False
+astrax-ajax-query,AjaxQuery,Dynamic,BaseWidget,includes/Widgets/Dynamic/AjaxQuery.php,AJAX Query,3,astrax-ajax-query__title;astrax-ajax-query,MISSING_CSS,,2,2,0,,,False,False
+astrax-custom-fields,CustomFields,Dynamic,BaseWidget,includes/Widgets/Dynamic/CustomFields.php,Custom Fields,3,astrax-custom-fields__title;astrax-custom-fields,MISSING_CSS,,2,2,0,,,False,False
+astrax-custom-query,CustomQuery,Dynamic,BaseWidget,includes/Widgets/Dynamic/CustomQuery.php,Custom Query,3,astrax-custom-query;astrax-custom-query__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-dynamic-author,DynamicAuthor,Dynamic,BaseWidget,includes/Widgets/Dynamic/DynamicAuthor.php,Dynamic Author,3,astrax-dynamic-author;astrax-dynamic-author__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-dynamic-categories,DynamicCategories,Dynamic,BaseWidget,includes/Widgets/Dynamic/DynamicCategories.php,Dynamic Categories,3,astrax-dynamic-categories__title;astrax-dynamic-categories,MISSING_CSS,,2,2,0,,,False,False
+astrax-dynamic-cpt,DynamicCpt,Dynamic,BaseWidget,includes/Widgets/Dynamic/DynamicCpt.php,Dynamic CPT,3,astrax-dynamic-cpt__title;astrax-dynamic-cpt,MISSING_CSS,,2,2,0,,,False,False
+astrax-dynamic-date,DynamicDate,Dynamic,BaseWidget,includes/Widgets/Dynamic/DynamicDate.php,Dynamic Date,3,astrax-dynamic-date__title;astrax-dynamic-date,MISSING_CSS,,2,2,0,,,False,False
+astrax-dynamic-excerpts,DynamicExcerpts,Dynamic,BaseWidget,includes/Widgets/Dynamic/DynamicExcerpts.php,Dynamic Excerpts,3,astrax-dynamic-excerpts__title;astrax-dynamic-excerpts,MISSING_CSS,,2,2,0,,,False,False
+astrax-dynamic-field,DynamicField,Dynamic,BaseWidget,includes/Widgets/Dynamic/DynamicField.php,Dynamic Field,5,astrax-dynamic-field-after;astrax-dynamic-field-before;astrax-dynamic-field-value,PARTIAL,,0,0,0,,,False,False
+astrax-dynamic-images,DynamicImages,Dynamic,BaseWidget,includes/Widgets/Dynamic/DynamicImages.php,Dynamic Images,3,astrax-dynamic-images__title;astrax-dynamic-images,MISSING_CSS,,2,2,0,,,False,False
+astrax-dynamic-pages,DynamicPages,Dynamic,BaseWidget,includes/Widgets/Dynamic/DynamicPages.php,Dynamic Pages,3,astrax-dynamic-pages__title;astrax-dynamic-pages,MISSING_CSS,,2,2,0,,,False,False
+astrax-dynamic-posts,DynamicPosts,Dynamic,BaseWidget,includes/Widgets/Dynamic/DynamicPosts.php,Dynamic Posts,3,astrax-dynamic-posts;astrax-dynamic-posts__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-dynamic-relationships,DynamicRelationships,Dynamic,BaseWidget,includes/Widgets/Dynamic/DynamicRelationships.php,Dynamic Relationships,3,astrax-dynamic-relationships;astrax-dynamic-relationships__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-dynamic-tags,DynamicTags,Dynamic,BaseWidget,includes/Widgets/Dynamic/DynamicTags.php,Dynamic Tags,3,astrax-dynamic-tags__title;astrax-dynamic-tags,MISSING_CSS,,2,2,0,,,False,False
+astrax-dynamic-taxonomies,DynamicTaxonomies,Dynamic,BaseWidget,includes/Widgets/Dynamic/DynamicTaxonomies.php,Dynamic Taxonomies,3,astrax-dynamic-taxonomies__title;astrax-dynamic-taxonomies,MISSING_CSS,,2,2,0,,,False,False
+astrax-dynamic-terms,DynamicTerms,Dynamic,BaseWidget,includes/Widgets/Dynamic/DynamicTerms.php,Dynamic Terms,3,astrax-dynamic-terms;astrax-dynamic-terms__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-dynamic-titles,DynamicTitles,Dynamic,BaseWidget,includes/Widgets/Dynamic/DynamicTitles.php,Dynamic Titles,3,astrax-dynamic-titles;astrax-dynamic-titles__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-dynamic-urls,DynamicUrls,Dynamic,BaseWidget,includes/Widgets/Dynamic/DynamicUrls.php,Dynamic URLs,3,astrax-dynamic-urls;astrax-dynamic-urls__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-query-builder,QueryBuilder,Dynamic,BaseWidget,includes/Widgets/Dynamic/QueryBuilder.php,Query Builder,3,astrax-query-builder__title;astrax-query-builder,MISSING_CSS,,2,2,0,,,False,False
+astrax-rest-api-data,RestApiData,Dynamic,BaseWidget,includes/Widgets/Dynamic/RestApiData.php,REST API Data,3,astrax-rest-api-data__title;astrax-rest-api-data,MISSING_CSS,,2,2,0,,,False,False
+astrax-changelog,Changelog,FAQ,BaseWidget,includes/Widgets/FAQ/Changelog.php,Changelog,3,astrax-changelog__title;astrax-changelog,MISSING_CSS,,2,2,0,,,False,False
+astrax-docs-cards,DocsCards,FAQ,BaseWidget,includes/Widgets/FAQ/DocsCards.php,Documentation Cards,3,astrax-docs-cards;astrax-docs-cards__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-docs-nav,DocsNav,FAQ,BaseWidget,includes/Widgets/FAQ/DocsNav.php,Documentation Navigation,3,astrax-docs-nav;astrax-docs-nav__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-docs-toc,DocsToc,FAQ,BaseWidget,includes/Widgets/FAQ/DocsToc.php,Documentation TOC,3,astrax-docs-toc__title;astrax-docs-toc,MISSING_CSS,,2,2,0,,,False,False
+astrax-faq-widget,Faq,FAQ,BaseWidget,includes/Widgets/FAQ/Faq.php,FAQ,3,astrax-faq-widget__title;astrax-faq-widget,MISSING_CSS,,2,2,0,,,False,False
+astrax-faq-accordion,FaqAccordion,FAQ,BaseWidget,includes/Widgets/FAQ/FaqAccordion.php,FAQ Accordion,3,astrax-faq-accordion;astrax-faq-accordion__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-faq-search-widget,FaqSearch,FAQ,BaseWidget,includes/Widgets/FAQ/FaqSearch.php,FAQ Search,3,astrax-faq-search-widget;astrax-faq-search-widget__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-glossary,Glossary,FAQ,BaseWidget,includes/Widgets/FAQ/Glossary.php,Glossary,3,astrax-glossary__title;astrax-glossary,MISSING_CSS,,2,2,0,,,False,False
+astrax-knowledge-base,KnowledgeBase,FAQ,BaseWidget,includes/Widgets/FAQ/KnowledgeBase.php,Knowledge Base,3,astrax-knowledge-base;astrax-knowledge-base__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-term-tooltip,TermTooltip,FAQ,BaseWidget,includes/Widgets/FAQ/TermTooltip.php,Term Tooltip,3,astrax-term-tooltip__title;astrax-term-tooltip,MISSING_CSS,,2,2,0,,,False,False
+astrax-ajax-form,AjaxForm,Forms,BaseWidget,includes/Widgets/Forms/AjaxForm.php,AJAX Form,4,astrax-form-placeholder;astrax-form-widget;astrax-form-submit,MISSING_CSS,,2,0,2,,,False,False
+astrax-application-form,ApplicationForm,Forms,BaseWidget,includes/Widgets/Forms/ApplicationForm.php,Application Form,4,astrax-form-placeholder;astrax-form-widget;astrax-form-submit,MISSING_CSS,,2,0,2,,,False,False
+astrax-booking-form,BookingForm,Forms,BaseWidget,includes/Widgets/Forms/BookingForm.php,Booking Form,4,astrax-form-placeholder;astrax-form-widget;astrax-form-submit,MISSING_CSS,,2,0,2,,,False,False
+astrax-conditional-form,ConditionalForm,Forms,BaseWidget,includes/Widgets/Forms/ConditionalForm.php,Conditional Form,4,astrax-form-placeholder;astrax-form-widget;astrax-form-submit,MISSING_CSS,,2,0,2,,,False,False
+astrax-contact-form,ContactForm,Forms,BaseWidget,includes/Widgets/Forms/ContactForm.php,Contact Form,4,astrax-form-placeholder;astrax-form-widget;astrax-form-submit,MISSING_CSS,,2,0,2,,,False,False
+astrax-feedback-form,FeedbackForm,Forms,BaseWidget,includes/Widgets/Forms/FeedbackForm.php,Feedback Form,4,astrax-form-placeholder;astrax-form-widget;astrax-form-submit,MISSING_CSS,,2,0,2,,,False,False
+astrax-file-upload-form,FileUploadForm,Forms,BaseWidget,includes/Widgets/Forms/FileUploadForm.php,File Upload Form,4,astrax-form-placeholder;astrax-form-widget;astrax-form-submit,MISSING_CSS,,2,0,2,,,False,False
+astrax-login-form,LoginForm,Forms,BaseWidget,includes/Widgets/Forms/LoginForm.php,Login Form,4,astrax-form-placeholder;astrax-form-widget;astrax-form-submit,MISSING_CSS,,2,0,2,,,False,False
+astrax-multi-step-form,MultiStepForm,Forms,BaseWidget,includes/Widgets/Forms/MultiStepForm.php,Multi-Step Form,4,astrax-form-placeholder;astrax-form-widget;astrax-form-submit,MISSING_CSS,,2,0,2,,,False,False
+astrax-newsletter-form,NewsletterForm,Forms,BaseWidget,includes/Widgets/Forms/NewsletterForm.php,Newsletter Form,4,astrax-form-placeholder;astrax-form-widget;astrax-form-submit,MISSING_CSS,,2,0,2,,,False,False
+astrax-otp-form,OtpForm,Forms,BaseWidget,includes/Widgets/Forms/OtpForm.php,OTP Form,4,astrax-form-placeholder;astrax-form-widget;astrax-form-submit,MISSING_CSS,,2,0,2,,,False,False
+astrax-password-reset-form,PasswordResetForm,Forms,BaseWidget,includes/Widgets/Forms/PasswordResetForm.php,Password Reset Form,4,astrax-form-placeholder;astrax-form-widget;astrax-form-submit,MISSING_CSS,,2,0,2,,,False,False
+astrax-popup-form,PopupForm,Forms,BaseWidget,includes/Widgets/Forms/PopupForm.php,Popup Form,4,astrax-form-placeholder;astrax-form-widget;astrax-form-submit,MISSING_CSS,,2,0,2,,,False,False
+astrax-quote-form,QuoteForm,Forms,BaseWidget,includes/Widgets/Forms/QuoteForm.php,Quote Form,4,astrax-form-placeholder;astrax-form-widget;astrax-form-submit,MISSING_CSS,,2,0,2,,,False,False
+astrax-registration-form,RegistrationForm,Forms,BaseWidget,includes/Widgets/Forms/RegistrationForm.php,Registration Form,4,astrax-form-placeholder;astrax-form-widget;astrax-form-submit,MISSING_CSS,,2,0,2,,,False,False
+astrax-search-form,SearchForm,Forms,BaseWidget,includes/Widgets/Forms/SearchForm.php,Search Form,4,astrax-form-placeholder;astrax-form-widget;astrax-form-submit,MISSING_CSS,,2,0,2,,,False,False
+astrax-survey-form,SurveyForm,Forms,BaseWidget,includes/Widgets/Forms/SurveyForm.php,Survey Form,4,astrax-form-placeholder;astrax-form-widget;astrax-form-submit,MISSING_CSS,,2,0,2,,,False,False
+astrax-icon-box,IconBox,Root,BaseWidget,includes/Widgets/IconBox.php,Icon Box,2,astrax-icon-box-icon;astrax-icon-box-wrapper;astrax-icon-box-content;astrax-icon-box-description;astrax-icon-box-title,PARTIAL,,0,0,0,,,False,False
+astrax-image-accordion,ImageAccordion,Root,BaseWidget,includes/Widgets/ImageAccordion.php,Image Accordion,9,astrax-ia-button;astrax-ia-overlay;astrax-ia-bg;astrax-ia-content;astrax-ia-desc;astrax-ia-title,PARTIAL,,0,0,0,astrax-v3-widgets;astrax-image-accordion,astrax-image-accordion,False,False
+astrax-before-after,BeforeAfter,Images,BaseWidget,includes/Widgets/Images/BeforeAfter.php,Before / After,6,astrax-ba-handle-icon;astrax-ba-handle;astrax-ba-label--after;astrax-ba-label--before;astrax-ba-before;astrax-ba-label;astrax-ba-after,MISSING_CSS,,0,0,0,,astrax-before-after,False,False
+astrax-floating-image,FloatingImage,Images,PlannedImageEffectWidget,includes/Widgets/Images/FloatingImage.php,Floating Image,0,,PLANNED_BASE,,0,0,0,,,False,False
+astrax-gallery,Gallery,Images,BaseWidget,includes/Widgets/Images/Gallery.php,Gallery,6,astrax-gallery-item;astrax-gallery-img,MISSING_CSS,,2,0,2,,,False,True
+astrax-hotspots,Hotspots,Images,BaseWidget,includes/Widgets/Images/Hotspots.php,Image Hotspots,7,astrax-hotspots-wrapper;astrax-hotspot-marker;astrax-hotspots-image;astrax-hotspot-tooltip,PARTIAL,,0,0,0,,,False,False
+astrax-image-carousel,ImageCarousel,Images,PlannedGalleryWidget,includes/Widgets/Images/ImageCarousel.php,Image Carousel,0,,PLANNED_BASE,,0,0,0,,,False,False
+astrax-image-hover-effects,ImageHoverEffects,Images,PlannedImageEffectWidget,includes/Widgets/Images/ImageHoverEffects.php,Image Hover Effects,0,,PLANNED_BASE,,0,0,0,,,False,False
+astrax-image-magnifier,ImageMagnifier,Images,PlannedImageEffectWidget,includes/Widgets/Images/ImageMagnifier.php,Image Magnifier,0,,PLANNED_BASE,,0,0,0,,,False,False
+astrax-image-mask,ImageMask,Images,PlannedImageEffectWidget,includes/Widgets/Images/ImageMask.php,Image Mask,0,,PLANNED_BASE,,0,0,0,,,False,False
+astrax-image-reveal,ImageReveal,Images,PlannedImageEffectWidget,includes/Widgets/Images/ImageReveal.php,Image Reveal,0,,PLANNED_BASE,,0,0,0,,,False,False
+astrax-image-slider,ImageSlider,Images,PlannedGalleryWidget,includes/Widgets/Images/ImageSlider.php,Image Slider,0,,PLANNED_BASE,,0,0,0,,,False,False
+astrax-image-stack,ImageStack,Images,PlannedGalleryWidget,includes/Widgets/Images/ImageStack.php,Image Stack,0,,PLANNED_BASE,,0,0,0,,,False,False
+astrax-interactive-image,InteractiveImage,Images,PlannedImageEffectWidget,includes/Widgets/Images/InteractiveImage.php,Interactive Image,0,,PLANNED_BASE,,0,0,0,,,False,False
+astrax-justified-gallery,JustifiedGallery,Images,PlannedGalleryWidget,includes/Widgets/Images/JustifiedGallery.php,Justified Gallery,0,,PLANNED_BASE,,0,0,0,,,False,False
+astrax-lightbox-gallery,LightboxGallery,Images,PlannedGalleryWidget,includes/Widgets/Images/LightboxGallery.php,Lightbox Gallery,0,,PLANNED_BASE,,0,0,0,,,False,False
+astrax-masonry-gallery,MasonryGallery,Images,PlannedGalleryWidget,includes/Widgets/Images/MasonryGallery.php,Masonry Gallery,0,,PLANNED_BASE,,0,0,0,,,False,False
+plannedgallerywidget,PlannedGalleryWidget,Images,BaseWidget,includes/Widgets/Images/PlannedGalleryWidget.php,PlannedGalleryWidget,6,astrax-v3-gallery-item;astrax-v3-gallery-controls;astrax-v3-gallery-items,COMPLETE,,3,3,0,astrax-v3-widgets,,False,True
+plannedimageeffectwidget,PlannedImageEffectWidget,Images,BaseWidget,includes/Widgets/Images/PlannedImageEffectWidget.php,PlannedImageEffectWidget,13,astrax-v3-hotspot-content;astrax-v3-image-effect;astrax-v3-hotspot,COMPLETE,,3,3,0,astrax-v3-widgets,,False,True
+astrax-scrolling-image,ScrollingImage,Images,PlannedImageEffectWidget,includes/Widgets/Images/ScrollingImage.php,Scrolling Image,0,,PLANNED_BASE,,0,0,0,,,False,False
+astrax-info-box,InfoBox,Root,BaseWidget,includes/Widgets/InfoBox.php,Info Box,4,astrax-info-box-wrapper;astrax-info-box-image;astrax-info-box-title;astrax-info-box-description;astrax-info-box-content,PARTIAL,,0,0,0,,,False,False
+astrax-accordion,Accordion,Interactive,BaseWidget,includes/Widgets/Interactive/Accordion.php,Accordion,3,astrax-accordion__title;astrax-accordion,MISSING_CSS,,2,2,0,,,False,False
+astrax-interactive-before-after,BeforeAfter,Interactive,BaseWidget,includes/Widgets/Interactive/BeforeAfter.php,Before/After,3,astrax-interactive-before-after;astrax-interactive-before-after__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-comparison-slider,ComparisonSlider,Interactive,BaseWidget,includes/Widgets/Interactive/ComparisonSlider.php,Comparison Slider,3,astrax-comparison-slider;astrax-comparison-slider__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-content-switcher,ContentSwitcher,Interactive,BaseWidget,includes/Widgets/Interactive/ContentSwitcher.php,Content Switcher,3,astrax-content-switcher;astrax-content-switcher__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-faq,Faq,Interactive,BaseWidget,includes/Widgets/Interactive/Faq.php,FAQ,3,astrax-faq;astrax-faq__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-faq-search,FaqSearch,Interactive,BaseWidget,includes/Widgets/Interactive/FaqSearch.php,FAQ Search,3,astrax-faq-search__title;astrax-faq-search,MISSING_CSS,,2,2,0,,,False,False
+astrax-flip-box,FlipBox,Interactive,BaseWidget,includes/Widgets/Interactive/FlipBox.php,Flip Box,3,astrax-flip-box;astrax-flip-box__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-hotspot,Hotspot,Interactive,BaseWidget,includes/Widgets/Interactive/Hotspot.php,Hotspot,3,astrax-hotspot__title;astrax-hotspot,PARTIAL,,2,2,0,,,False,False
+astrax-interactive-image-accordion,ImageAccordion,Interactive,BaseWidget,includes/Widgets/Interactive/ImageAccordion.php,Image Accordion,3,astrax-interactive-image-accordion;astrax-interactive-image-accordion__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-interactive-cards,InteractiveCards,Interactive,BaseWidget,includes/Widgets/Interactive/InteractiveCards.php,Interactive Cards,3,astrax-interactive-cards;astrax-interactive-cards__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-interactive-timeline,InteractiveTimeline,Interactive,BaseWidget,includes/Widgets/Interactive/InteractiveTimeline.php,Interactive Timeline,3,astrax-interactive-timeline__title;astrax-interactive-timeline,MISSING_CSS,,2,2,0,,,False,False
+astrax-modal,Modal,Interactive,BaseWidget,includes/Widgets/Interactive/Modal.php,Modal,3,astrax-modal__title;astrax-modal,MISSING_CSS,,2,2,0,,,False,False
+astrax-nested-accordion,NestedAccordion,Interactive,BaseWidget,includes/Widgets/Interactive/NestedAccordion.php,Nested Accordion,3,astrax-nested-accordion;astrax-nested-accordion__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-nested-tabs,NestedTabs,Interactive,BaseWidget,includes/Widgets/Interactive/NestedTabs.php,Nested Tabs,3,astrax-nested-tabs__title;astrax-nested-tabs,MISSING_CSS,,2,2,0,,,False,False
+astrax-off-canvas,OffCanvas,Interactive,BaseWidget,includes/Widgets/Interactive/OffCanvas.php,Off-Canvas,3,astrax-off-canvas__title;astrax-off-canvas,MISSING_CSS,,2,2,0,,,False,False
+astrax-popup,Popup,Interactive,BaseWidget,includes/Widgets/Interactive/Popup.php,Popup,3,astrax-popup;astrax-popup__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-stepper,Stepper,Interactive,BaseWidget,includes/Widgets/Interactive/Stepper.php,Stepper,3,astrax-stepper__title;astrax-stepper,MISSING_CSS,,2,2,0,,,False,False
+astrax-tabs,Tabs,Interactive,BaseWidget,includes/Widgets/Interactive/Tabs.php,Tabs,3,astrax-tabs-content-wrapper;astrax-tabs;astrax-tabs-nav,COMPLETE,,0,0,0,,astrax-tabs,False,False
+astrax-toggle,Toggle,Interactive,BaseWidget,includes/Widgets/Interactive/Toggle.php,Toggle,3,astrax-toggle__title;astrax-toggle,MISSING_CSS,,2,2,0,,,False,False
+astrax-tooltip,Tooltip,Interactive,BaseWidget,includes/Widgets/Interactive/Tooltip.php,Tooltip,3,astrax-tooltip__title;astrax-tooltip,MISSING_CSS,,2,2,0,,,False,False
+astrax-announcement-bar,AnnouncementBar,Marketing,BaseWidget,includes/Widgets/Marketing/AnnouncementBar.php,Announcement Bar,3,astrax-announcement-bar__title;astrax-announcement-bar,MISSING_CSS,,2,2,0,,,False,False
+astrax-client-logos,ClientLogos,Marketing,BaseWidget,includes/Widgets/Marketing/ClientLogos.php,Client Logos,3,astrax-client-logos__title;astrax-client-logos,MISSING_CSS,,2,2,0,,,False,False
+astrax-comparison-table,ComparisonTable,Marketing,BaseWidget,includes/Widgets/Marketing/ComparisonTable.php,Comparison Table,3,astrax-comparison-table;astrax-comparison-table__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-countdown,Countdown,Marketing,BaseWidget,includes/Widgets/Marketing/Countdown.php,Countdown,3,astrax-countdown;astrax-countdown__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-coupon,Coupon,Marketing,BaseWidget,includes/Widgets/Marketing/Coupon.php,Coupon,3,astrax-coupon;astrax-coupon__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-coupon-reveal,CouponReveal,Marketing,BaseWidget,includes/Widgets/Marketing/CouponReveal.php,Coupon Reveal,3,astrax-coupon-reveal__title;astrax-coupon-reveal,MISSING_CSS,,2,2,0,,,False,False
+astrax-marketing-cta,Cta,Marketing,BaseWidget,includes/Widgets/Marketing/Cta.php,CTA,3,astrax-marketing-cta;astrax-marketing-cta__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-feature-list,FeatureList,Marketing,BaseWidget,includes/Widgets/Marketing/FeatureList.php,Feature List,3,astrax-feature-list__title;astrax-feature-list,MISSING_CSS,,2,2,0,,,False,False
+astrax-floating-cta,FloatingCta,Marketing,BaseWidget,includes/Widgets/Marketing/FloatingCta.php,Floating CTA,3,astrax-floating-cta;astrax-floating-cta__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-lead-capture,LeadCapture,Marketing,BaseWidget,includes/Widgets/Marketing/LeadCapture.php,Lead Capture,3,astrax-lead-capture;astrax-lead-capture__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-logo-carousel,LogoCarousel,Marketing,BaseWidget,includes/Widgets/Marketing/LogoCarousel.php,Logo Carousel,3,astrax-logo-carousel__title;astrax-logo-carousel,MISSING_CSS,,2,2,0,,,False,False
+astrax-newsletter,Newsletter,Marketing,BaseWidget,includes/Widgets/Marketing/Newsletter.php,Newsletter,3,astrax-newsletter__title;astrax-newsletter,MISSING_CSS,,2,2,0,,,False,False
+astrax-partner-logos,PartnerLogos,Marketing,BaseWidget,includes/Widgets/Marketing/PartnerLogos.php,Partner Logos,3,astrax-partner-logos__title;astrax-partner-logos,MISSING_CSS,,2,2,0,,,False,False
+astrax-marketing-pricing-table,PricingTable,Marketing,BaseWidget,includes/Widgets/Marketing/PricingTable.php,Pricing Table,3,astrax-marketing-pricing-table;astrax-marketing-pricing-table__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-marketing-pricing-toggle,PricingToggle,Marketing,BaseWidget,includes/Widgets/Marketing/PricingToggle.php,Pricing Toggle,3,astrax-marketing-pricing-toggle__title;astrax-marketing-pricing-toggle,MISSING_CSS,,2,2,0,,,False,False
+astrax-promo-banner,PromoBanner,Marketing,BaseWidget,includes/Widgets/Marketing/PromoBanner.php,Promo Banner,3,astrax-promo-banner;astrax-promo-banner__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-sales-countdown,SalesCountdown,Marketing,BaseWidget,includes/Widgets/Marketing/SalesCountdown.php,Sales Countdown,3,astrax-sales-countdown;astrax-sales-countdown__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-sticky-cta,StickyCta,Marketing,BaseWidget,includes/Widgets/Marketing/StickyCta.php,Sticky CTA,3,astrax-sticky-cta;astrax-sticky-cta__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-trust-badges,TrustBadges,Marketing,BaseWidget,includes/Widgets/Marketing/TrustBadges.php,Trust Badges,3,astrax-trust-badges;astrax-trust-badges__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-audio-player,AudioPlayer,Media,BaseWidget,includes/Widgets/Media/AudioPlayer.php,Audio Player,3,astrax-audio-player__title;astrax-audio-player,MISSING_CSS,,2,2,0,,,False,False
+astrax-podcast-player,PodcastPlayer,Media,BaseWidget,includes/Widgets/Media/PodcastPlayer.php,Podcast Player,3,astrax-podcast-player__title;astrax-podcast-player,MISSING_CSS,,2,2,0,,,False,False
+astrax-soundcloud-embed,SoundCloudEmbed,Media,BaseWidget,includes/Widgets/Media/SoundCloudEmbed.php,SoundCloud Embed,3,astrax-soundcloud-embed;astrax-soundcloud-embed__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-spotify-embed,SpotifyEmbed,Media,BaseWidget,includes/Widgets/Media/SpotifyEmbed.php,Spotify Embed,3,astrax-spotify-embed;astrax-spotify-embed__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-video,Video,Media,BaseWidget,includes/Widgets/Media/Video.php,Video,3,astrax-video__title;astrax-video,MISSING_CSS,,2,2,0,,,False,False
+astrax-video-background,VideoBackground,Media,BaseWidget,includes/Widgets/Media/VideoBackground.php,Video Background,3,astrax-video-background__title;astrax-video-background,MISSING_CSS,,2,2,0,,,False,False
+astrax-video-carousel,VideoCarousel,Media,BaseWidget,includes/Widgets/Media/VideoCarousel.php,Video Carousel,3,astrax-video-carousel;astrax-video-carousel__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-video-gallery,VideoGallery,Media,BaseWidget,includes/Widgets/Media/VideoGallery.php,Video Gallery,3,astrax-video-gallery__title;astrax-video-gallery,MISSING_CSS,,2,2,0,,,False,False
+astrax-video-lightbox,VideoLightbox,Media,BaseWidget,includes/Widgets/Media/VideoLightbox.php,Video Lightbox,3,astrax-video-lightbox;astrax-video-lightbox__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-video-playlist,VideoPlaylist,Media,BaseWidget,includes/Widgets/Media/VideoPlaylist.php,Video Playlist,3,astrax-video-playlist;astrax-video-playlist__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-video-popup,VideoPopup,Media,BaseWidget,includes/Widgets/Media/VideoPopup.php,Video Popup,3,astrax-video-popup__title;astrax-video-popup,MISSING_CSS,,2,2,0,,,False,False
+astrax-vimeo-video,VimeoVideo,Media,BaseWidget,includes/Widgets/Media/VimeoVideo.php,Vimeo Video,3,astrax-vimeo-video;astrax-vimeo-video__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-youtube-playlist,YouTubePlaylist,Media,BaseWidget,includes/Widgets/Media/YouTubePlaylist.php,YouTube Playlist,3,astrax-youtube-playlist__title;astrax-youtube-playlist,MISSING_CSS,,2,2,0,,,False,False
+astrax-youtube-video,YouTubeVideo,Media,BaseWidget,includes/Widgets/Media/YouTubeVideo.php,YouTube Video,3,astrax-youtube-video;astrax-youtube-video__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-advanced-menu,AdvancedMenu,Navigation,BaseWidget,includes/Widgets/Navigation/AdvancedMenu.php,Advanced Menu,3,astrax-advanced-menu__title;astrax-advanced-menu,MISSING_CSS,,2,2,0,,,False,False
+astrax-breadcrumbs,Breadcrumbs,Navigation,BaseWidget,includes/Widgets/Navigation/Breadcrumbs.php,Breadcrumbs,2,astrax-breadcrumbs,COMPLETE,,0,0,0,,,False,False
+astrax-category-menu,CategoryMenu,Navigation,BaseWidget,includes/Widgets/Navigation/CategoryMenu.php,Category Menu,3,astrax-category-menu;astrax-category-menu__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-filter-nav,FilterNav,Navigation,BaseWidget,includes/Widgets/Navigation/FilterNav.php,Filter Navigation,3,astrax-filter-nav;astrax-filter-nav__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-hamburger-menu,HamburgerMenu,Navigation,BaseWidget,includes/Widgets/Navigation/HamburgerMenu.php,Hamburger Menu,3,astrax-hamburger-menu;astrax-hamburger-menu__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-mega-menu,MegaMenu,Navigation,BaseWidget,includes/Widgets/Navigation/MegaMenu.php,Mega Menu,3,astrax-mega-menu;astrax-mega-menu__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-mobile-menu,MobileMenu,Navigation,BaseWidget,includes/Widgets/Navigation/MobileMenu.php,Mobile Menu,3,astrax-mobile-menu__title;astrax-mobile-menu,MISSING_CSS,,2,2,0,,,False,False
+astrax-off-canvas-menu,OffCanvasMenu,Navigation,BaseWidget,includes/Widgets/Navigation/OffCanvasMenu.php,Off-Canvas Menu,3,astrax-off-canvas-menu__title;astrax-off-canvas-menu,MISSING_CSS,,2,2,0,,,False,False
+astrax-one-page-nav,OnePageNav,Navigation,BaseWidget,includes/Widgets/Navigation/OnePageNav.php,One Page Navigation,3,astrax-one-page-nav__title;astrax-one-page-nav,MISSING_CSS,,2,2,0,,,False,False
+astrax-page-navigation,PageNavigation,Navigation,BaseWidget,includes/Widgets/Navigation/PageNavigation.php,Page Navigation,3,astrax-page-navigation__title;astrax-page-navigation,MISSING_CSS,,2,2,0,,,False,False
+astrax-pagination,Pagination,Navigation,BaseWidget,includes/Widgets/Navigation/Pagination.php,Pagination,3,astrax-pagination;astrax-pagination__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-sticky-nav,StickyNav,Navigation,BaseWidget,includes/Widgets/Navigation/StickyNav.php,Sticky Navigation,3,astrax-sticky-nav__title;astrax-sticky-nav,MISSING_CSS,,2,2,0,,,False,False
+astrax-toc,TableOfContents,Navigation,BaseWidget,includes/Widgets/Navigation/TableOfContents.php,Table of Contents,3,astrax-toc;astrax-toc__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-vertical-nav,VerticalNav,Navigation,BaseWidget,includes/Widgets/Navigation/VerticalNav.php,Vertical Navigation,3,astrax-vertical-nav;astrax-vertical-nav__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-post-grid,PostGrid,Root,BaseWidget,includes/Widgets/PostGrid.php,Post Grid,4,astrax-post-grid;astrax-post-grid-item;astrax-post-excerpt;astrax-post-title,MISSING_CSS,,0,0,0,,,True,False
+astrax-social-facebook,Facebook,Social,BaseWidget,includes/Widgets/Social/Facebook.php,Facebook,3,astrax-social-facebook;astrax-social-facebook__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-social-instagram,Instagram,Social,BaseWidget,includes/Widgets/Social/Instagram.php,Instagram,3,astrax-social-instagram__title;astrax-social-instagram,MISSING_CSS,,2,2,0,,,False,False
+astrax-social-linkedin,LinkedIn,Social,BaseWidget,includes/Widgets/Social/LinkedIn.php,LinkedIn,3,astrax-social-linkedin;astrax-social-linkedin__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-social-pinterest,Pinterest,Social,BaseWidget,includes/Widgets/Social/Pinterest.php,Pinterest,3,astrax-social-pinterest;astrax-social-pinterest__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-social-counter,SocialCounter,Social,BaseWidget,includes/Widgets/Social/SocialCounter.php,Social Counter,3,astrax-social-counter__title;astrax-social-counter,MISSING_CSS,,2,2,0,,,False,False
+astrax-social-follow,SocialFollow,Social,BaseWidget,includes/Widgets/Social/SocialFollow.php,Social Follow,3,astrax-social-follow;astrax-social-follow__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-social-icons,SocialIcons,Social,BaseWidget,includes/Widgets/Social/SocialIcons.php,Social Icons,3,astrax-social-icons;astrax-social-icons__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-social-posts,SocialPosts,Social,BaseWidget,includes/Widgets/Social/SocialPosts.php,Social Posts,3,astrax-social-posts__title;astrax-social-posts,MISSING_CSS,,2,2,0,,,False,False
+astrax-social-profile,SocialProfile,Social,BaseWidget,includes/Widgets/Social/SocialProfile.php,Social Profile,3,astrax-social-profile;astrax-social-profile__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-social-share,SocialShare,Social,BaseWidget,includes/Widgets/Social/SocialShare.php,Social Share,3,astrax-social-share;astrax-social-share__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-social-tiktok,TikTok,Social,BaseWidget,includes/Widgets/Social/TikTok.php,TikTok,3,astrax-social-tiktok__title;astrax-social-tiktok,MISSING_CSS,,2,2,0,,,False,False
+astrax-social-twitter,Twitter,Social,BaseWidget,includes/Widgets/Social/Twitter.php,X / Twitter,3,astrax-social-twitter;astrax-social-twitter__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-social-youtube,YouTube,Social,BaseWidget,includes/Widgets/Social/YouTube.php,YouTube,3,astrax-social-youtube__title;astrax-social-youtube,MISSING_CSS,,2,2,0,,,False,False
+astrax-employee-profile,EmployeeProfile,Team,BaseWidget,includes/Widgets/Team/EmployeeProfile.php,Employee Profile,3,astrax-employee-profile;astrax-employee-profile__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-staff-directory,StaffDirectory,Team,BaseWidget,includes/Widgets/Team/StaffDirectory.php,Staff Directory,3,astrax-staff-directory__title;astrax-staff-directory,MISSING_CSS,,2,2,0,,,False,False
+astrax-team-card,TeamCard,Team,BaseWidget,includes/Widgets/Team/TeamCard.php,Team Card,5,astrax-team-card-content;astrax-team-card;astrax-team-card-image;astrax-team-card-bio;astrax-team-card-name;astrax-team-card-role,PARTIAL,,0,0,0,,,False,False
+astrax-team-carousel,TeamCarousel,Team,BaseWidget,includes/Widgets/Team/TeamCarousel.php,Team Carousel,3,astrax-team-carousel__title;astrax-team-carousel,MISSING_CSS,,2,2,0,,,False,False
+astrax-team-filter,TeamFilter,Team,BaseWidget,includes/Widgets/Team/TeamFilter.php,Team Filter,3,astrax-team-filter__title;astrax-team-filter,MISSING_CSS,,2,2,0,,,False,False
+astrax-team-grid,TeamGrid,Team,BaseWidget,includes/Widgets/Team/TeamGrid.php,Team Grid,3,astrax-team-grid__title;astrax-team-grid,MISSING_CSS,,2,2,0,,,False,False
+astrax-team-masonry,TeamMasonry,Team,BaseWidget,includes/Widgets/Team/TeamMasonry.php,Team Masonry,3,astrax-team-masonry__title;astrax-team-masonry,MISSING_CSS,,2,2,0,,,False,False
+astrax-team-member,TeamMember,Team,BaseWidget,includes/Widgets/Team/TeamMember.php,Team Member,3,astrax-team-member;astrax-team-member__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-team-slider,TeamSlider,Team,BaseWidget,includes/Widgets/Team/TeamSlider.php,Team Slider,3,astrax-team-slider;astrax-team-slider__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-team-social-links,TeamSocialLinks,Team,BaseWidget,includes/Widgets/Team/TeamSocialLinks.php,Team Social Links,3,astrax-team-social-links;astrax-team-social-links__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-team-timeline,TeamTimeline,Team,BaseWidget,includes/Widgets/Team/TeamTimeline.php,Team Timeline,3,astrax-team-timeline;astrax-team-timeline__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-customer-reviews,CustomerReviews,Testimonials,BaseWidget,includes/Widgets/Testimonials/CustomerReviews.php,Customer Reviews,7,astrax-testimonial__author;astrax-testimonial__role;astrax-testimonial;astrax-testimonial__quote,MISSING_CSS,,2,0,2,,,False,False
+astrax-rating,Rating,Testimonials,BaseWidget,includes/Widgets/Testimonials/Rating.php,Rating,3,astrax-rating;astrax-rating__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-review-carousel,ReviewCarousel,Testimonials,BaseWidget,includes/Widgets/Testimonials/ReviewCarousel.php,Review Carousel,7,astrax-testimonial__author;astrax-testimonial__role;astrax-testimonial;astrax-testimonial__quote,MISSING_CSS,,2,0,2,,,False,False
+astrax-review-slider,ReviewSlider,Testimonials,BaseWidget,includes/Widgets/Testimonials/ReviewSlider.php,Review Slider,7,astrax-testimonial__author;astrax-testimonial__role;astrax-testimonial;astrax-testimonial__quote,MISSING_CSS,,2,0,2,,,False,False
+astrax-star-rating,StarRating,Testimonials,BaseWidget,includes/Widgets/Testimonials/StarRating.php,Star Rating,3,astrax-star-rating__title;astrax-star-rating,MISSING_CSS,,2,2,0,,,False,False
+astrax-testimonial,Testimonial,Testimonials,BaseWidget,includes/Widgets/Testimonials/Testimonial.php,Testimonial,7,astrax-testimonial__author;astrax-testimonial__role;astrax-testimonial;astrax-testimonial__quote,MISSING_CSS,,2,2,0,,,False,False
+astrax-testimonial-cards,TestimonialCards,Testimonials,BaseWidget,includes/Widgets/Testimonials/TestimonialCards.php,Testimonial Cards,7,astrax-testimonial__author;astrax-testimonial__role;astrax-testimonial;astrax-testimonial__quote,MISSING_CSS,,2,2,0,,,False,False
+astrax-testimonial-carousel,TestimonialCarousel,Testimonials,BaseWidget,includes/Widgets/Testimonials/TestimonialCarousel.php,Testimonial Carousel,7,astrax-testimonial__author;astrax-testimonial__role;astrax-testimonial;astrax-testimonial__quote,MISSING_CSS,,2,2,0,,,False,False
+astrax-testimonial-grid,TestimonialGrid,Testimonials,BaseWidget,includes/Widgets/Testimonials/TestimonialGrid.php,Testimonial Grid,7,astrax-testimonial__author;astrax-testimonial__role;astrax-testimonial;astrax-testimonial__quote,MISSING_CSS,,2,2,0,,,False,False
+astrax-testimonial-masonry,TestimonialMasonry,Testimonials,BaseWidget,includes/Widgets/Testimonials/TestimonialMasonry.php,Testimonial Masonry,7,astrax-testimonial__author;astrax-testimonial__role;astrax-testimonial;astrax-testimonial__quote,MISSING_CSS,,2,2,0,,,False,False
+astrax-testimonial-slider,TestimonialSlider,Testimonials,BaseWidget,includes/Widgets/Testimonials/TestimonialSlider.php,Testimonial Slider,7,astrax-testimonial__author;astrax-testimonial__role;astrax-testimonial;astrax-testimonial__quote,MISSING_CSS,,2,2,0,,,False,False
+astrax-video-testimonials,VideoTestimonials,Testimonials,BaseWidget,includes/Widgets/Testimonials/VideoTestimonials.php,Video Testimonials,3,astrax-video-testimonials__title;astrax-video-testimonials,MISSING_CSS,,2,2,0,,,False,False
+astrax-animated-heading,AnimatedHeading,Typography,BaseWidget,includes/Widgets/Typography/AnimatedHeading.php,Animated Heading,7,astrax-animated-text;astrax-animated-before;astrax-animated-after,MISSING_CSS,,1,1,0,,astrax-animated-heading,False,False
+astrax-character-animation,CharacterAnimation,Typography,BaseWidget,includes/Widgets/Typography/CharacterAnimation.php,Character Animation,3,astrax-character-animation;astrax-character-animation__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-counter,Counter,Typography,BaseWidget,includes/Widgets/Typography/Counter.php,Counter,7,astrax-counter-prefix;astrax-counter-value;astrax-counter-title;astrax-counter-suffix;astrax-counter-wrapper,PARTIAL,,0,0,0,,astrax-counter,False,False
+astrax-dynamic-text,DynamicText,Typography,BaseWidget,includes/Widgets/Typography/DynamicText.php,Dynamic Text,3,astrax-dynamic-text;astrax-dynamic-text__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-glitch-text,GlitchText,Typography,BaseWidget,includes/Widgets/Typography/GlitchText.php,Glitch Text,3,astrax-glitch-text__title;astrax-glitch-text,MISSING_CSS,,2,2,0,,,False,False
+astrax-gradient-text,GradientText,Typography,BaseWidget,includes/Widgets/Typography/GradientText.php,Gradient Text,3,astrax-gradient-text__title;astrax-gradient-text,MISSING_CSS,,2,2,0,,,False,False
+astrax-highlight-animation,HighlightAnimation,Typography,BaseWidget,includes/Widgets/Typography/HighlightAnimation.php,Highlight Animation,3,astrax-highlight-animation;astrax-highlight-animation__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-stroke-text,StrokeText,Typography,BaseWidget,includes/Widgets/Typography/StrokeText.php,Stroke Text,3,astrax-stroke-text__title;astrax-stroke-text,MISSING_CSS,,2,2,0,,,False,False
+astrax-text-marquee,TextMarquee,Typography,BaseWidget,includes/Widgets/Typography/TextMarquee.php,Text Marquee,5,astrax-text-marquee__inner;astrax-text-marquee,MISSING_CSS,,2,2,0,,,False,False
+astrax-text-reveal,TextReveal,Typography,BaseWidget,includes/Widgets/Typography/TextReveal.php,Text Reveal,3,astrax-text-reveal;astrax-text-reveal__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-text-rotator,TextRotator,Typography,BaseWidget,includes/Widgets/Typography/TextRotator.php,Text Rotator,4,astrax-text-rotator,MISSING_CSS,,2,2,0,,,False,True
+astrax-text-split-animation,TextSplitAnimation,Typography,BaseWidget,includes/Widgets/Typography/TextSplitAnimation.php,Text Split Animation,3,astrax-text-split-animation;astrax-text-split-animation__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-typing-text,TypingText,Typography,BaseWidget,includes/Widgets/Typography/TypingText.php,Typing Text,3,astrax-typing-text__title;astrax-typing-text,MISSING_CSS,,2,2,0,,,False,False
+astrax-word-animation,WordAnimation,Typography,BaseWidget,includes/Widgets/Typography/WordAnimation.php,Word Animation,3,astrax-word-animation;astrax-word-animation__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-user-account-menu,AccountMenu,User,BaseWidget,includes/Widgets/User/AccountMenu.php,Account Menu,3,astrax-user-account-menu__title;astrax-user-account-menu,MISSING_CSS,,2,2,0,,,False,False
+astrax-user-login,Login,User,BaseWidget,includes/Widgets/User/Login.php,Login,3,astrax-user-login;astrax-user-login__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-login-popup,LoginPopup,User,BaseWidget,includes/Widgets/User/LoginPopup.php,Login Popup,3,astrax-login-popup;astrax-login-popup__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-user-logout,Logout,User,BaseWidget,includes/Widgets/User/Logout.php,Logout,3,astrax-user-logout__title;astrax-user-logout,MISSING_CSS,,2,2,0,,,False,False
+astrax-user-password-reset,PasswordReset,User,BaseWidget,includes/Widgets/User/PasswordReset.php,Password Reset,3,astrax-user-password-reset;astrax-user-password-reset__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-user-register,Register,User,BaseWidget,includes/Widgets/User/Register.php,Register,3,astrax-user-register;astrax-user-register__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-social-login,SocialLogin,User,BaseWidget,includes/Widgets/User/SocialLogin.php,Social Login,3,astrax-social-login__title;astrax-social-login,MISSING_CSS,,2,2,0,,,False,False
+astrax-user-avatar,UserAvatar,User,BaseWidget,includes/Widgets/User/UserAvatar.php,User Avatar,3,astrax-user-avatar__title;astrax-user-avatar,MISSING_CSS,,2,2,0,,,False,False
+astrax-user-dashboard,UserDashboard,User,BaseWidget,includes/Widgets/User/UserDashboard.php,User Dashboard,3,astrax-user-dashboard;astrax-user-dashboard__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-user-greeting,UserGreeting,User,BaseWidget,includes/Widgets/User/UserGreeting.php,User Greeting,3,astrax-user-greeting__title;astrax-user-greeting,MISSING_CSS,,2,2,0,,,False,False
+astrax-user-profile,UserProfile,User,BaseWidget,includes/Widgets/User/UserProfile.php,User Profile,3,astrax-user-profile;astrax-user-profile__title,MISSING_CSS,,2,2,0,,,False,False
+astrax-woo-add-to-cart,AddToCart,Woo,BaseWidget,includes/Widgets/Woo/AddToCart.php,Add to Cart,3,astrax-woo-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-woo-ajax-filters,AjaxFilters,Woo,BaseWidget,includes/Widgets/Woo/AjaxFilters.php,AJAX Product Filters,3,astrax-woo-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-woo-best-selling,BestSelling,Woo,BaseWidget,includes/Widgets/Woo/BestSelling.php,Best Selling Products,3,astrax-woo-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-woo-buy-now,BuyNow,Woo,BaseWidget,includes/Widgets/Woo/BuyNow.php,Buy Now,3,astrax-woo-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-woo-cart,Cart,Woo,BaseWidget,includes/Widgets/Woo/Cart.php,Cart,3,astrax-woo-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-woo-checkout,Checkout,Woo,BaseWidget,includes/Widgets/Woo/Checkout.php,Checkout,3,astrax-woo-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-woo-cross-sells,CrossSells,Woo,BaseWidget,includes/Widgets/Woo/CrossSells.php,Cross-sells,3,astrax-woo-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-woo-featured-products,FeaturedProducts,Woo,BaseWidget,includes/Widgets/Woo/FeaturedProducts.php,Featured Products,3,astrax-woo-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-woo-flash-sale,FlashSale,Woo,BaseWidget,includes/Widgets/Woo/FlashSale.php,Flash Sale,3,astrax-woo-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-woo-mini-cart,MiniCart,Woo,BaseWidget,includes/Widgets/Woo/MiniCart.php,Mini Cart,3,astrax-woo-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-woo-my-account,MyAccount,Woo,BaseWidget,includes/Widgets/Woo/MyAccount.php,My Account,3,astrax-woo-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-woo-order-tracking,OrderTracking,Woo,BaseWidget,includes/Widgets/Woo/OrderTracking.php,Order Tracking,3,astrax-woo-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-woo-product-accordion,ProductAccordion,Woo,BaseWidget,includes/Widgets/Woo/ProductAccordion.php,Product Accordion,3,astrax-woo-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-woo-product-badge,ProductBadge,Woo,BaseWidget,includes/Widgets/Woo/ProductBadge.php,Product Badge,3,astrax-woo-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-woo-product-comparison,ProductComparison,Woo,BaseWidget,includes/Widgets/Woo/ProductComparison.php,Product Comparison,3,astrax-woo-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-woo-product-filters,ProductFilters,Woo,BaseWidget,includes/Widgets/Woo/ProductFilters.php,Product Filters,3,astrax-woo-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-woo-product-gallery,ProductGallery,Woo,BaseWidget,includes/Widgets/Woo/ProductGallery.php,Product Gallery,3,astrax-woo-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-woo-product-image,ProductImage,Woo,BaseWidget,includes/Widgets/Woo/ProductImage.php,Product Image,3,astrax-woo-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-woo-product-list,ProductList,Woo,BaseWidget,includes/Widgets/Woo/ProductList.php,Product List,3,astrax-woo-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-woo-product-meta,ProductMeta,Woo,BaseWidget,includes/Widgets/Woo/ProductMeta.php,Product Meta,3,astrax-woo-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-woo-product-price,ProductPrice,Woo,BaseWidget,includes/Widgets/Woo/ProductPrice.php,Product Price,3,astrax-woo-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-woo-product-rating,ProductRating,Woo,BaseWidget,includes/Widgets/Woo/ProductRating.php,Product Rating,3,astrax-woo-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-woo-product-search,ProductSearch,Woo,BaseWidget,includes/Widgets/Woo/ProductSearch.php,Product Search,3,astrax-woo-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-woo-product-slider,ProductSlider,Woo,BaseWidget,includes/Widgets/Woo/ProductSlider.php,Product Slider,3,astrax-woo-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-woo-product-tabs,ProductTabs,Woo,BaseWidget,includes/Widgets/Woo/ProductTabs.php,Product Tabs,3,astrax-woo-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-woo-product-variations,ProductVariations,Woo,BaseWidget,includes/Widgets/Woo/ProductVariations.php,Product Variations,3,astrax-woo-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-woo-recently-viewed,RecentlyViewed,Woo,BaseWidget,includes/Widgets/Woo/RecentlyViewed.php,Recently Viewed,3,astrax-woo-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-woo-related-products,RelatedProducts,Woo,BaseWidget,includes/Widgets/Woo/RelatedProducts.php,Related Products,3,astrax-woo-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-woo-sale-products,SaleProducts,Woo,BaseWidget,includes/Widgets/Woo/SaleProducts.php,Sale Products,3,astrax-woo-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-woo-upsells,Upsells,Woo,BaseWidget,includes/Widgets/Woo/Upsells.php,Upsells,3,astrax-woo-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-woo-wishlist,Wishlist,Woo,BaseWidget,includes/Widgets/Woo/Wishlist.php,Wishlist,3,astrax-woo-widget,MISSING_CSS,,2,0,2,,,False,False
+astrax-woo-category-grid,WooCategoryGrid,Root,BaseWidget,includes/Widgets/WooCategoryGrid.php,Woo Category Grid,3,astrax-notice--info;astrax-notice;astrax-notice--warning,MISSING_CSS,,0,0,0,,,False,False
+astrax-woo-product-carousel,WooProductCarousel,Root,BaseWidget,includes/Widgets/WooProductCarousel.php,Woo Product Carousel,5,astrax-notice--info;astrax-notice;astrax-notice--warning,MISSING_CSS,,0,0,0,,astrax-woo-carousel,True,False
+astrax-woo-product-grid,WooProductGrid,Root,BaseWidget,includes/Widgets/WooProductGrid.php,Woo Product Grid,3,astrax-woo-grid,MISSING_CSS,,0,0,0,,,True,False

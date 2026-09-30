@@ -1,0 +1,65 @@
+/**
+ * Astrax Addons — Base Scoped Styles
+ * Resets and foundational styling strictly scoped under .astrax-widget.
+ * Guarantees zero leakage into WordPress, Elementor, themes, or third-party plugins.
+ */
+
+.astrax-widget,
+.astrax-widget *,
+.astrax-widget *::before,
+.astrax-widget *::after {
+	box-sizing: border-box;
+}
+
+.astrax-widget {
+	position: relative;
+	width: 100%;
+}
+
+/* Accessible focus-visible state for all interactive widget children */
+.astrax-widget a:focus-visible,
+.astrax-widget button:focus-visible,
+.astrax-widget [tabindex]:focus-visible {
+	outline: 2px solid var(--astrax-primary-500, #0d7060);
+	outline-offset: 2px;
+	border-radius: var(--astrax-radius-sm, 4px);
+}
+
+/* Standard Empty State Renderer */
+.astrax-empty-state {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: var(--astrax-space-8, 2rem) var(--astrax-space-4, 1rem);
+	text-align: center;
+	border: 1px dashed var(--astrax-border-subtle, #e2e8f0);
+	border-radius: var(--astrax-radius-lg, 12px);
+	background: var(--astrax-surface-subtle, #f8fafc);
+	color: var(--astrax-text-muted, #64748b);
+}
+
+.astrax-empty-state__icon {
+	font-size: 2rem;
+	margin-bottom: var(--astrax-space-2, 0.5rem);
+	color: var(--astrax-primary-400, #3d9a80);
+}
+
+.astrax-empty-state__message {
+	margin: 0;
+	font-size: 0.875rem;
+	line-height: 1.5;
+}
+
+/* Screen reader only utility */
+.astrax-sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border-width: 0;
+}

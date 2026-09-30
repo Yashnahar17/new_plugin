@@ -1,0 +1,30 @@
+/**
+ * Astrax Sticky Extension Styles
+ *
+ * Responsive overrides for device-targeted sticky behavior.
+ * The base sticky styles (position, offset, z-index) are applied
+ * inline server-side for specificity.
+ *
+ * @since 1.0.0
+ */
+
+/* Mobile-only: disable sticky on desktop/tablet when configured */
+@media (min-width: 768px) {
+	.astrax-sticky[data-astrax-sticky-devices="mobile"] {
+		position: static !important;
+	}
+}
+
+/* Desktop-only: disable sticky on tablet/mobile */
+@media (max-width: 1024px) {
+	.astrax-sticky[data-astrax-sticky-devices="desktop"] {
+		position: static !important;
+	}
+}
+
+/* Tablet & desktop: disable sticky on mobile only */
+@media (max-width: 767px) {
+	.astrax-sticky[data-astrax-sticky-devices="tablet"] {
+		position: static !important;
+	}
+}

@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/**
+ * Astrax Addons Admin Dashboard - Modern Premium Redesign
+ */
+
+#astrax-admin-app-root {
+	font-family: 'Inter', sans-serif;
+	color: #1e293b;
+	margin-top: 20px;
+}
+
+.astrax-admin-app {
+	max-width: 1080px;
+	margin: 0 auto;
+	background: #ffffff;
+	border: none;
+	border-radius: 16px;
+	box-shadow: 0 10px 40px -10px rgba(0,0,0,0.08), 0 4px 6px -4px rgba(0,0,0,0.05);
+	overflow: hidden;
+}
+
+.astrax-admin-header {
+	padding: 40px 40px;
+	background: linear-gradient(135deg, #4f46e5 0%, #3b82f6 100%);
+	color: #ffffff;
+	position: relative;
+	overflow: hidden;
+}
+
+.astrax-admin-header::before {
+	content: '';
+	position: absolute;
+	top: -50%;
+	right: -10%;
+	width: 50%;
+	height: 200%;
+	background: radial-gradient(circle, rgba(255,255,255,0.15) 0%, transparent 70%);
+	transform: rotate(-15deg);
+	pointer-events: none;
+}
+
+.astrax-admin-header h1 {
+	margin: 0 0 10px 0;
+	font-size: 32px;
+	font-weight: 700;
+	color: #ffffff;
+	letter-spacing: -0.5px;
+	font-family: 'Inter', sans-serif;
+}
+
+.astrax-admin-header p {
+	margin: 0;
+	font-size: 16px;
+	color: rgba(255,255,255,0.85);
+	font-weight: 400;
+}
+
+.astrax-admin-nav {
+	display: flex;
+	background: #f8fafc;
+	padding: 0 40px;
+	border-bottom: 1px solid #e2e8f0;
+	gap: 20px;
+}
+
+.astrax-admin-nav button {
+	background: transparent;
+	border: none;
+	padding: 20px 10px;
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: 600;
+	color: #64748b;
+	position: relative;
+	transition: color 0.3s ease;
+	font-family: 'Inter', sans-serif;
+}
+
+.astrax-admin-nav button::after {
+	content: '';
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	background: #4f46e5;
+	border-radius: 3px 3px 0 0;
+	transform: scaleX(0);
+	transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+	transform-origin: center;
+}
+
+.astrax-admin-nav button:hover {
+	color: #1e293b;
+}
+
+.astrax-admin-nav button.active {
+	color: #4f46e5;
+}
+
+.astrax-admin-nav button.active::after {
+	transform: scaleX(1);
+}
+
+.astrax-admin-content {
+	padding: 40px;
+	background: #ffffff;
+}
+
+.astrax-admin-notices {
+	padding: 20px 40px 0;
+}
+
+.astrax-admin-loading {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 100px;
+}
+
+/* Override wp-components */
+.astrax-admin-content .components-panel {
+	border: none;
+	background: transparent;
+}
+
+.astrax-admin-content .components-panel__body {
+	border: 1px solid #e2e8f0;
+	border-radius: 12px;
+	background: #ffffff;
+	box-shadow: 0 4px 6px -1px rgba(0,0,0,0.02);
+	margin-bottom: 24px;
+	overflow: hidden;
+	transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.astrax-admin-content .components-panel__body:hover {
+	box-shadow: 0 10px 15px -3px rgba(0,0,0,0.05);
+	transform: translateY(-2px);
+}
+
+.astrax-admin-content .components-panel__body > .components-panel__body-title {
+	background: #f8fafc;
+	border-bottom: 1px solid #e2e8f0;
+}
+
+.astrax-admin-content .components-panel__body-title button {
+	font-family: 'Inter', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	color: #0f172a;
+	padding: 20px;
+}
+
+.astrax-admin-content .components-panel__row {
+	padding: 15px 20px;
+	border-bottom: 1px solid #f1f5f9;
+	margin: 0;
+}
+
+.astrax-admin-content .components-panel__row:last-child {
+	border-bottom: none;
+}
+
+.astrax-admin-content .components-toggle-control .components-base-control__field {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.astrax-admin-content .components-toggle-control .components-toggle-control__label {
+	font-family: 'Inter', sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	color: #334155;
+}
+
+/* Custom Table Styles for System Info */
+.astrax-admin-content table.widefat {
+	border: none;
+	box-shadow: none;
+}
+
+.astrax-admin-content table.widefat td, .astrax-admin-content table.widefat th {
+	padding: 16px 20px;
+	font-family: 'Inter', sans-serif;
+	font-size: 14px;
+	border-bottom: 1px solid #f1f5f9;
+}
+
+.astrax-admin-content table.widefat tr:last-child td {
+	border-bottom: none;
+}
+
+.astrax-admin-content table.striped>tbody>tr:nth-child(odd) {
+	background-color: #f8fafc;
+}
+
+/* Forms */
+.astrax-admin-content .components-text-control__input {
+	border-radius: 8px;
+	border: 1px solid #cbd5e1;
+	padding: 10px 15px;
+	font-family: 'Inter', sans-serif;
+	font-size: 14px;
+	transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.astrax-admin-content .components-text-control__input:focus {
+	border-color: #4f46e5;
+	box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+}
+
+.astrax-admin-content .components-button.is-primary {
+	background: #4f46e5;
+	color: white;
+	border-radius: 8px;
+	padding: 8px 24px;
+	font-family: 'Inter', sans-serif;
+	font-weight: 500;
+	height: auto;
+	box-shadow: 0 4px 6px -1px rgba(79, 70, 229, 0.2);
+	transition: all 0.2s;
+}
+
+.astrax-admin-content .components-button.is-primary:hover {
+	background: #4338ca;
+	transform: translateY(-1px);
+	box-shadow: 0 6px 8px -1px rgba(79, 70, 229, 0.3);
+}
+
+/* Animations */
+@keyframes fadeIn {
+	from { opacity: 0; transform: translateY(10px); }
+	to { opacity: 1; transform: translateY(0); }
+}
+
+.astrax-admin-content > div {
+	animation: fadeIn 0.4s ease-out forwards;
+}

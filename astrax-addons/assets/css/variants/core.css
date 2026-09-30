@@ -1,0 +1,245 @@
+/**
+ * Astrax Addons — Core Variant (Refined Standard)
+ * Clean, balanced, medical/enterprise aesthetic with high legibility.
+ */
+
+.astrax-variant-core {
+	--variant-surface: var(--astrax-surface-light, #ffffff);
+	--variant-border: var(--astrax-border-subtle, #e2e8f0);
+	--variant-text: var(--astrax-text-main, #0f2219);
+	--variant-accent: var(--astrax-primary-600, #0b5c4a);
+	border-radius: var(--astrax-radius-md, 8px);
+	transition: box-shadow var(--astrax-transition-base, 250ms), transform var(--astrax-transition-base, 250ms);
+}
+
+.astrax-variant-core:hover {
+	box-shadow: var(--astrax-shadow-md);
+}
+
+/* 1. Advanced Heading — Core */
+.astrax-advanced-heading.astrax-variant-core .astrax-heading-title {
+	font-family: var(--astrax-font-sans, system-ui, sans-serif);
+	font-weight: 700;
+	letter-spacing: -0.02em;
+	color: var(--variant-text);
+	position: relative;
+	display: inline-block;
+}
+
+.astrax-advanced-heading.astrax-variant-core .astrax-heading-title::after {
+	content: '';
+	display: block;
+	width: 40px;
+	height: 3px;
+	background: var(--variant-accent);
+	margin-top: 8px;
+	border-radius: 2px;
+}
+
+/* 2. Advanced Button — Core */
+.astrax-advanced-button.astrax-variant-core .astrax-button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 12px 24px;
+	background-color: var(--variant-accent);
+	color: #ffffff;
+	border-radius: 8px;
+	font-weight: 600;
+	font-size: 15px;
+	text-decoration: none;
+	box-shadow: 0 2px 4px rgba(11, 92, 74, 0.15);
+	transition: all 200ms ease-in-out;
+}
+
+.astrax-advanced-button.astrax-variant-core .astrax-button:hover {
+	background-color: #084739;
+	transform: translateY(-2px);
+	box-shadow: 0 4px 12px rgba(11, 92, 74, 0.25);
+}
+
+/* 3. Icon Box — Core */
+.astrax-icon-box-wrapper.astrax-variant-core {
+	background: #ffffff;
+	border: 1px solid #e2e8f0;
+	border-radius: 12px;
+	padding: 28px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+	transition: all 250ms ease;
+}
+
+.astrax-icon-box-wrapper.astrax-variant-core:hover {
+	border-color: #cbd5e1;
+	transform: translateY(-3px);
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.astrax-icon-box-wrapper.astrax-variant-core .astrax-icon-box-icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 56px;
+	height: 56px;
+	border-radius: 12px;
+	background: rgba(11, 92, 74, 0.08);
+	color: var(--variant-accent);
+	margin-bottom: 16px;
+	font-size: 24px;
+	transition: transform 200ms ease;
+}
+
+.astrax-icon-box-wrapper.astrax-variant-core:hover .astrax-icon-box-icon {
+	transform: scale(1.08);
+}
+
+.astrax-icon-box-wrapper.astrax-variant-core .astrax-icon-box-title {
+	font-size: 18px;
+	font-weight: 700;
+	color: #0f172a;
+	margin-bottom: 8px;
+}
+
+.astrax-icon-box-wrapper.astrax-variant-core .astrax-icon-box-description {
+	color: #64748b;
+	line-height: 1.6;
+	font-size: 14px;
+}
+
+/* 4. Info Box — Core */
+.astrax-info-box-wrapper.astrax-variant-core {
+	display: block;
+	background: #ffffff;
+	border: 1px solid #e2e8f0;
+	border-radius: 12px;
+	overflow: hidden;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+	transition: all 250ms ease;
+	text-decoration: none;
+	color: inherit;
+}
+
+.astrax-info-box-wrapper.astrax-variant-core:hover {
+	transform: translateY(-3px);
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.astrax-info-box-wrapper.astrax-variant-core .astrax-info-box-image img {
+	width: 100%;
+	height: auto;
+	display: block;
+	transition: transform 300ms ease;
+}
+
+.astrax-info-box-wrapper.astrax-variant-core:hover .astrax-info-box-image img {
+	transform: scale(1.03);
+}
+
+.astrax-info-box-wrapper.astrax-variant-core .astrax-info-box-content {
+	padding: 24px;
+}
+
+.astrax-info-box-wrapper.astrax-variant-core .astrax-info-box-title {
+	font-size: 18px;
+	font-weight: 700;
+	color: #0f172a;
+	margin-bottom: 8px;
+}
+
+.astrax-info-box-wrapper.astrax-variant-core .astrax-info-box-description {
+	color: #64748b;
+	line-height: 1.6;
+	font-size: 14px;
+}
+
+/* 5. Image Accordion — Core */
+.astrax-image-accordion.astrax-variant-core {
+	border-radius: 12px;
+	overflow: hidden;
+	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.astrax-image-accordion.astrax-variant-core .astrax-ia-item {
+	transition: flex 400ms cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.astrax-image-accordion.astrax-variant-core .astrax-ia-title {
+	font-family: var(--astrax-font-sans, sans-serif);
+	font-weight: 700;
+	color: #ffffff;
+}
+
+/* 6. Post Grid — Core */
+.astrax-post-grid.astrax-variant-core .astrax-post-grid__container {
+	display: grid;
+	gap: 24px;
+}
+
+.astrax-post-grid.astrax-variant-core .astrax-post-grid__item {
+	background: #ffffff;
+	border: 1px solid #e2e8f0;
+	border-radius: 12px;
+	overflow: hidden;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+	transition: all 250ms ease;
+}
+
+.astrax-post-grid.astrax-variant-core .astrax-post-grid__item:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.astrax-post-grid.astrax-variant-core .astrax-post-grid__content {
+	padding: 20px;
+}
+
+.astrax-post-grid.astrax-variant-core .astrax-post-grid__title a {
+	color: #0f172a;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 17px;
+	transition: color 150ms ease;
+}
+
+.astrax-post-grid.astrax-variant-core .astrax-post-grid__title a:hover {
+	color: var(--variant-accent);
+}
+
+.astrax-post-grid.astrax-variant-core .astrax-post-grid__excerpt {
+	color: #64748b;
+	font-size: 14px;
+	line-height: 1.6;
+	margin-top: 8px;
+}
+
+/* 7. Woo Product Grid & 8. Carousel & 9. Category Grid — Core */
+.astrax-woo-grid.astrax-variant-core ul.products li.product,
+.astrax-woo-carousel.astrax-variant-core ul.products li.product,
+.astrax-woo-category-grid.astrax-variant-core ul.products li.product-category {
+	background: #ffffff;
+	border: 1px solid #e2e8f0;
+	border-radius: 12px;
+	padding: 16px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+	transition: all 250ms ease;
+}
+
+.astrax-woo-grid.astrax-variant-core ul.products li.product:hover,
+.astrax-woo-carousel.astrax-variant-core ul.products li.product:hover,
+.astrax-woo-category-grid.astrax-variant-core ul.products li.product-category:hover {
+	transform: translateY(-3px);
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.astrax-woo-grid.astrax-variant-core .woocommerce-loop-product__title,
+.astrax-woo-carousel.astrax-variant-core .woocommerce-loop-product__title {
+	font-weight: 600;
+	font-size: 16px;
+	color: #0f172a;
+}
+
+.astrax-woo-grid.astrax-variant-core .price,
+.astrax-woo-carousel.astrax-variant-core .price {
+	font-weight: 700;
+	color: var(--variant-accent);
+}
+

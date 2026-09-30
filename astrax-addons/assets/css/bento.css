@@ -1,0 +1,61 @@
+/**
+ * Astrax Addons — Bento Grid Component Styles
+ * Modern asymmetric grid card layouts with responsive wrapping.
+ */
+
+.astrax-bento {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	gap: var(--astrax-space-4, 1rem);
+	width: 100%;
+}
+
+@media (min-width: 640px) {
+	.astrax-bento {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (min-width: 1024px) {
+	.astrax-bento {
+		grid-template-columns: repeat(4, 1fr);
+	}
+	.astrax-bento__item--col-span-2 {
+		grid-column: span 2;
+	}
+	.astrax-bento__item--row-span-2 {
+		grid-row: span 2;
+	}
+}
+
+.astrax-bento__item {
+	background: var(--astrax-surface-light, #ffffff);
+	border: 1px solid var(--astrax-border-subtle, #e2e8f0);
+	border-radius: var(--astrax-radius-lg, 12px);
+	padding: var(--astrax-space-6, 1.5rem);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: relative;
+	overflow: hidden;
+	transition: transform var(--astrax-transition-base, 250ms), box-shadow var(--astrax-transition-base, 250ms);
+}
+
+.astrax-bento__item:hover {
+	transform: translateY(-2px);
+	box-shadow: var(--astrax-shadow-md);
+}
+
+.astrax-bento__title {
+	font-size: 1.125rem;
+	font-weight: 700;
+	color: var(--astrax-text-main, #0f2219);
+	margin: 0 0 var(--astrax-space-2, 0.5rem) 0;
+}
+
+.astrax-bento__description {
+	font-size: 0.875rem;
+	color: var(--astrax-text-muted, #64748b);
+	margin: 0;
+	line-height: 1.5;
+}

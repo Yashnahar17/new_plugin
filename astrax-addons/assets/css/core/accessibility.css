@@ -1,0 +1,33 @@
+/**
+ * Astrax Addons — Accessibility & RTL Utilities
+ * Handles prefers-reduced-motion, high contrast, and bi-directional RTL support.
+ */
+
+/* Reduced motion compliance (WCAG 2.2 AA) */
+@media (prefers-reduced-motion: reduce) {
+	.astrax-widget,
+	.astrax-widget *,
+	.astrax-widget *::before,
+	.astrax-widget *::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
+
+/* RTL Layout Considerations */
+[dir="rtl"] .astrax-widget {
+	direction: rtl;
+	text-align: right;
+}
+
+[dir="rtl"] .astrax-widget__icon-left {
+	margin-left: var(--astrax-space-2, 0.5rem);
+	margin-right: 0;
+}
+
+[dir="rtl"] .astrax-widget__icon-right {
+	margin-right: var(--astrax-space-2, 0.5rem);
+	margin-left: 0;
+}

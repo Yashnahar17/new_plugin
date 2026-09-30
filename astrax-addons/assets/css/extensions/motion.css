@@ -1,0 +1,23 @@
+/**
+ * Astrax Motion & Parallax Extension Styles
+ *
+ * Base styles for motion elements and reduced motion handling.
+ *
+ * @since 1.0.0
+ */
+
+/* Ensure smooth GPU-accelerated transforms. */
+.astrax-motion {
+	will-change: transform, opacity;
+}
+
+/* Reduced motion: disable all transform and opacity overrides. */
+@media (prefers-reduced-motion: reduce) {
+	.astrax-motion {
+		transform: none !important;
+		opacity: 1 !important;
+		will-change: auto;
+		transition: none !important;
+		animation: none !important;
+	}
+}
