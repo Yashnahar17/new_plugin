@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /**
- * Astrax Image Accordion Widget.
+ * Image Accordion Widget.
  *
  * @since 1.0.0
  */
@@ -68,9 +68,28 @@ class ImageAccordion extends BaseWidget {
 			'gallery',
 			'interactive',
 			'portfolio',
+			'cards',
 			'hover',
-			'slider',
+			'images',
 		];
+	}
+
+	/**
+	 * Get widget style dependencies.
+	 *
+	 * @return array
+	 */
+	public function get_style_depends() {
+		return [ 'astrax-image-accordion' ];
+	}
+
+	/**
+	 * Get widget script dependencies.
+	 *
+	 * @return array
+	 */
+	public function get_script_depends() {
+		return [ 'astrax-image-accordion' ];
 	}
 
 	/**
@@ -81,20 +100,24 @@ class ImageAccordion extends BaseWidget {
 	protected function register_controls() {
 
 		/*
-		 * ---------------------------------------------------------
+		 * =========================================================
 		 * CONTENT
-		 * ---------------------------------------------------------
+		 * =========================================================
 		 */
 
 		$this->start_controls_section(
 			'section_content',
 			[
-				'label' => esc_html__( 'Accordion Items', 'astrax-addons' ),
+				'label' => esc_html__( 'Content', 'astrax-addons' ),
 				'tab'   => Controls_Manager::TAB_CONTENT,
 			]
 		);
 
 		$repeater = new Repeater();
+
+		/*
+		 * IMAGE
+		 */
 
 		$repeater->add_control(
 			'image',
@@ -110,12 +133,32 @@ class ImageAccordion extends BaseWidget {
 			]
 		);
 
+		/*
+		 * ALT TEXT
+		 */
+
+		$repeater->add_control(
+			'image_alt',
+			[
+				'label'       => esc_html__( 'Image Alt Text', 'astrax-addons' ),
+				'type'        => Controls_Manager::TEXT,
+				'placeholder' => esc_html__( 'Describe the image', 'astrax-addons' ),
+				'dynamic'     => [
+					'active' => true,
+				],
+			]
+		);
+
+		/*
+		 * TITLE
+		 */
+
 		$repeater->add_control(
 			'title',
 			[
 				'label'       => esc_html__( 'Title', 'astrax-addons' ),
 				'type'        => Controls_Manager::TEXT,
-				'default'     => esc_html__( 'Accordion Item', 'astrax-addons' ),
+				'default'     => esc_html__( 'Creative Design', 'astrax-addons' ),
 				'placeholder' => esc_html__( 'Enter title', 'astrax-addons' ),
 				'label_block' => true,
 				'dynamic'     => [
@@ -124,21 +167,30 @@ class ImageAccordion extends BaseWidget {
 			]
 		);
 
+		/*
+		 * DESCRIPTION
+		 */
+
 		$repeater->add_control(
 			'description',
 			[
 				'label'       => esc_html__( 'Description', 'astrax-addons' ),
 				'type'        => Controls_Manager::TEXTAREA,
 				'default'     => esc_html__(
-					'Add a short description for this accordion item.',
+					'Create engaging digital experiences with modern design.',
 					'astrax-addons'
 				),
+				'placeholder' => esc_html__( 'Enter description', 'astrax-addons' ),
 				'rows'        => 4,
 				'dynamic'     => [
 					'active' => true,
 				],
 			]
 		);
+
+		/*
+		 * BUTTON TEXT
+		 */
 
 		$repeater->add_control(
 			'button_text',
@@ -151,6 +203,10 @@ class ImageAccordion extends BaseWidget {
 			]
 		);
 
+		/*
+		 * BUTTON LINK
+		 */
+
 		$repeater->add_control(
 			'button_link',
 			[
@@ -160,36 +216,29 @@ class ImageAccordion extends BaseWidget {
 				'dynamic'     => [
 					'active' => true,
 				],
-				'default'     => [
-					'url' => '',
+				'default' => [
+					'url'         => '',
+					'is_external' => false,
+					'nofollow'    => false,
 				],
 			]
 		);
 
-		$repeater->add_control(
-			'item_id',
-			[
-				'label'       => esc_html__( 'Item ID', 'astrax-addons' ),
-				'type'        => Controls_Manager::TEXT,
-				'placeholder' => esc_html__( 'unique-item-id', 'astrax-addons' ),
-				'description' => esc_html__(
-					'Optional unique ID for this accordion item.',
-					'astrax-addons'
-				),
-			]
-		);
+		/*
+		 * REPEATER
+		 */
 
 		$this->add_control(
 			'items',
 			[
-				'label'       => esc_html__( 'Items', 'astrax-addons' ),
+				'label'       => esc_html__( 'Accordion Items', 'astrax-addons' ),
 				'type'        => Controls_Manager::REPEATER,
 				'fields'      => $repeater->get_controls(),
 				'default'     => [
 					[
 						'title'       => esc_html__( 'Creative Design', 'astrax-addons' ),
 						'description' => esc_html__(
-							'Create visually engaging experiences with modern design.',
+							'Create engaging digital experiences with modern design.',
 							'astrax-addons'
 						),
 					],
@@ -207,23 +256,40 @@ class ImageAccordion extends BaseWidget {
 							'astrax-addons'
 						),
 					],
+					[
+						'title'       => esc_html__( 'Brand Experience', 'astrax-addons' ),
+						'description' => esc_html__(
+							'Build memorable and consistent brand experiences.',
+							'astrax-addons'
+						),
+					],
 				],
 				'title_field' => '{{{ title }}}',
 			]
 		);
 
+		/*
+		 * DESIGN
+		 */
+
 		$this->add_control(
-			'layout',
+			'design',
 			[
-				'label'   => esc_html__( 'Layout', 'astrax-addons' ),
+				'label'   => esc_html__( 'Design', 'astrax-addons' ),
 				'type'    => Controls_Manager::SELECT,
-				'default' => 'horizontal',
+				'default' => 'design-1',
 				'options' => [
-					'horizontal' => esc_html__( 'Horizontal', 'astrax-addons' ),
-					'vertical'   => esc_html__( 'Vertical', 'astrax-addons' ),
+					'design-1' => esc_html__( 'Classic Split', 'astrax-addons' ),
+					'design-2' => esc_html__( 'Editorial Reveal', 'astrax-addons' ),
+					'design-3' => esc_html__( 'Cinematic Cards', 'astrax-addons' ),
+					'design-4' => esc_html__( 'Minimal Vertical', 'astrax-addons' ),
 				],
 			]
 		);
+
+		/*
+		 * INTERACTION
+		 */
 
 		$this->add_control(
 			'trigger',
@@ -238,6 +304,10 @@ class ImageAccordion extends BaseWidget {
 			]
 		);
 
+		/*
+		 * ACTIVE ITEM
+		 */
+
 		$this->add_control(
 			'active_item',
 			[
@@ -245,12 +315,17 @@ class ImageAccordion extends BaseWidget {
 				'type'        => Controls_Manager::NUMBER,
 				'default'     => 1,
 				'min'         => 0,
+				'step'        => 1,
 				'description' => esc_html__(
-					'Set to 0 to have no active item.',
+					'Set to 0 to start with no active item.',
 					'astrax-addons'
 				),
 			]
 		);
+
+		/*
+		 * ANIMATION
+		 */
 
 		$this->add_control(
 			'animation_duration',
@@ -261,7 +336,7 @@ class ImageAccordion extends BaseWidget {
 				'range'      => [
 					'ms' => [
 						'min'  => 100,
-						'max'  => 2000,
+						'max'  => 1500,
 						'step' => 50,
 					],
 				],
@@ -270,7 +345,7 @@ class ImageAccordion extends BaseWidget {
 					'size' => 500,
 				],
 				'selectors' => [
-					'{{WRAPPER}} .astrax-image-accordion__item' =>
+					'{{WRAPPER}}' =>
 						'--astrax-accordion-duration: {{SIZE}}{{UNIT}};',
 				],
 			]
@@ -279,13 +354,13 @@ class ImageAccordion extends BaseWidget {
 		$this->end_controls_section();
 
 		/*
-		 * ---------------------------------------------------------
-		 * IMAGE
-		 * ---------------------------------------------------------
+		 * =========================================================
+		 * IMAGE STYLE
+		 * =========================================================
 		 */
 
 		$this->start_controls_section(
-			'section_image',
+			'section_image_style',
 			[
 				'label' => esc_html__( 'Image', 'astrax-addons' ),
 				'tab'   => Controls_Manager::TAB_STYLE,
@@ -293,14 +368,44 @@ class ImageAccordion extends BaseWidget {
 		);
 
 		$this->add_control(
-			'image_position',
+			'image_height',
 			[
-				'label'   => esc_html__( 'Image Position', 'astrax-addons' ),
+				'label'      => esc_html__( 'Height', 'astrax-addons' ),
+				'type'       => Controls_Manager::SLIDER,
+				'size_units' => [ 'px', 'vh' ],
+				'range'      => [
+					'px' => [
+						'min'  => 250,
+						'max'  => 1000,
+						'step' => 10,
+					],
+					'vh' => [
+						'min'  => 20,
+						'max'  => 100,
+						'step' => 1,
+					],
+				],
+				'default' => [
+					'unit' => 'px',
+					'size' => 580,
+				],
+				'selectors' => [
+					'{{WRAPPER}} .astrax-image-accordion' =>
+						'--astrax-accordion-height: {{SIZE}}{{UNIT}};',
+				],
+			]
+		);
+
+		$this->add_control(
+			'image_fit',
+			[
+				'label'   => esc_html__( 'Image Fit', 'astrax-addons' ),
 				'type'    => Controls_Manager::SELECT,
 				'default' => 'cover',
 				'options' => [
 					'cover'   => esc_html__( 'Cover', 'astrax-addons' ),
 					'contain' => esc_html__( 'Contain', 'astrax-addons' ),
+					'fill'    => esc_html__( 'Fill', 'astrax-addons' ),
 				],
 				'selectors' => [
 					'{{WRAPPER}} .astrax-image-accordion__image img' =>
@@ -310,32 +415,24 @@ class ImageAccordion extends BaseWidget {
 		);
 
 		$this->add_control(
-			'image_height',
+			'image_zoom',
 			[
-				'label'      => esc_html__( 'Height', 'astrax-addons' ),
+				'label'      => esc_html__( 'Active Image Zoom', 'astrax-addons' ),
 				'type'       => Controls_Manager::SLIDER,
-				'size_units' => [ 'px', 'vh', 'em' ],
+				'size_units' => [ '' ],
 				'range'      => [
-					'px' => [
-						'min' => 150,
-						'max' => 900,
-					],
-					'vh' => [
-						'min' => 20,
-						'max' => 100,
-					],
-					'em' => [
-						'min' => 10,
-						'max' => 50,
+					'' => [
+						'min'  => 1,
+						'max'  => 1.2,
+						'step' => 0.01,
 					],
 				],
 				'default' => [
-					'unit' => 'px',
-					'size' => 500,
+					'size' => 1.06,
 				],
 				'selectors' => [
-					'{{WRAPPER}} .astrax-image-accordion__item' =>
-						'min-height: {{SIZE}}{{UNIT}};',
+					'{{WRAPPER}} .astrax-image-accordion__item.is-active img' =>
+						'transform: scale({{SIZE}});',
 				],
 			]
 		);
@@ -345,7 +442,7 @@ class ImageAccordion extends BaseWidget {
 			[
 				'label'     => esc_html__( 'Overlay Color', 'astrax-addons' ),
 				'type'      => Controls_Manager::COLOR,
-				'default'   => 'rgba(0, 0, 0, 0.25)',
+				'default'   => 'rgba(0,0,0,0.25)',
 				'selectors' => [
 					'{{WRAPPER}} .astrax-image-accordion__overlay' =>
 						'background-color: {{VALUE}};',
@@ -356,9 +453,9 @@ class ImageAccordion extends BaseWidget {
 		$this->end_controls_section();
 
 		/*
-		 * ---------------------------------------------------------
+		 * =========================================================
 		 * CONTENT STYLE
-		 * ---------------------------------------------------------
+		 * =========================================================
 		 */
 
 		$this->start_controls_section(
@@ -443,9 +540,9 @@ class ImageAccordion extends BaseWidget {
 		$this->end_controls_section();
 
 		/*
-		 * ---------------------------------------------------------
+		 * =========================================================
 		 * ITEM STYLE
-		 * ---------------------------------------------------------
+		 * =========================================================
 		 */
 
 		$this->start_controls_section(
@@ -462,7 +559,14 @@ class ImageAccordion extends BaseWidget {
 				'label'      => esc_html__( 'Gap', 'astrax-addons' ),
 				'type'       => Controls_Manager::SLIDER,
 				'size_units' => [ 'px', 'em' ],
-				'default'    => [
+				'range'      => [
+					'px' => [
+						'min'  => 0,
+						'max'  => 50,
+						'step' => 1,
+					],
+				],
+				'default' => [
 					'unit' => 'px',
 					'size' => 8,
 				],
@@ -505,9 +609,9 @@ class ImageAccordion extends BaseWidget {
 		$this->end_controls_section();
 
 		/*
-		 * ---------------------------------------------------------
-		 * BUTTON
-		 * ---------------------------------------------------------
+		 * =========================================================
+		 * BUTTON STYLE
+		 * =========================================================
 		 */
 
 		$this->start_controls_section(
@@ -531,6 +635,7 @@ class ImageAccordion extends BaseWidget {
 			[
 				'label'     => esc_html__( 'Text Color', 'astrax-addons' ),
 				'type'      => Controls_Manager::COLOR,
+				'default'   => '#FFFFFF',
 				'selectors' => [
 					'{{WRAPPER}} .astrax-image-accordion__button' =>
 						'color: {{VALUE}};',
@@ -541,8 +646,9 @@ class ImageAccordion extends BaseWidget {
 		$this->add_control(
 			'button_background',
 			[
-				'label'     => esc_html__( 'Background', 'astrax-addons' ),
+				'label'     => esc_html__( 'Background Color', 'astrax-addons' ),
 				'type'      => Controls_Manager::COLOR,
+				'default'   => 'rgba(255,255,255,0.15)',
 				'selectors' => [
 					'{{WRAPPER}} .astrax-image-accordion__button' =>
 						'background-color: {{VALUE}};',
@@ -554,11 +660,27 @@ class ImageAccordion extends BaseWidget {
 			'button_radius',
 			[
 				'label'      => esc_html__( 'Border Radius', 'astrax-addons' ),
-				'type'       => Controls_Manager::DIMENSIONS,
+				'type'       => Controls_Manager::SLIDER,
 				'size_units' => [ 'px', '%' ],
+				'range'      => [
+					'px' => [
+						'min'  => 0,
+						'max'  => 100,
+						'step' => 1,
+					],
+					'%' => [
+						'min'  => 0,
+						'max'  => 50,
+						'step' => 1,
+					],
+				],
+				'default' => [
+					'unit' => 'px',
+					'size' => 50,
+				],
 				'selectors' => [
 					'{{WRAPPER}} .astrax-image-accordion__button' =>
-						'border-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+						'border-radius: {{SIZE}}{{UNIT}};',
 				],
 			]
 		);
@@ -575,15 +697,18 @@ class ImageAccordion extends BaseWidget {
 
 		$settings = $this->get_settings_for_display();
 
-		if ( empty( $settings['items'] ) || ! is_array( $settings['items'] ) ) {
+		if (
+			empty( $settings['items'] ) ||
+			! is_array( $settings['items'] )
+		) {
 			return;
 		}
 
 		$widget_id = $this->get_id();
 
-		$layout = ! empty( $settings['layout'] )
-			? sanitize_html_class( $settings['layout'] )
-			: 'horizontal';
+		$design = ! empty( $settings['design'] )
+			? sanitize_html_class( $settings['design'] )
+			: 'design-1';
 
 		$trigger = ! empty( $settings['trigger'] )
 			? sanitize_html_class( $settings['trigger'] )
@@ -593,24 +718,38 @@ class ImageAccordion extends BaseWidget {
 			? absint( $settings['active_item'] )
 			: 1;
 
+		$total_items = count( $settings['items'] );
+
+		/*
+		 * Prevent invalid active item numbers.
+		 */
+		if ( $active_item > $total_items ) {
+			$active_item = 1;
+		}
+
+		/*
+		 * Wrapper attributes.
+		 */
 		$this->add_render_attribute(
 			'wrapper',
 			[
-				'class'                 => 'astrax-image-accordion',
-				'data-layout'           => $layout,
-				'data-trigger'          => $trigger,
-				'data-active-item'      => $active_item,
-				'data-widget-id'        => $widget_id,
-				'role'                  => 'list',
+				'class' => [
+					'astrax-image-accordion',
+					'astrax-image-accordion--' . $design,
+				],
+				'data-trigger'     => $trigger,
+				'data-active-item' => $active_item,
+				'data-widget-id'   => $widget_id,
+				'role'             => 'list',
 			]
 		);
-
 		?>
 
 		<div <?php $this->print_render_attribute_string( 'wrapper' ); ?>>
 
-			<?php foreach ( $settings['items'] as $index => $item ) :
+			<?php foreach ( $settings['items'] as $index => $item ) : ?>
 
+				<?php
 				$item_number = $index + 1;
 
 				$title = ! empty( $item['title'] )
@@ -625,108 +764,190 @@ class ImageAccordion extends BaseWidget {
 					? $item['image']['url']
 					: Utils::get_placeholder_image_src();
 
-				$item_id = ! empty( $item['item_id'] )
-					? sanitize_title( $item['item_id'] )
-					: 'item-' . $item_number;
+				$image_alt = ! empty( $item['image_alt'] )
+					? $item['image_alt']
+					: $title;
 
 				$is_active = $active_item === $item_number;
 
-				$unique_id = 'astrax-accordion-' . $widget_id . '-' . $item_number;
+				$content_id =
+					'astrax-accordion-content-' .
+					$widget_id .
+					'-' .
+					$item_number;
 
+				$button_id =
+					'astrax-accordion-button-' .
+					$widget_id .
+					'-' .
+					$item_number;
+
+				$item_class = [
+					'astrax-image-accordion__item',
+				];
+
+				if ( $is_active ) {
+					$item_class[] = 'is-active';
+				}
+
+				/*
+				 * Item render attributes.
+				 */
 				$this->add_render_attribute(
 					'item-' . $item_number,
 					[
-						'class'        => 'astrax-image-accordion__item',
-						'data-index'   => $item_number,
-						'data-item-id' => $item_id,
-						'role'         => 'listitem',
+						'class'      => $item_class,
+						'data-index' => $item_number,
+						'role'       => 'listitem',
 					]
 				);
 
-				if ( $is_active ) {
-					$this->add_render_attribute(
-						'item-' . $item_number,
-						'class',
-						'is-active'
+				/*
+				 * Button link.
+				 */
+				$has_button_link = ! empty(
+					$item['button_link']['url']
+				);
+
+				if ( $has_button_link ) {
+					$this->add_link_attributes(
+						'button-' . $item_number,
+						$item['button_link']
 					);
 				}
 				?>
 
-				<article <?php $this->print_render_attribute_string( 'item-' . $item_number ); ?>>
+				<article
+					<?php
+					$this->print_render_attribute_string(
+						'item-' . $item_number
+					);
+					?>
+				>
+
+					<!-- IMAGE -->
 
 					<div class="astrax-image-accordion__image">
 
 						<img
 							src="<?php echo esc_url( $image_url ); ?>"
-							alt="<?php echo esc_attr( $title ); ?>"
+							alt="<?php echo esc_attr( $image_alt ); ?>"
 							loading="<?php echo 0 === $index ? 'eager' : 'lazy'; ?>"
+							decoding="async"
 						/>
 
-						<div
+						<span
 							class="astrax-image-accordion__overlay"
 							aria-hidden="true"
-						></div>
+						></span>
 
 					</div>
 
-					<div class="astrax-image-accordion__content">
 
-						<span class="astrax-image-accordion__number" aria-hidden="true">
-							<?php echo esc_html( sprintf( '%02d', $item_number ) ); ?>
+					<!-- CONTENT -->
+
+					<div
+						id="<?php echo esc_attr( $content_id ); ?>"
+						class="astrax-image-accordion__content"
+					>
+
+						<span
+							class="astrax-image-accordion__number"
+							aria-hidden="true"
+						>
+							<?php
+							echo esc_html(
+								sprintf(
+									'%02d',
+									$item_number
+								)
+							);
+							?>
 						</span>
 
-						<h3
-							id="<?php echo esc_attr( $unique_id ); ?>"
-							class="astrax-image-accordion__title"
-						>
-							<?php echo esc_html( $title ); ?>
+
+						<h3 class="astrax-image-accordion__title">
+
+							<?php
+							echo esc_html( $title );
+							?>
+
 						</h3>
+
 
 						<?php if ( $description ) : ?>
 
 							<div class="astrax-image-accordion__description">
-								<?php echo esc_html( $description ); ?>
+
+								<?php
+								echo esc_html( $description );
+								?>
+
 							</div>
 
 						<?php endif; ?>
 
-						<?php if ( ! empty( $item['button_text'] ) ) : ?>
 
-							<?php
-							$button_link = ! empty( $item['button_link']['url'] )
-								? $item['button_link']['url']
-								: '';
+						<?php if ( $has_button_link && ! empty( $item['button_text'] ) ) : ?>
 
-							$this->add_link_attributes(
-								'button-' . $item_number,
-								$item['button_link']
-							);
-							?>
+							<a
+								id="<?php echo esc_attr( $button_id ); ?>"
+								class="astrax-image-accordion__button"
+								<?php
+								$this->print_render_attribute_string(
+									'button-' . $item_number
+								);
+								?>
+							>
 
-							<?php if ( $button_link ) : ?>
+								<span class="astrax-image-accordion__button-text">
+									<?php
+									echo esc_html(
+										$item['button_text']
+									);
+									?>
+								</span>
 
-								<a
-									class="astrax-image-accordion__button"
-									<?php $this->print_render_attribute_string( 'button-' . $item_number ); ?>
+								<span
+									class="astrax-image-accordion__button-icon"
+									aria-hidden="true"
 								>
-									<?php echo esc_html( $item['button_text'] ); ?>
-									<span aria-hidden="true">→</span>
-								</a>
+									→
+								</span>
 
-							<?php endif; ?>
+							</a>
 
 						<?php endif; ?>
 
 					</div>
+
+
+					<!-- INTERACTION TRIGGER -->
 
 					<button
 						type="button"
 						class="astrax-image-accordion__trigger"
 						aria-expanded="<?php echo $is_active ? 'true' : 'false'; ?>"
-						aria-controls="<?php echo esc_attr( $unique_id ); ?>"
-						aria-label="<?php echo esc_attr( sprintf( __( 'Open %s', 'astrax-addons' ), $title ) ); ?>"
+						aria-controls="<?php echo esc_attr( $content_id ); ?>"
+						aria-label="<?php echo esc_attr(
+							sprintf(
+								__(
+									'Open %s',
+									'astrax-addons'
+								),
+								$title
+							)
+						); ?>"
 					>
-						<span aria-hidden="true"></span>
+
+						<span
+							class="astrax-image-accordion__trigger-icon"
+							aria-hidden="true"
+						>
+							<span></span>
+							<span></span>
+						</span>
+
 					</button>
 
 				</article>
